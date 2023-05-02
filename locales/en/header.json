@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "item": [
+      {
+        "name": "Pilotaje y Barretes",
+        "url": "/cimentacion",
+        "active": true
+      },
+      {
+        "name": "Pantallas",
+        "url": "/pantallas",
+        "active": false
+      },
+      {
+        "name": "Definir Proyecto",
+        "url": "definir-proyecto",
+        "active": false
+      }
+    ]
+  },
+  "button": {
+    "name": "Agendar cita",
+    "url": "#"
+  }
+}
