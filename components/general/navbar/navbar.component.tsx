@@ -27,7 +27,7 @@ export default function NavbarComponent(){
             <div className="flex h-28 items-center place-content-around">
                 <div className="inline-flex w-auto ">
                     <img src='/images/logo-aboga.png' alt="Aboga" title="Logo Aboga" />
-                    <div className="flex items-center pl-10">
+                    <div className={"flex items-center pl-10 "+styles.list_menu}>
                         <ul className={"flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row gap-8 "+ menu}>
                             {
                                 menu_iten?.map((item: any, index: number) => {
@@ -38,7 +38,20 @@ export default function NavbarComponent(){
                                     )
                                 })
                             }
+                            <div className="flex-initial w-32 items-center ">
+                                <div className={"flex w-auto gap-4 "+ styles.socials_mob}>
+
+                                    <a className="w-9">
+                                        <i className='bx bxl-instagram'></i>
+                                    </a>
+                                    <a className="w-9">
+                                        <i className='bx bxl-facebook'></i>
+                                    </a>
+
+                                </div>
+                            </div>
                         </ul>
+
                     </div>
 
                 </div>

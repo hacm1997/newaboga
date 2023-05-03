@@ -24,6 +24,10 @@
     color: #009DFF;
 }
 
+.socials_mob{
+    display: none;
+}
+
 /* RESPONSIVE */
 @media (max-width: 1024px) {
     .botonMovil {
@@ -57,9 +61,14 @@
     .menu ul li {
         opacity: 0;
     }
+    .list_menu ul{
+
+        padding-top: 50px;
+        color: #FFFFFF;
+    }
 
     .menuActive {
-        background-color: #173A83;
+        background-color: #009DFF;
         position: fixed;
         right: 0;
         min-height: 100vh;
@@ -72,6 +81,7 @@
     .menuActive ul li a {
         color: #ffffff;
         transition: 1s;
+        padding-top: 50px;
     }
 
     .menu ul {
@@ -92,5 +102,28 @@
         list-style: none;
         font-size: 17px;
         color: #ffffff;
+    }
+
+}
+
+@media (max-width: 715px) {
+    .socials{
+        display: none;
+    }
+    .socials_mob{
+        display: flex;
+    }
+    .socials_mob a{
+        padding-top: 6px;
+        padding-left: 6px;
+        background-color: #FFFFFF;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .socials_mob i{
+        display: block;
+        font-size: 24px;
+        color: #009DFF;
     }
 }
