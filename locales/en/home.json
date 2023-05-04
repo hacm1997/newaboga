@@ -1,4 +1,72 @@
 {
+  "title_banner": "¡Somos su mayor aliado legal! En Aboga, velamos por usted y su empresa",
+  "description": "En nuestro equipo contamos con abogados altamente capacitados y con amplia experiencia en diversas áreas del derecho. Nos especializamos en derecho familiar, derecho comercial, derecho constitucional o laboral, y ofrecemos servicios de asesoría legal.",
+  "button": "Agendar cita",
+  "services": {
+    "title": "Ofrecemos servicios en",
+    "items": [
+      {
+        "img": "/images/home/services/default_icon1_color.png",
+        "img_hover": "/images/home/services/default_icon1.png",
+        "title": "Derecho familiar",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Derecho comercial",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Derecho laboral",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Derecho penal",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Derecho constitucional",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Asesorías legales",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Derecho civil",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Derecho consumidor",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      }
+    ]
+  },
+  "form": {
+    "title": "Si necesitas ayuda legal, no dudes en",
+    "title2": "ponerte en contacto con nosotros.",
+    "inputs": {
+      "dpto": "Departameto",
+      "city": "Ciudad",
+      "address": "Dirección",
+      "fullname": "Nombres y apellidos",
+      "phone": "Tel/Cel",
+      "email": "E-mail"
+    }
+  },
   "areas": {
     "item": [
       {

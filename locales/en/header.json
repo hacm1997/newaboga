@@ -2,24 +2,30 @@
   "nav": {
     "item": [
       {
-        "name": "Pilotaje y Barretes",
-        "url": "/cimentacion",
+        "name": "Inicio",
+        "url": "/",
         "active": true
       },
       {
-        "name": "Pantallas",
-        "url": "/pantallas",
-        "active": false
+        "name": "Derecho familiar",
+        "url": "/derecho-familiar",
+        "active": true
       },
       {
-        "name": "Definir Proyecto",
-        "url": "definir-proyecto",
-        "active": false
+        "name": "Derecho comercial",
+        "url": "/derecho-comercial",
+        "active": true
+      },
+      {
+        "name": "Derecho laboral",
+        "url": "/derecho-laboral",
+        "active": true
       }
     ]
   },
   "button": {
     "name": "Agendar cita",
-    "url": "#"
+    "url": "https://api.whatsapp.com/send?phone=573242382277&text=Hola,%20estoy%20interesado%20en%20conocer%20m%C3%A1s%20sobre%20los%20servicios%20que%20ofrece%20Aboga.",
+    "target": "_blank"
   }
 }
