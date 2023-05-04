@@ -1,0 +1,98 @@
+.title h2{
+    font-size: 24px;
+    color: #004477;
+    font-weight: 600;
+}
+
+.card{
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: 3px solid #0070D4;
+    transition: 1s;
+}
+.card a{
+    cursor: pointer;
+}
+
+.title_card h3{
+    width: 110px;
+    font-size: 18px;
+    color: #004477;
+    font-weight: 600;
+}
+.img_principal{
+    height: 100px;
+}
+.title_hover{
+    font-size: 18px;
+    font-weight: 700;
+}
+.description{
+    display: none;
+    transition: 1s;
+}
+.description p{
+    font-size: 12px;
+    transition: 1s;
+}
+.img_second{
+    display: none;
+}
+.card:hover{
+    background: linear-gradient(0deg, rgba(0,68,119,1) 0%, rgba(0,157,255,1) 100%);
+    border: 0;
+    transform: scale(1.1);
+    transition: 1s;
+    border-radius: 15px;
+}
+.card:hover .hover{
+    opacity: 1;
+}
+
+.card:hover .img_principal{
+    display: none;
+}
+.card:hover .img_second{
+    transition: 1s;
+    display: block;
+}
+
+.card:hover .description{
+    transition: 1s;
+    color: #FFFFFF;
+    display: block;
+}
+.card:hover .title_card{
+    transition: 1s;
+    display: none;
+}
+.card:hover .title_hover{
+    color: #FFFFFF;
+}
+
+.button{
+    justify-content: center;
+}
+
+.button button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    background: linear-gradient(100deg, rgba(0,157,255,1) 0%, rgba(0,68,119,1) 100%);
+    transition: 0.5s;
+}
+
+.button button:hover{
+    transition: 1s;
+    transform: translateY(5px);
+    border: 1px solid #0070f3;
+}
+
+@media (min-width: 1410px){
+    .grid_content{
+        display: grid;
+        grid-template-columns: repeat(4, 320px);
+    }
+}

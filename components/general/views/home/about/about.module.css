@@ -1,0 +1,14 @@
+.title h3{
+    color: #004477;
+    font-weight: 700;
+}
+
+@media (max-width: 440px) {
+    .squard{
+        display: none;
+    }
+    .title h3{
+        font-size: 26px;
+        width: 300px;
+    }
+}

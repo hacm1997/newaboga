@@ -1,25 +1,21 @@
 import styles from './banner.module.css';
 
-export default function BannerComponent(){
+export default function BannerComponent(props:any){
 
     return(
         <>
             <div className={"bg-[url('/images/home/background-home.png')] -mt-32 bg-no-repeat bg-right "+styles.content}>
                 <div className={"flex items-center gap-10 pt-40 w-full "+ styles.general}>
                     <div className={"w-3/4 "+styles.texts}>
-                        <h1 className={"pl-32 sm:text-base sm:pl-10 "+styles.title}>
-                            ¡Somos su mayor aliado
-                            legal! En Aboga, velamos por usted y su empresa
+                        <h1 className={"pl-32 w-4/4 sm:pl-18 "+styles.title}>
+                            {props.translate('title_banner')}
                         </h1>
-                        <p className={"pl-32 pt-4 sm:pl-10 "+styles.description}>
-                            En nuestro equipo contamos con abogados altamente capacitados y
-                            con amplia experiencia en diversas áreas del derecho. Nos especializamos
-                            en derecho familiar, derecho comercial, derecho constitucional o laboral,
-                            y ofrecemos servicios de asesoría legal.
+                        <p className={"pl-32 w-4/4 pt-4 sm:pl-18 "+styles.description}>
+                            {props.translate('description')}
                         </p>
-                        <div className={"pl-32 pt-4 sm:pl-10 "+ styles.button}>
+                        <div className={"pl-32 w-4/4 pt-4 sm:pl-18 "+ styles.button}>
                             <button >
-                                Agendar cita
+                                {props.translate('button')}
                             </button>
                         </div>
 

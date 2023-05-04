@@ -3,8 +3,9 @@
     /*background-size: 550px 100%;*/
 }
 .title{
-    font-size: 28px;
+    font-size: 38px;
     font-weight: 700;
+    line-height: 48px;
     color: #004477;
 }
 .description{
@@ -31,14 +32,7 @@
         background-size: 500px 100%;
     }
 }
-@media (max-width: 715px) {
-    .content{
-        background-color: #FFFFFF;
-        background-image: none;
-    }
-    .general{
-        display: block;
-    }
+@media (max-width: 923px) {
     .texts{
         padding-left: 0px;
         width: 90%;
@@ -51,5 +45,18 @@
     }
     .button{
         padding-left: 20px;
+    }
+}
+@media (max-width: 715px) {
+    .content{
+        background-color: #FFFFFF;
+        background-image: none;
+    }
+    .general{
+        display: block;
+    }
+    .texts{
+        padding-left: 0px;
+        width: 90%;
     }
 }

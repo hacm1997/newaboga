@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;700;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;700;900&display=swap');*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'GothamBook';
+  src: url('/fonts/GothamBook.ttf') format('truetype');
+}
 
 * {
   box-sizing: border-box;
@@ -10,7 +15,7 @@
 }
 
 body{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'GothamBook', sans-serif;
 }
 
 a{
