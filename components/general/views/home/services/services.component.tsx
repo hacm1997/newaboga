@@ -9,7 +9,7 @@ export default function ServicesComponent(props:any){
                     <h2>{props.translate('services.title')}</h2>
                 </div>
                 <div className="grid w-[90%] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-[300px_300px_300px_300px] 2xl:xl:grid-cols-[360px_360px_360px_360px] gap-y-9 pt-10 pb-16 ">
-                    {props.services?.map((item:any, index:number) => (
+                    {props.services ? props.services?.map((item:any, index:number) => (
                         <div key={index} className={"w-[240px] h-[290px] p-5 "+styles.card}>
                             <div className="flex">
                                 <img className={styles.img_principal} src={item.img} alt="Servicios" title={item.title} />
@@ -33,7 +33,7 @@ export default function ServicesComponent(props:any){
                                 <img className="pl-8 w-18 h-8 " src="/images/home/services/arrow_button1.png" alt="Arrow" title={item.title} />
                             </div>
                         </div>
-                    ))}
+                    )): null}
                 </div>
                 <div className={"flex w-[85%] "+styles.button}>
                     <button>Agendar cita</button>
