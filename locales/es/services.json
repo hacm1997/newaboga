@@ -1,0 +1,61 @@
+{
+  "general_button": "Agendar cita",
+  "our_experts": {
+    "title": "",
+    "list": [
+      {
+        "name": "Keiry Berdugo",
+        "photo": "",
+        "position": "",
+        "ability": "",
+        "description": "",
+        "exp_number": 4,
+        "exp_text": "Años de experiencia"
+      }
+    ]
+  },
+  "sp1": {
+    "title": "Derecho familiar",
+    "banner": {
+      "title": "¡Obtén la ayuda legal que necesitas para tu proceso de separación!",
+      "description": "¿Te encuentras en un proceso de separación con tu pareja y necesitas orientación legal confiable? ¿te gustaría saber como se dividen los bienes? En ABOGA, entendemos que la separación puede ser un momento\nemocionalmente difícil y legalmente complejo."
+    },
+    "our_team": {
+      "title": "",
+      "title_span": "",
+      "title2": "",
+      "title2_span": ""
+    },
+    "our_services": {
+      "assessor_legal": {
+        "img": "",
+        "title": "",
+        "description": "",
+        "color": ""
+      },
+      "negotiation": {
+        "img": "",
+        "title": "",
+        "description": "",
+        "color": ""
+      },
+      "representation_legal": {
+        "img": "",
+        "title": "",
+        "description": "",
+        "color": ""
+      },
+      "solution_to_media": {
+        "img": "",
+        "title": "",
+        "description": "",
+        "color": ""
+      }
+    },
+    "need_assessor": {
+      "title_pt1": "",
+      "title_span": "",
+      "title_pt2": ""
+    }
+  }
+}

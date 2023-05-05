@@ -7,7 +7,8 @@ import {useRouter} from "next/router";
 
 export default function NavbarComponent(){
     const {t, lang} = useTranslation('header');
-    const menu_iten = t<any>("nav.item", {}, {returnObjects: true});
+    const service_persons = t<any>("nav.service_person.services", {}, {returnObjects: true});
+    const service_business = t<any>("nav.service_business.services", {}, {returnObjects: true});
     const [icon, setIcon] = useState("bx bx-menu-alt-right");
     const [menu, setMenu] = useState(styles.menu);
     const router = useRouter();
@@ -28,16 +29,54 @@ export default function NavbarComponent(){
                 <div className="inline-flex w-auto ">
                     <img src='/images/logo-aboga.png' alt="Aboga" title="Logo Aboga" />
                     <div className={"flex items-center pl-10 "+styles.list_menu}>
-                        <ul className={"flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row gap-8 "+ menu}>
-                            {
-                                menu_iten?.map((item: any, index: number) => {
-                                    return (
-                                        <li key={index} className={router.asPath === item.url ? styles.active : ""}>
-                                            <Link href={item.url} >{item.name}</Link>
-                                        </li>
-                                    )
-                                })
-                            }
+                        <ul className={"flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row gap-5 "+ menu}>
+                            <li className={router.asPath === "/" ? styles.active : ""}>
+                                <Link href="/" title="Inicio">{t('nav.home')}</Link>
+                            </li>
+
+                            <div className={styles.dropdown}>
+
+                               <li className={router.asPath.split('/')[1] === 'servicio-personas' ? styles.active : ""}>
+                                   {t('nav.service_person.title')} <i className='bx bx-chevron-down'></i>
+                               </li>
+
+                                <div className={styles.dropdown_content}>
+                                    {
+                                        service_persons?.map((item: any, index: number) => {
+                                            return (
+                                               <li key={index} >
+                                                   <Link  href={`${item.url}`} title={item.title}>
+                                                       <p className={router.asPath === item.url ? styles.active : ""}>{item.title}</p>
+                                                   </Link>
+                                               </li>
+                                            )
+                                        })
+                                    }
+                                </div>
+                            </div>
+                            <div className={styles.dropdown}>
+
+                                <li>
+                                    {t('nav.service_business.title')} <i className='bx bx-chevron-down'></i>
+                                </li>
+
+                                <div className={styles.dropdown_content}>
+                                    {
+                                        service_business?.map((item: any, index: number) => {
+                                            return (
+                                                <li key={index}>
+                                                    <Link  href={`${item.url}`} title={item.title}>
+                                                        <p>{item.title}</p>
+                                                    </Link>
+                                                </li>
+                                            )
+                                        })
+                                    }
+                                </div>
+                            </div>
+                            <li className={router.asPath === "/#" ? styles.active : ""}>
+                                <Link href="#" title="Advices">{t('nav.advice')}</Link>
+                            </li>
                             <div className="flex-initial w-32 items-center ">
                                 <div className={"flex w-auto gap-4 "+ styles.socials_mob}>
 

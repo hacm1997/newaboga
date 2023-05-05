@@ -1,16 +1,32 @@
 import styles from './services.module.css'
+import {useState} from "react";
 
 export default function ServicesComponent(props:any){
+    const [selectedService, setSelectedService] = useState<any>(props.servicesP);
+    const [id, setId] = useState('SP');
+
+    const chooseServiceP = () => {
+        setSelectedService(props.servicesP)
+        setId('SP')
+    }
+    const chooseServiceB = () => {
+        setSelectedService(props.servicesB)
+        setId('SB');
+    }
 
     return(
         <>
-            <div className="pl-10 md:pl-[110px] bg-[#F2F2F2] pb-20 ">
+            <div className="pl-10 xl:pl-14 md:pl-[110px] bg-[#F2F2F2] pb-20 ">
                 <div className={"pt-16 "+styles.title}>
-                    <h2>{props.translate('services.title')}</h2>
+                    <h2>{props.translate('services-persons.title')}</h2>
                 </div>
-                <div className="grid w-[90%] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-[300px_300px_300px_300px] 2xl:xl:grid-cols-[360px_360px_360px_360px] gap-y-9 pt-10 pb-16 ">
-                    {props.services ? props.services?.map((item:any, index:number) => (
-                        <div key={index} className={"w-[240px] h-[290px] p-5 "+styles.card}>
+                <div className={"flex pt-10 gap-10 "}>
+                    <button className={id === 'SP' ? styles.chooseButtons : styles.buttonNoActive} onClick={chooseServiceP}>{props.translate('list_services.s_persons')}</button>
+                    <button className={id === 'SB' ? styles.chooseButtons : styles.buttonNoActive} onClick={chooseServiceB}>{props.translate('list_services.s_business')}</button>
+                </div>
+                <div className="grid w-[90%] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-[243px_243px_243px_243px_243px] 2xl:xl:grid-cols-[280px_280px_280px_280px_280px] gap-y-9 gap-x-0 pt-10 pb-16 ">
+                    {Array.isArray(selectedService) ? selectedService.map((item:any, index:number) => (
+                        <div key={index} className={"w-[240px] xl:w-[235px] xl:h-[300px] h-[290px] p-5 "+styles.card}>
                             <div className="flex">
                                 <img className={styles.img_principal} src={item.img} alt="Servicios" title={item.title} />
                                 <a>

@@ -23,7 +23,7 @@ export default function FormComponent(props:any){
 
     return(
         <>
-            <div className="h-[auto] block p-5 md:flex md:p-0 place-content-around items-center md:h-[700px] bg-[url('/images/home/form/background-form.png')] bg-contain bg-no-repeat bg-[_100%_100%] ">
+            <div className={"h-[auto] block p-5 md:flex md:p-0 place-content-around items-center md:h-[700px] bg-[url('/images/home/form/background-form.png')] bg-contain bg-no-repeat "+ styles.content_general}>
                 <div className={styles.title}>
                     <h4>
                         {props.translate('form.title')}<br/>

@@ -1,4 +1,6 @@
-
+.content_general{
+    background-size: 100% 100%;
+}
 .title h4{
     color: #FFFFFF;
     font-size: 30px;

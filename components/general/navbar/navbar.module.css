@@ -40,6 +40,76 @@
     display: none;
 }
 
+/* DROPDOWN MENU */
+.dropdown a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.dropdown a i{
+    font-size: 12px;
+}
+.dropdown_content a {
+    color: #151B2B;
+    transition: 1s;
+}
+.dropdown .arrow1 {
+    font-size: 12px;
+}
+
+.dropdown a {
+    cursor: pointer;
+}
+
+.dropdown a:hover {
+    color: #58BDC9;
+}
+
+.dropdown_content p:hover {
+    color: #58BDC9 !important;
+}
+
+.dropdown {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: #ffff;
+    min-width: 200px;
+    max-height: 310px;
+    padding: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    border: 2px solid #009DFF;
+}
+
+.dropdown_content p {
+    font-size: 14px;
+    cursor: pointer;
+    color: #173A83;
+    text-decoration: none;
+    display: block;
+    transition: 0.5s;
+}
+
+.dropdown_content p:hover {
+    transition: 0.5s;
+    color: #009DFF;
+}
+
+.dropdown:hover .dropdown_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 1024px) {
     .botonMovil {

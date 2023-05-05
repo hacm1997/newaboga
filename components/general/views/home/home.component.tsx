@@ -10,7 +10,8 @@ import axios from "axios";
 
 export default function HomeComponent(){
     const {t, lang} = useTranslation('home');
-    const services = t<any>("services.items", {}, {returnObjects: true});
+    const services_persons = t<any>("services-persons.items", {}, {returnObjects: true});
+    const services_business = t<any>("services-business.items", {}, {returnObjects: true});
 
     const colData = "https://www.datos.gov.co/resource/xdk5-pm3f.json";
     const [dataCol, setDataCol] = useState<Array<any>>([]);
@@ -61,7 +62,7 @@ export default function HomeComponent(){
     return(
         <>
             <BannerComponent translate={t}/>
-            <ServicesComponent translate={t} services={services}/>
+            <ServicesComponent translate={t} servicesP={services_persons} servicesB={services_business}/>
             <AboutComponent translate={t}/>
             <VideoComponent />
             <FormComponent translate={t} setSelectDpto={setSelectDpto} dpto={dpto} city={city}/>

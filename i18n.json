@@ -2,6 +2,6 @@
   "defaultLocale": "es",
   "locales": ["es", "en"],
   "pages": {
-    "*": ["footer", "header","form","home","servicios-empresariales","servicios-personas"]
+    "*": ["footer", "header","form","home","services"]
   }
 }
