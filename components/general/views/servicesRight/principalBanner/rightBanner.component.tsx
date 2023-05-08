@@ -10,13 +10,18 @@ export default function RightBannerComponent(props:any){
     })
     return(
         <>
-            <div className={"flex items-center bg-[url('/images/servicio-personas/background_banner.png')] -mt-32 bg-no-repeat bg-right "+styles.content}>
-                <div className={"pl-[100px] w-full "}>
-                    <div className={"w-[38%] "+styles.information}>
+            <div className={"flex -mt-32 bg-no-repeat bg-right "+styles.content}>
+                <div className={"w-[65%] pt-[170px] pl-[50px] md:pl-[100px] md:pt-[260px] md:w-[75%] items-center "+styles.general}>
+                    <div className={"w-[100%] "+styles.information}>
                         <h1>{t(`${props.service}.banner.title`)}</h1>
                         <p className="pt-6">{t(`${props.service}.banner.description`)}</p>
-                        <button>{t('general_button')}</button>
+                        <div className="flex justify-center md:block">
+                            <button>{t('general_button')}</button>
+                        </div>
                     </div>
+                </div>
+                <div className={"flex justify-end pt-[160px] md:pt-0 pl-[30px] w-[100%] "+styles.image}>
+                    <img className="h-[430px] md:h-full" src="/images/servicio-personas/background_banner.png"/>
                 </div>
             </div>
         </>

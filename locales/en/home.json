@@ -2,7 +2,11 @@
   "title_banner": "¡Somos su mayor aliado legal! En Aboga, velamos por usted y su empresa",
   "description": "En nuestro equipo contamos con abogados altamente capacitados y con amplia experiencia en diversas áreas del derecho. Nos especializamos en derecho familiar, derecho comercial, derecho constitucional o laboral, y ofrecemos servicios de asesoría legal.",
   "button": "Agendar cita",
-  "services": {
+  "list_services": {
+    "s_persons": "Servicio Personas",
+    "s_business": "Servicio Empresas"
+  },
+  "services-persons": {
     "title": "Ofrecemos servicios en",
     "items": [
       {
@@ -52,6 +56,71 @@
         "img_hover": "/images/home/services/default_icon2.png",
         "title": "Derecho consumidor",
         "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Derecho Dev",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      }
+    ]
+  },
+  "services-business": {
+    "title": "Ofrecemos servicios en",
+    "items": [
+      {
+        "img": "/images/home/services/default_icon1_color.png",
+        "img_hover": "/images/home/services/default_icon1.png",
+        "title": "Derecho familiarB",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Derecho comercialB",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Derecho laboralB",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Derecho penalB",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Derecho constitucionalB",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Asesorías legalesB",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Derecho civilB",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Derecho consumidorB",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+      },
+      {
+        "img": "/images/home/services/default_icon2_color.png",
+        "img_hover": "/images/home/services/default_icon2.png",
+        "title": "Derecho Dev",
+        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
       }
     ]
   },
@@ -64,7 +133,9 @@
       "address": "Dirección",
       "fullname": "Nombres y apellidos",
       "phone": "Tel/Cel",
-      "email": "E-mail"
+      "email": "E-mail",
+      "type_service": "Tipo de servicio",
+      "service": "Servicio"
     }
   },
   "areas": {
@@ -111,7 +182,7 @@
         "id": "6"
       }
     ]
-},
+  },
   "who_we_are": {
     "title": "¿Quienes",
     "titleColor": "somos?",

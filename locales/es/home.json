@@ -133,7 +133,9 @@
       "address": "Dirección",
       "fullname": "Nombres y apellidos",
       "phone": "Tel/Cel",
-      "email": "E-mail"
+      "email": "E-mail",
+      "type_service": "Tipo de servicio",
+      "service": "Servicio"
     }
   },
   "areas": {

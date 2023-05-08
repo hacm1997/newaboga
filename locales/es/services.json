@@ -1,14 +1,24 @@
 {
   "general_button": "Agendar cita",
   "our_experts": {
-    "title": "",
+    "title": "Nuestros",
+    "title_pt2": "expertos",
     "list": [
       {
         "name": "Keiry Berdugo",
-        "photo": "",
-        "position": "",
-        "ability": "",
-        "description": "",
+        "photo": "/images/experts/keiry.png",
+        "position": "Abogada profesional",
+        "ability": "Esp. En Derecho Administrativo",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+        "exp_number": 4,
+        "exp_text": "Años de experiencia"
+      },
+      {
+        "name": "Juan José",
+        "photo": "/images/experts/juan-jose.png",
+        "position": "Abogado profesional",
+        "ability": "Esp. En Derecho Administrativo",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
         "exp_number": 4,
         "exp_text": "Años de experiencia"
       }
@@ -21,10 +31,10 @@
       "description": "¿Te encuentras en un proceso de separación con tu pareja y necesitas orientación legal confiable? ¿te gustaría saber como se dividen los bienes? En ABOGA, entendemos que la separación puede ser un momento\nemocionalmente difícil y legalmente complejo."
     },
     "our_team": {
-      "title": "",
-      "title_span": "",
-      "title2": "",
-      "title2_span": ""
+      "title": "Nuestro equipo de abogados especializados en derecho familiar ",
+      "title_span": "está aquí para\nayudarte en cada paso\ndel camino.",
+      "title2": "Te brindaremos el apoyo y la asesoría legal que necesitas para",
+      "title2_span": "proteger tus derechos e intereses."
     },
     "our_services": {
       "assessor_legal": {

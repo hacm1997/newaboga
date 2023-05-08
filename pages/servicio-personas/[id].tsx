@@ -3,6 +3,8 @@ import {useEffect, useState} from "react";
 import Head from "next/head";
 import Layout from "../../components/general/layout/layout.component";
 import RightBannerComponent from "../../components/general/views/servicesRight/principalBanner/rightBanner.component";
+import OurTeamComponent from "../../components/general/views/servicesRight/ourTeam/ourTeam.component";
+import ExpertsComponent from "../../components/conent/ourExperts/experts.component";
 
 export default function Home() {
     const [titlePage, setTitlePage] = useState('');
@@ -30,6 +32,8 @@ export default function Home() {
                         <title>{titlePage} | Aboga</title>
                     </Head>
                     <RightBannerComponent service={service} setTitlePage={setTitlePage}/>
+                    <OurTeamComponent service={service} setTitlePage={setTitlePage}/>
+                    <ExpertsComponent/>
                 </Layout>
 
             </>

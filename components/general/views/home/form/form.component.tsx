@@ -34,27 +34,39 @@ export default function FormComponent(props:any){
                     <form>
                         <div>
                             <select className="w-full mt-5" name="dpto" onChange={handleForm} required>
-                                <option value="">Departamento</option>
+                                <option value="">{props.translate('form.inputs.dpto')}</option>
                                 {dptoSelect}
                             </select>
                         </div>
                         <div>
                             <select className="w-full mt-5" name="city" onChange={handleForm} required>
-                                <option value="">Ciudad</option>
+                                <option value="">{props.translate('form.inputs.city')}</option>
                                 {citySelect}
                             </select>
                         </div>
                         <div>
-                            <input className="w-full mt-5" name="address" type="text" placeholder="Dirección" onChange={handleForm} required/>
+                            <input className="w-full mt-5" name="address" type="text" placeholder={props.translate('form.inputs.address')} onChange={handleForm} required/>
                         </div>
                         <div>
-                            <input className="w-full mt-5" name="name" type="text" placeholder="Nombre y apellido" onChange={handleForm} required/>
+                            <input className="w-full mt-5" name="name" type="text" placeholder={props.translate('form.inputs.fullname')} onChange={handleForm} required/>
                         </div>
                         <div>
-                            <input className="w-full mt-5" name="phone" type="number" placeholder="Cel/Tel*" onChange={handleForm} required/>
+                            <input className="w-full mt-5" name="phone" type="number" placeholder={props.translate('form.inputs.phone')} onChange={handleForm} required/>
                         </div>
                         <div>
-                            <input className="w-full mt-5" name="useremail" type="email" placeholder="E-mail "onChange={handleForm} required/>
+                            <input className="w-full mt-5" name="useremail" type="email" placeholder={props.translate('form.inputs.email')} onChange={handleForm} required/>
+                        </div>
+                        <div>
+                            <select className="w-full mt-5" name="type_service" onChange={handleForm} required>
+                                <option value="">{props.translate('form.inputs.type_service')}</option>
+
+                            </select>
+                        </div>
+                        <div>
+                            <select className="w-full mt-5" name="service" onChange={handleForm} required>
+                                <option value="">{props.translate('form.inputs.service')}</option>
+
+                            </select>
                         </div>
                         <div className={styles.button}>
                             <button className="w-full mt-5">Contactar</button>

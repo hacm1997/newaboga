@@ -25,7 +25,7 @@ export default function NavbarComponent(){
 
     return(
         <>
-            <div className="flex h-28 items-center place-content-around">
+            <div className={"flex h-28 items-center place-content-around z-50 "+styles.menuNav}>
                 <div className="inline-flex w-auto ">
                     <img src='/images/logo-aboga.png' alt="Aboga" title="Logo Aboga" />
                     <div className={"flex items-center pl-10 "+styles.list_menu}>

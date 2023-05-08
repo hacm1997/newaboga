@@ -1,3 +1,7 @@
+.menuNav{
+    position: relative;
+    z-index: 999 !important;
+}
 .menu li{
     color: #173A83;
     font-weight: 600;
