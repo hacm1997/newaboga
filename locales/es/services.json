@@ -25,6 +25,20 @@
     ]
   },
   "general_services_title": "Nuestros servicios incluyen",
+  "form_general":{
+    "form_data": {
+      "title_span": "¡Agenda una consulta con nosotros",
+      "title": "hoy mismo y deja que te ayudemos a navegar por tu proceso de separación con profesionalismo y compasión!",
+      "dpto": "Departameto",
+      "city": "Ciudad",
+      "address": "Dirección",
+      "fullname": "Nombres y apellidos",
+      "phone": "Tel/Cel",
+      "email": "E-mail",
+      "type_service": "Tipo de servicio",
+      "service": "Servicio"
+    }
+  },
   "sp1": {
     "title": "Derecho familiar",
     "banner": {
@@ -69,21 +83,9 @@
       "title_pt2": "no dudes en ponerte en contacto con nosotros."
     },
     "form":{
-      "title_pt1": "",
-      "titple_span": "",
-      "title_pt2": "",
-      "form_data": {
-        "title_span": "¡Agenda una consulta con nosotros",
-        "title": "hoy mismo y deja que te ayudemos a navegar por tu proceso de separación con profesionalismo y compasión!",
-        "dpto": "Departameto",
-        "city": "Ciudad",
-        "address": "Dirección",
-        "fullname": "Nombres y apellidos",
-        "phone": "Tel/Cel",
-        "email": "E-mail",
-        "type_service": "Tipo de servicio",
-        "service": "Servicio"
-      }
+      "title1": "Nuestro equipo de",
+      "titpleSpan": "abogados especializados en derecho familiar",
+      "title2": "está aquí para ayudarte en cada paso del camino."
     }
   }
 }

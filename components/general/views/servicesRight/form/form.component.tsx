@@ -1,10 +1,85 @@
+import useTranslation from 'next-translate/useTranslation';
 import styles from './form.module.css';
+import { useEffect, useState } from 'react';
+import config from '../../../../../services/config';
 
-export default function FormServiceComponent(props:any){
+export default function FormServiceComponent(props: any) {
+    const { t, lang } = useTranslation('services');
+    const [valuesForm, setValuesForm] = useState<any>({ email: config.EMAIL_ABOGA as string });
 
-    return(
+    const handleForm = async (e: any) => {
+        const value = e.target.value;
+        setValuesForm({ ...valuesForm, [e.target.name]: e.target.value });
+    }
+
+    const dptoSelect = props.dpto.map((item: any, index: any) => (
+        <option key={index} value={item}>{item}</option>
+    ));
+    const citySelect = props.city.map((item: any, index: any) => (
+        <option key={index} value={item}>{item}</option>
+    ));
+
+    useEffect(() => {
+        props.setSelectDpto(valuesForm.dpto);
+    }, [valuesForm.dpto]);
+
+    return (
         <>
-            <div></div>
+            <div className={'block md:flex items-center place-content-around ' + styles.background}>
+                <div className='w-full md:w-[28%] mt-0 md:-mt-36 float-none md:float-right '>
+                    <div className='pb-24'>
+                        <img src='/images/squards_white.png' alt="Recurso-gráfico" title='recurso cuadros'/>
+                    </div>
+
+                    <div className={styles.titleP}>
+                        <h4 className='text-center md:text-left'>
+                            {t(`${props.service}.form.title1`)}
+                            <span> {t(`${props.service}.form.titpleSpan`)} </span>
+                            {t(`${props.service}.form.title2`)}
+                        </h4>
+                    </div>
+                </div>
+                <div className={'w-[80%] md:w-[45%] ml-10 '+ styles.form}>
+                    <form >
+                        <div className={'flex justify-center '+styles.form_text}>
+                            <p className='text-center w-[80%]'>
+                                <span>{t('form_general.form_data.title_span')} </span>
+                                {t('form_general.form_data.title')}
+                            </p>
+                        </div>
+                        <div>
+                            <select className="w-full mt-5" name="dpto" onChange={handleForm} required>
+                                <option value="">{t('form_general.form_data.dpto')}</option>
+                                {dptoSelect}
+                            </select>
+                        </div>
+                        <div>
+                            <select className="w-full mt-5" name="city" onChange={handleForm} required>
+                                <option value="">{t('form_general.form_data.city')}</option>
+                                {citySelect}
+                            </select>
+                        </div>
+                        <div>
+                            <input className="w-full mt-5" name="address" type="text" placeholder={t('form_general.form_data.address')} onChange={handleForm} required />
+                        </div>
+                        <div>
+                            <input className="w-full mt-5" name="name" type="text" placeholder={t('form_general.form_data.fullname')} onChange={handleForm} required />
+                        </div>
+                        <div>
+                            <input className="w-full mt-5" name="phone" type="number" placeholder={t('form_general.form_data.phone')} onChange={handleForm} required />
+                        </div>
+                        <div>
+                            <input className="w-full mt-5" name="useremail" type="email" placeholder={t('form_general.form_data.email')} onChange={handleForm} required />
+                        </div>
+                        <div>
+                            <input className="w-full mt-5" name="service" type="text" value={props.service} onChange={handleForm} readOnly required />
+                        </div>
+                        <div className={styles.button}>
+                            <button className="w-full mt-5">Contactar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </>
     );
 }

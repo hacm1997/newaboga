@@ -8,6 +8,7 @@ import ExpertsComponent from "../../components/conent/ourExperts/experts.compone
 import OurServicesComponent from "../../components/general/views/servicesRight/ourServices/ourServices.component";
 import ContactComponent from "../../components/general/views/servicesRight/contact/contact.component";
 import FormServiceComponent from "../../components/general/views/servicesRight/form/form.component";
+import axios from "axios";
 
 export default function Home() {
     const [titlePage, setTitlePage] = useState('');
@@ -27,6 +28,52 @@ export default function Home() {
         }
     },[router.asPath])
 
+    const colData = "https://www.datos.gov.co/resource/xdk5-pm3f.json";
+    const [dataCol, setDataCol] = useState<Array<any>>([]);
+    const [dpto, setDpto] = useState<Array<any>>([]);
+    const city: any[] = [];
+    const [selectDpto, setSelectDpto] = useState('');
+
+    const getDataColombia = () => {
+        axios.get(colData)
+            .then(function (res) {
+                    setDataCol(res.data)
+                    //console.log("DATOS => ", res.data);
+                }
+            )
+            .catch(function (error) {
+                console.log(error);
+            })
+    }
+
+    const getDptos = async () => {
+        for (let d = 0; d < dataCol.length; d++) {
+            if (dpto.includes(dataCol[d]['departamento'])) {
+
+            } else {
+                dpto.push(dataCol[d]['departamento']);
+            }
+
+        }
+        const selectCity = async () => {
+            for (let m = 0; m < dataCol.length; m++) {
+                if (dataCol[m]["departamento"] === selectDpto) {
+                    //console.log("hola mundo xd")
+                    city.push(dataCol[m]["municipio"]);
+                }
+            }
+        }
+        selectCity()
+    }
+    getDptos()
+    if (selectDpto === "Bolívar") {
+        city.unshift("Cartagena")
+    }
+
+    useEffect(() => {
+        getDataColombia();
+    }, []);
+
     return (
         <>
             <>
@@ -39,7 +86,7 @@ export default function Home() {
                     <ExpertsComponent/>
                     <OurServicesComponent service={service} setTitlePage={setTitlePage}/>
                     <ContactComponent service={service} setTitlePage={setTitlePage}/>
-                    <FormServiceComponent service={service} setTitlePage={setTitlePage}/>
+                    <FormServiceComponent service={service} setTitlePage={setTitlePage} setSelectDpto={setSelectDpto} dpto={dpto} city={city}/>
                 </Layout>
 
             </>
