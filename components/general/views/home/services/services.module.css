@@ -32,7 +32,7 @@
     transition: 1s;
 }
 .description p{
-    font-size: 12px;
+    font-size: 11px;
     transition: 1s;
 }
 .img_second{
@@ -75,7 +75,7 @@
 }
 
 .button button{
-    width: 150px;
+    width: 160px;
     height: 40px;
     border-radius: 5px;
     color: #FFFFFF;
@@ -91,7 +91,7 @@
 }
 
 .buttonNoActive{
-    width: 150px;
+    width: 160px;
     height: 40px;
     border-radius: 5px;
     font-weight: 500;
@@ -105,7 +105,7 @@
     transition: 0.8s;
 }
 .chooseButtons{
-    width: 160px;
+    width: 170px;
     height: 40px;
     border-radius: 5px;
     color: #FFFFFF;

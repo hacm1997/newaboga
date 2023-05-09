@@ -2,7 +2,6 @@ import styles from './expertCard.module.css';
 import Image from "next/image";
 
 export default function ExpertCardComponent(props:any){
-    console.log(props.name)
 
     return(
         <>

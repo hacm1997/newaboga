@@ -21,7 +21,7 @@ export default function RightBannerComponent(props:any){
                     </div>
                 </div>
                 <div className={"flex justify-end pt-[160px] md:pt-0 pl-[30px] w-[100%] "+styles.image}>
-                    <img className="h-[430px] md:h-full" src="/images/servicio-personas/background_banner.png"/>
+                    <img className="h-[430px] md:h-full" src="/images/servicios/background_banner.png"/>
                 </div>
             </div>
         </>
