@@ -32,7 +32,21 @@
     border: 1px solid #0070f3;
 }
 
+.arrow_style{
+    position: absolute;
+    top: 70%;
+}
+.arrow_style img{
+    width: 50%;
+}
+
 /* RESPONSIVE */
+@media (min-width: 1200px){
+    .arrow_style{
+        top: 90%;
+    }
+}
+
 @media (max-width: 980px){
     .information h1{
         font-size: 32px;
@@ -41,6 +55,9 @@
 
     .information p{
         font-size: 13px;
+    }
+    .arrow_style{
+        display: none;
     }
 }
 

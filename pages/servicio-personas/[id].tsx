@@ -6,6 +6,8 @@ import RightBannerComponent from "../../components/general/views/servicesRight/p
 import OurTeamComponent from "../../components/general/views/servicesRight/ourTeam/ourTeam.component";
 import ExpertsComponent from "../../components/conent/ourExperts/experts.component";
 import OurServicesComponent from "../../components/general/views/servicesRight/ourServices/ourServices.component";
+import ContactComponent from "../../components/general/views/servicesRight/contact/contact.component";
+import FormServiceComponent from "../../components/general/views/servicesRight/form/form.component";
 
 export default function Home() {
     const [titlePage, setTitlePage] = useState('');
@@ -36,6 +38,8 @@ export default function Home() {
                     <OurTeamComponent service={service} setTitlePage={setTitlePage}/>
                     <ExpertsComponent/>
                     <OurServicesComponent service={service} setTitlePage={setTitlePage}/>
+                    <ContactComponent service={service} setTitlePage={setTitlePage}/>
+                    <FormServiceComponent service={service} setTitlePage={setTitlePage}/>
                 </Layout>
 
             </>

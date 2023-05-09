@@ -64,9 +64,26 @@
       }
     ],
     "need_assessor": {
+      "title_pt1": "Si estás en proceso de separación y necesitas",
+      "title_span": "asesoramiento legal confiable y personalizado,",
+      "title_pt2": "no dudes en ponerte en contacto con nosotros."
+    },
+    "form":{
       "title_pt1": "",
-      "title_span": "",
-      "title_pt2": ""
+      "titple_span": "",
+      "title_pt2": "",
+      "form_data": {
+        "title_span": "¡Agenda una consulta con nosotros",
+        "title": "hoy mismo y deja que te ayudemos a navegar por tu proceso de separación con profesionalismo y compasión!",
+        "dpto": "Departameto",
+        "city": "Ciudad",
+        "address": "Dirección",
+        "fullname": "Nombres y apellidos",
+        "phone": "Tel/Cel",
+        "email": "E-mail",
+        "type_service": "Tipo de servicio",
+        "service": "Servicio"
+      }
     }
   }
 }
