@@ -24,15 +24,15 @@
       "services": [
         {
           "title": "Servicio empresa 1",
-          "url": "/servicio-empresa/se1"
+          "url": "/servicio-empresas/se1"
         },
         {
           "title": "Servicio empresa 2",
-          "url": "/servicio-empresa/se2"
+          "url": "/servicio-empresas/se2"
         },
         {
           "title": "Servicio empresa 3",
-          "url": "/servicio-empresa/se3"
+          "url": "/servicio-empresas/se3"
         }
       ]
     }

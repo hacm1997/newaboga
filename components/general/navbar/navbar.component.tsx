@@ -56,7 +56,7 @@ export default function NavbarComponent(){
                             </div>
                             <div className={styles.dropdown}>
 
-                                <li>
+                                <li className={router.asPath.split('/')[1] === 'servicio-empresas' ? styles.active : ""}>
                                     {t('nav.service_business.title')} <i className='bx bx-chevron-down'></i>
                                 </li>
 
@@ -66,7 +66,7 @@ export default function NavbarComponent(){
                                             return (
                                                 <li key={index}>
                                                     <Link  href={`${item.url}`} title={item.title}>
-                                                        <p>{item.title}</p>
+                                                        <p className={router.asPath === item.url ? styles.active : ""}>{item.title}</p>
                                                     </Link>
                                                 </li>
                                             )
@@ -74,8 +74,8 @@ export default function NavbarComponent(){
                                     }
                                 </div>
                             </div>
-                            <li className={router.asPath === "/#" ? styles.active : ""}>
-                                <Link href="#" title="Advices">{t('nav.advice')}</Link>
+                            <li className={router.asPath === "/asesorias-legales" ? styles.active : ""}>
+                                <Link href="/asesorias-legales" title="Advices">{t('nav.advice')}</Link>
                             </li>
                             <div className="flex-initial w-32 items-center ">
                                 <div className={"flex w-auto gap-4 "+ styles.socials_mob}>

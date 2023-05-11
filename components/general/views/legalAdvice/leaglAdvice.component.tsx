@@ -1,17 +1,14 @@
 import styles from './home.module.css';
-import BannerComponent from "./principalBanner/banner.component";
-import useTranslation from "next-translate/useTranslation";
-import ServicesComponent from "./services/services.component";
-import AboutComponent from "./about/about.component";
-import VideoComponent from "./video/video.component";
-import FormComponent from "./form/form.component";
 import {useEffect, useState} from "react";
 import axios from "axios";
+import useTranslation from 'next-translate/useTranslation';
+import FormComponent from '../home/form/form.component';
+import BannerAdviceComponent from './principalBanner/banner.component';
 
-export default function HomeComponent(){
+export default function LegalAdviceComponent(){
     const {t, lang} = useTranslation('');
-    const services_persons = t<any>("home:services-persons.items", {}, {returnObjects: true});
-    const services_business = t<any>("home:services-business.items", {}, {returnObjects: true});
+    const services_persons = t<any>("services-persons.items", {}, {returnObjects: true});
+    const services_business = t<any>("services-business.items", {}, {returnObjects: true});
 
     const colData = "https://www.datos.gov.co/resource/xdk5-pm3f.json";
     const [dataCol, setDataCol] = useState<Array<any>>([]);
@@ -61,10 +58,7 @@ export default function HomeComponent(){
 
     return(
         <>
-            <BannerComponent translate={t}/>
-            <ServicesComponent translate={t} servicesP={services_persons} servicesB={services_business}/>
-            <AboutComponent translate={t}/>
-            <VideoComponent />
+            <BannerAdviceComponent translate={t}/>
             <FormComponent translate={t} setSelectDpto={setSelectDpto} dpto={dpto} city={city}/>
         </>
     );

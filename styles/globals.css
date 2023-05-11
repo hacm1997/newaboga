@@ -8,6 +8,16 @@
   src: url('/fonts/GothamBook.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'GothamBoldItalic';
+  src: url('/fonts/GothamBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamMedium';
+  src: url('/fonts/GothamMedium.ttf') format('truetype');
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -15,7 +25,7 @@
 }
 
 body{
-  font-family: 'GothamBook', sans-serif;
+  font-family: 'GothamBook', 'GothamBoldItalic', 'GothamMedium', sans-serif;
 }
 
 a{

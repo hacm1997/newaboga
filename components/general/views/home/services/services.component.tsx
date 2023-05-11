@@ -18,11 +18,11 @@ export default function ServicesComponent(props:any){
         <>
             <div className="pl-10 xl:pl-14 md:pl-[110px] bg-[#F2F2F2] pb-20 ">
                 <div className={"pt-16 "+styles.title}>
-                    <h2>{props.translate('services-persons.title')}</h2>
+                    <h2>{props.translate('home:services-persons.title')}</h2>
                 </div>
                 <div className={"flex pt-10 gap-10 "}>
-                    <button className={id === 'SP' ? styles.chooseButtons : styles.buttonNoActive} onClick={chooseServiceP}>{props.translate('list_services.s_persons')}</button>
-                    <button className={id === 'SB' ? styles.chooseButtons : styles.buttonNoActive} onClick={chooseServiceB}>{props.translate('list_services.s_business')}</button>
+                    <button className={id === 'SP' ? styles.chooseButtons : styles.buttonNoActive} onClick={chooseServiceP}>{props.translate('home:list_services.s_persons')}</button>
+                    <button className={id === 'SB' ? styles.chooseButtons : styles.buttonNoActive} onClick={chooseServiceB}>{props.translate('home:list_services.s_business')}</button>
                 </div>
                 <div className="grid w-[90%] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-[243px_243px_243px_243px_243px] 2xl:xl:grid-cols-[280px_280px_280px_280px_280px] gap-y-9 gap-x-0 pt-10 pb-16 ">
                     {Array.isArray(selectedService) ? selectedService.map((item:any, index:number) => (
@@ -52,7 +52,7 @@ export default function ServicesComponent(props:any){
                     )): null}
                 </div>
                 <div className={"flex w-[85%] "+styles.button}>
-                    <button>Agendar cita</button>
+                    <button>{props.translate('home:button')}</button>
                 </div>
             </div>
         </>

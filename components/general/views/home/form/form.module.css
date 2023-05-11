@@ -8,7 +8,8 @@
     font-size: 30px;
 }
 .title h4 span{
-    font-weight: 700;
+    font-family: 'GothamMedium', sans-serif;
+    font-weight: 900;
 }
 
 .form{
