@@ -1,8 +1,16 @@
 .content_general{
+    background-image: url('/images/home/form/background-form.png');
     background-size: 100% 100%;
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.content_general_advice{
+    background-image: url('/images/asesorias/background-footer.png');
+    background-size: 100% 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .title h4{
     color: #FFFFFF;
     font-size: 30px;
@@ -36,4 +44,14 @@
     height: 50px;
     border-radius: 5px;
     font-weight: 700;
+}
+
+@media (max-width: 750px) {
+    .h4_advice{
+        width: 90% !important;
+        text-align: center;
+        font-size: 18px !important;
+        padding-left: 10px;
+        padding-bottom: 30px !important;
+    }
 }

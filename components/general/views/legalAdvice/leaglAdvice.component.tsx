@@ -4,11 +4,12 @@ import axios from "axios";
 import useTranslation from 'next-translate/useTranslation';
 import FormComponent from '../home/form/form.component';
 import BannerAdviceComponent from './principalBanner/banner.component';
+import PackagesComponent from "./packages/packages.component";
+import ExtraInfoComponent from "./extraInfo/extraInfo.component";
 
 export default function LegalAdviceComponent(){
     const {t, lang} = useTranslation('');
-    const services_persons = t<any>("services-persons.items", {}, {returnObjects: true});
-    const services_business = t<any>("services-business.items", {}, {returnObjects: true});
+    const packages_items = t<any>("asesorias:packages.list_packages", {}, {returnObjects: true});
 
     const colData = "https://www.datos.gov.co/resource/xdk5-pm3f.json";
     const [dataCol, setDataCol] = useState<Array<any>>([]);
@@ -59,6 +60,8 @@ export default function LegalAdviceComponent(){
     return(
         <>
             <BannerAdviceComponent translate={t}/>
+            <PackagesComponent translate={t} packages_items={packages_items}/>
+            <ExtraInfoComponent translate={t}/>
             <FormComponent translate={t} setSelectDpto={setSelectDpto} dpto={dpto} city={city}/>
         </>
     );

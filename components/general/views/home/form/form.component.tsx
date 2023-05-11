@@ -1,9 +1,11 @@
 import styles from './form.module.css';
 import {useEffect, useState} from "react";
 import config from "../../../../../services/config";
+import {useRouter} from "next/router";
 
 export default function FormComponent(props:any){
     const [valuesForm, setValuesForm] = useState<any>({email:config.EMAIL_ABOGA as string});
+    const router = useRouter();
 
     const handleForm = async (e: any) => {
         const value = e.target.value;
@@ -23,12 +25,19 @@ export default function FormComponent(props:any){
 
     return(
         <>
-            <div className={"h-[auto] block p-5 md:flex md:p-0 place-content-around items-center bg-[url('/images/home/form/background-form.png')] bg-contain bg-no-repeat "+ styles.content_general}>
+            <div className={router.asPath === '/asesorias-legales' ? "h-[auto] block p-5 md:flex md:p-0 place-content-around items-center bg-contain bg-no-repeat "+styles.content_general_advice :
+                "h-[auto] block p-5 md:flex md:p-0 place-content-around items-center bg-contain bg-no-repeat "+styles.content_general}>
                 <div className={styles.title}>
-                    <h4>
-                        {props.translate('home:form.title')}<br/>
-                        <span>{props.translate('home:form.title2')}</span>
-                    </h4>
+                    {router.asPath === '/asesorias-legales' ?
+                        <h4 className={"w-[450px] "+styles.h4_advice}>
+                            {props.translate('asesorias:form.title')}
+                        </h4>
+                    :
+                        <h4>
+                            {props.translate('home:form.title')}<br/>
+                            <span>{props.translate('home:form.title2')}</span>
+                        </h4>
+                    }
                 </div>
                 <div className={styles.form}>
                     <form>
