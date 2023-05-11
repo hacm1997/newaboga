@@ -107,7 +107,7 @@ export default function NavbarComponent(){
                     </div>
                 </div>
                 <div onClick={handleMenu} className={styles.botonMovil}>
-                    <Link href="#"><i className={icon}></i></Link>
+                    <Link href="#" title="Botón Móvil"><i className={icon}></i></Link>
                 </div>
             </div>
         </>

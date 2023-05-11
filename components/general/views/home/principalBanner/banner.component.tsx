@@ -21,7 +21,7 @@ export default function BannerComponent(props:any){
 
                     </div>
                     <div className="">
-                        <img className="float-right" src="/images/home/banner-home.png"/>
+                        <img className="float-right" src="/images/home/banner-home.png" alt='Aliado-Empresa' title='Background Banner'/>
                     </div>
                 </div>
             </div>
