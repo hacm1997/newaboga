@@ -7,11 +7,19 @@ export default function ServicesComponent(props:any){
 
     const chooseServiceP = () => {
         setSelectedService(props.servicesP)
+        props.gaEventTracker('Inicio: click botón servicio personas')
         setId('SP')
     }
     const chooseServiceB = () => {
         setSelectedService(props.servicesB)
+        props.gaEventTracker('Inicio: click botón servicio empresas')
         setId('SB');
+    }
+    const analytic = () =>{
+        props.gaEventTracker('Inicio: Agendar cita 2');
+    }
+    const analytic2 = (name:string) =>{
+        props.gaEventTracker(`Inicio: clic servicio `);
     }
 
     return(
@@ -34,7 +42,7 @@ export default function ServicesComponent(props:any){
                                 </a>
                                 <div className={"opacity-0 "+styles.hover}>
                                     <h3 className={"w-full pl-[18px] "+styles.title_hover}>{item.title}</h3>
-                                    <a>
+                                    <a onClick={() => analytic2(item.title)}>
                                         <img className="pl-[18px] pt-1" src="/images/home/services/arrow_button.png" alt="Button" title={item.title} />
                                     </a>
                                 </div>
@@ -52,7 +60,7 @@ export default function ServicesComponent(props:any){
                     )): null}
                 </div>
                 <div className={"flex w-[85%] "+styles.button}>
-                    <button>{props.translate('home:button')}</button>
+                    <button onClick={analytic}>{props.translate('home:button')}</button>
                 </div>
             </div>
         </>

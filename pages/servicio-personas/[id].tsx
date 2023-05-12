@@ -9,9 +9,13 @@ import OurServicesComponent from "../../components/general/views/servicesRight/o
 import ContactComponent from "../../components/general/views/servicesRight/contact/contact.component";
 import FormServiceComponent from "../../components/general/views/servicesRight/form/form.component";
 import axios from "axios";
+import ReactGA from "react-ga4";
+import useAnalyticsEventTracker from "../../services/analytics/useAnalyticsEventTracker";
 
 export default function Home() {
+    ReactGA.send({ hitType: "pageview", page: "/", title: "Page: Servicio para personas" });
     const [titlePage, setTitlePage] = useState('');
+    const gaEventTracker = useAnalyticsEventTracker('Servicio personas');
     const router = useRouter();
     const {id}:any = router.query;
     // console.log("id => ",id)
@@ -73,12 +77,12 @@ export default function Home() {
                     <Head>
                         <title>{titlePage} | Aboga</title>
                     </Head>
-                    <RightBannerComponent service={service} setTitlePage={setTitlePage} typeService={'personas'}/>
-                    <OurTeamComponent service={service} setTitlePage={setTitlePage} typeService={'personas'}/>
-                    <ExpertsComponent/>
-                    <OurServicesComponent service={service} setTitlePage={setTitlePage} typeService={'personas'}/>
-                    <ContactComponent service={service} setTitlePage={setTitlePage} typeService={'personas'}/>
-                    <FormServiceComponent service={service} setTitlePage={setTitlePage} setSelectDpto={setSelectDpto} dpto={dpto} city={city} typeService={'personas'}/>
+                    <RightBannerComponent service={service} setTitlePage={setTitlePage} typeService={'personas'} gaEventTracker={gaEventTracker}/>
+                    <OurTeamComponent service={service} setTitlePage={setTitlePage} typeService={'personas'} gaEventTracker={gaEventTracker}/>
+                    <ExpertsComponent gaEventTracker={gaEventTracker}/>
+                    <OurServicesComponent service={service} setTitlePage={setTitlePage} typeService={'personas'} gaEventTracker={gaEventTracker}/>
+                    <ContactComponent service={service} setTitlePage={setTitlePage} typeService={'personas'} gaEventTracker={gaEventTracker}/>
+                    <FormServiceComponent service={service} setTitlePage={setTitlePage} setSelectDpto={setSelectDpto} dpto={dpto} city={city} typeService={'personas'} gaEventTracker={gaEventTracker}/>
                 </Layout>
 
             </>

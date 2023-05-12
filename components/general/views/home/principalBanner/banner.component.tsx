@@ -2,6 +2,9 @@ import styles from './banner.module.css';
 
 export default function BannerComponent(props:any){
 
+    const analytic = () =>{
+        props.gaEventTracker('Inicio: Agendar cita 1');
+    }
     return(
         <>
             <div className={"bg-[url('/images/home/background-home.png')] -mt-32 bg-no-repeat bg-right "+styles.content}>
@@ -14,7 +17,7 @@ export default function BannerComponent(props:any){
                             {props.translate('home:description')}
                         </p>
                         <div className={"pl-32 w-4/4 pt-4 sm:pl-18 "+ styles.button}>
-                            <button >
+                            <button onClick={analytic}>
                                 {props.translate('home:button')}
                             </button>
                         </div>

@@ -7,11 +7,13 @@ import VideoComponent from "./video/video.component";
 import FormComponent from "./form/form.component";
 import {useEffect, useState} from "react";
 import axios from "axios";
+import useAnalyticsEventTracker from "../../../../services/analytics/useAnalyticsEventTracker";
 
 export default function HomeComponent(){
     const {t, lang} = useTranslation('');
     const services_persons = t<any>("home:services-persons.items", {}, {returnObjects: true});
     const services_business = t<any>("home:services-business.items", {}, {returnObjects: true});
+    const gaEventTracker = useAnalyticsEventTracker('Inicio');
 
     const colData = "https://www.datos.gov.co/resource/xdk5-pm3f.json";
     const [dataCol, setDataCol] = useState<Array<any>>([]);
@@ -61,11 +63,11 @@ export default function HomeComponent(){
 
     return(
         <>
-            <BannerComponent translate={t}/>
-            <ServicesComponent translate={t} servicesP={services_persons} servicesB={services_business}/>
+            <BannerComponent translate={t} gaEventTracker={gaEventTracker}/>
+            <ServicesComponent translate={t} servicesP={services_persons} servicesB={services_business} gaEventTracker={gaEventTracker}/>
             <AboutComponent translate={t}/>
             <VideoComponent />
-            <FormComponent translate={t} setSelectDpto={setSelectDpto} dpto={dpto} city={city}/>
+            <FormComponent translate={t} setSelectDpto={setSelectDpto} dpto={dpto} city={city} gaEventTracker={gaEventTracker} id={'Inicio'}/>
         </>
     );
 }

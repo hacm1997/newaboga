@@ -1,9 +1,11 @@
 import styles from './rightBanner.module.css'
 import useTranslation from "next-translate/useTranslation";
 import {useEffect} from "react";
+import ReactGA from "react-ga4";
 
 export default function RightBannerComponent(props:any){
     const {t, lang} = useTranslation('services');
+    ReactGA.send({ hitType: "pageview", page: "/", title: t(`Page: ${props.typeService}.${props.service}.title`) });
 
     useEffect(()=>{
         props.setTitlePage(t(`${props.typeService}.${props.service}.title`))
@@ -16,7 +18,9 @@ export default function RightBannerComponent(props:any){
                         <h1>{t(`${props.typeService}.${props.service}.banner.title`)}</h1>
                         <p className="pt-6">{t(`${props.typeService}.${props.service}.banner.description`)}</p>
                         <div className="flex justify-center md:block">
-                            <button>{t('general_button')}</button>
+                            <button onClick={props.gaEventTracker(`CLic Agendar cita 1 - ${t(`${props.typeService}.${props.service}.title`)}`)}>
+                                {t('general_button')}
+                            </button>
                         </div>
                     </div>
                 </div>

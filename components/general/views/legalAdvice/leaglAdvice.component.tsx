@@ -6,11 +6,12 @@ import FormComponent from '../home/form/form.component';
 import BannerAdviceComponent from './principalBanner/banner.component';
 import PackagesComponent from "./packages/packages.component";
 import ExtraInfoComponent from "./extraInfo/extraInfo.component";
+import useAnalyticsEventTracker from "../../../../services/analytics/useAnalyticsEventTracker";
 
 export default function LegalAdviceComponent(){
     const {t, lang} = useTranslation('');
     const packages_items = t<any>("asesorias:packages.list_packages", {}, {returnObjects: true});
-
+    const gaEventTracker = useAnalyticsEventTracker('Asesorias legales');
     const colData = "https://www.datos.gov.co/resource/xdk5-pm3f.json";
     const [dataCol, setDataCol] = useState<Array<any>>([]);
     const [dpto, setDpto] = useState<Array<any>>([]);
@@ -62,7 +63,7 @@ export default function LegalAdviceComponent(){
             <BannerAdviceComponent translate={t}/>
             <PackagesComponent translate={t} packages_items={packages_items}/>
             <ExtraInfoComponent translate={t}/>
-            <FormComponent translate={t} setSelectDpto={setSelectDpto} dpto={dpto} city={city}/>
+            <FormComponent translate={t} setSelectDpto={setSelectDpto} dpto={dpto} city={city} gaEventTracker={gaEventTracker} id={'Aseosrias legales'}/>
         </>
     );
 }

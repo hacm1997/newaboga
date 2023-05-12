@@ -21,6 +21,7 @@ export default function FormServiceComponent(props: any) {
     ));
     const submitForm = (e:any) => {
         e.preventDefault();
+        props.gaEventTracker('Clic Contactar - Formulario servicios');
         NotifierEmail(valuesForm);
     }
 

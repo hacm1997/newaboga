@@ -52,7 +52,7 @@ export default function ExpertsComponent(props:any){
                             </Swiper>
                         </div>
                         <div className={"flex justify-center gap-10 md:gap-64 xl:-mt-8 pl-60 "+styles.footer_experts}>
-                            <button>Agendar cita</button>
+                            <button onClick={() => props.gaEventTracker('Clic Agendar cita 3 - nuestros expertos')}>Agendar cita</button>
                             <div className={"flex gap-14 "+styles.arrows}>
                                 <a className="cursor-pointer" type="button" onClick={() => swiperRef.current?.slidePrev()}>
                                     <img className="w-[52px]" src="/images/experts/left-arrow.png" alt="Flecha izquierda" title="Flecha izquierda"/>

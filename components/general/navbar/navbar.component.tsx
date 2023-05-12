@@ -4,6 +4,7 @@ import useTranslation from "next-translate/useTranslation";
 import Link from "next/link";
 import {useState} from "react";
 import {useRouter} from "next/router";
+import useAnalyticsEventTracker from "../../../services/analytics/useAnalyticsEventTracker";
 
 export default function NavbarComponent(){
     const {t, lang} = useTranslation('header');
@@ -11,6 +12,7 @@ export default function NavbarComponent(){
     const service_business = t<any>("nav.service_business.services", {}, {returnObjects: true});
     const [icon, setIcon] = useState("bx bx-menu-alt-right");
     const [menu, setMenu] = useState(styles.menu);
+    const gaEventTracker = useAnalyticsEventTracker('Menu');
     const router = useRouter();
 
     const handleMenu = () => {
@@ -34,7 +36,7 @@ export default function NavbarComponent(){
                     <div className={"flex items-center pl-10 "+styles.list_menu}>
                         <ul className={"flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row gap-5 "+ menu}>
                             <li className={router.asPath === "/" ? styles.active : ""}>
-                                <Link href="/" title="Inicio">{t('nav.home')}</Link>
+                                <Link href="/" title="Inicio" onClick={() => gaEventTracker('Clic menu inicio')}>{t('nav.home')}</Link>
                             </li>
 
                             <div className={styles.dropdown}>
@@ -48,7 +50,7 @@ export default function NavbarComponent(){
                                         service_persons?.map((item: any, index: number) => {
                                             return (
                                                <li key={index} >
-                                                   <Link  href={`${item.url}`} title={item.title}>
+                                                   <Link  href={`${item.url}`} title={item.title} onClick={() => gaEventTracker(`Clic menu ${item.title}`)}>
                                                        <p className={router.asPath === item.url ? styles.active : ""}>{item.title}</p>
                                                    </Link>
                                                </li>
@@ -69,7 +71,7 @@ export default function NavbarComponent(){
                                             return (
                                                 <div key={index} >
                                                     <div className={styles.dropdown_sub}>
-                                                        <Link  href={`${item.url}`} title={item.title} className={Array.isArray(item.sub_services) ? 'flex' : 'block'}>
+                                                        <Link href={item.url} title={item.title} className={Array.isArray(item.sub_services) ? 'flex' : 'block'}>
                                                             <p className={router.asPath === item.url ? styles.active : ""}>
                                                                 {item.title} {Array.isArray(item.sub_services) ?
                                                                 <i className='bx bx-chevron-right'></i> : null}
@@ -80,7 +82,7 @@ export default function NavbarComponent(){
                                                                 {
                                                                     Array.isArray(item.sub_services) ? item.sub_services.map((it:any, i:number) => (
                                                                         <li key={index} >
-                                                                            <Link href={it.url} title={it.title}>
+                                                                            <Link href={it.url} title={it.title} onClick={() => gaEventTracker(`Clic menu ${it.title}`)}>
                                                                                 <p className={router.asPath === it.url ? styles.active : ""}>{it.title}</p>
                                                                             </Link>
                                                                         </li>

@@ -28,7 +28,9 @@ export default function OurServicesComponent(props: any) {
 
                 </div>
                 <div className={'flex justify-center pt-10 '+styles.general_button}>
-                    <button>{t('general_button')}</button>
+                    <button onClick={props.gaEventTracker(`Clic Agendar cita 4 - ${t(`${props.typeService}.${props.service}.title`)}`)}>
+                        {t('general_button')}
+                    </button>
                 </div>
             </div>
         </>
