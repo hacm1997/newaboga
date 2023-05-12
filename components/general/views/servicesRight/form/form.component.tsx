@@ -2,6 +2,7 @@ import useTranslation from 'next-translate/useTranslation';
 import styles from './form.module.css';
 import { useEffect, useState } from 'react';
 import config from '../../../../../services/config';
+import NotifierEmail from "../../../../../services/notifier";
 
 export default function FormServiceComponent(props: any) {
     const { t, lang } = useTranslation('services');
@@ -18,6 +19,10 @@ export default function FormServiceComponent(props: any) {
     const citySelect = props.city.map((item: any, index: any) => (
         <option key={index} value={item}>{item}</option>
     ));
+    const submitForm = (e:any) => {
+        e.preventDefault();
+        NotifierEmail(valuesForm);
+    }
 
     useEffect(() => {
         props.setSelectDpto(valuesForm.dpto);
@@ -33,14 +38,14 @@ export default function FormServiceComponent(props: any) {
 
                     <div className={styles.titleP}>
                         <h4 className='text-center md:text-left'>
-                            {t(`${props.service}.form.title1`)}
-                            <span> {t(`${props.service}.form.titpleSpan`)} </span>
-                            {t(`${props.service}.form.title2`)}
+                            {t(`${props.typeService}.${props.service}.form.title1`)}
+                            <span> {t(`${props.typeService}.${props.service}.form.titpleSpan`)} </span>
+                            {t(`${props.typeService}.${props.service}.form.title2`)}
                         </h4>
                     </div>
                 </div>
                 <div className={'w-[80%] md:w-[45%] ml-10 '+ styles.form}>
-                    <form >
+                    <form onSubmit={submitForm}>
                         <div className={'flex justify-center '+styles.form_text}>
                             <p className='text-center w-[80%]'>
                                 <span>{t('form_general.form_data.title_span')} </span>
@@ -72,7 +77,7 @@ export default function FormServiceComponent(props: any) {
                             <input className="w-full mt-5" name="useremail" type="email" placeholder={t('form_general.form_data.email')} onChange={handleForm} required />
                         </div>
                         <div>
-                            <input className="w-full mt-5" name="service" type="text" value={props.service} onChange={handleForm} readOnly required />
+                            <input className="w-full mt-5" name="service" type="text" value={t(`${props.typeService}.${props.service}.title`)} onChange={handleForm} readOnly required />
                         </div>
                         <div className={styles.button}>
                             <button className="w-full mt-5">Contactar</button>

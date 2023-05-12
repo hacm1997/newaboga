@@ -17,15 +17,7 @@ export default function Home() {
     // console.log("id => ",id)
     const [service, setService] = useState('');
     useEffect(()=>{
-        if(id === "sp1"){
-            setService('sp1');
-        }else if(id === "derecho-comercial"){
-            setService('derecho-comercial');
-        }else if(id === "derecho-constitucional-laboral") {
-            setService('derecho-constitucional-laboral');
-        }else{
-            setService('');
-        }
+        setService(id.toString());
     },[router.asPath])
 
     const colData = "https://www.datos.gov.co/resource/xdk5-pm3f.json";
@@ -81,12 +73,12 @@ export default function Home() {
                     <Head>
                         <title>{titlePage} | Aboga</title>
                     </Head>
-                    <RightBannerComponent service={service} setTitlePage={setTitlePage}/>
-                    <OurTeamComponent service={service} setTitlePage={setTitlePage}/>
+                    <RightBannerComponent service={service} setTitlePage={setTitlePage} typeService={'personas'}/>
+                    <OurTeamComponent service={service} setTitlePage={setTitlePage} typeService={'personas'}/>
                     <ExpertsComponent/>
-                    <OurServicesComponent service={service} setTitlePage={setTitlePage}/>
-                    <ContactComponent service={service} setTitlePage={setTitlePage}/>
-                    <FormServiceComponent service={service} setTitlePage={setTitlePage} setSelectDpto={setSelectDpto} dpto={dpto} city={city}/>
+                    <OurServicesComponent service={service} setTitlePage={setTitlePage} typeService={'personas'}/>
+                    <ContactComponent service={service} setTitlePage={setTitlePage} typeService={'personas'}/>
+                    <FormServiceComponent service={service} setTitlePage={setTitlePage} setSelectDpto={setSelectDpto} dpto={dpto} city={city} typeService={'personas'}/>
                 </Layout>
 
             </>

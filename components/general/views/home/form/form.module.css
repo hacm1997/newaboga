@@ -44,6 +44,13 @@
     height: 50px;
     border-radius: 5px;
     font-weight: 700;
+    transition: 1s;
+}
+.button button:hover{
+    transition: 0.5s;
+    border: 3px solid #58BDC9;
+    transform: translateY(3px);
+    background: linear-gradient(90deg, rgb(1, 130, 209) 0%, rgb(1, 51, 88) 100%);
 }
 
 @media (max-width: 750px) {

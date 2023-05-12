@@ -1,13 +1,13 @@
 import {useRouter} from "next/router";
 import {useEffect, useState} from "react";
 import Head from "next/head";
-import Layout from "../../components/general/layout/layout.component";
-import RightBannerComponent from "../../components/general/views/servicesRight/principalBanner/rightBanner.component";
-import OurTeamComponent from "../../components/general/views/servicesRight/ourTeam/ourTeam.component";
-import ExpertsComponent from "../../components/conent/ourExperts/experts.component";
-import OurServicesComponent from "../../components/general/views/servicesRight/ourServices/ourServices.component";
-import ContactComponent from "../../components/general/views/servicesRight/contact/contact.component";
-import FormServiceComponent from "../../components/general/views/servicesRight/form/form.component";
+import Layout from "../../../components/general/layout/layout.component";
+import RightBannerComponent from "../../../components/general/views/servicesRight/principalBanner/rightBanner.component";
+import OurTeamComponent from "../../../components/general/views/servicesRight/ourTeam/ourTeam.component";
+import ExpertsComponent from "../../../components/conent/ourExperts/experts.component";
+import OurServicesComponent from "../../../components/general/views/servicesRight/ourServices/ourServices.component";
+import ContactComponent from "../../../components/general/views/servicesRight/contact/contact.component";
+import FormServiceComponent from "../../../components/general/views/servicesRight/form/form.component";
 import axios from "axios";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
     const [service, setService] = useState('');
 
     useEffect(()=>{
-        setService(id.toString());
+        setService(id[1].toString());
     },[router.asPath])
 
     const colData = "https://www.datos.gov.co/resource/xdk5-pm3f.json";
@@ -30,7 +30,6 @@ export default function Home() {
         axios.get(colData)
             .then(function (res) {
                     setDataCol(res.data)
-                    //console.log("DATOS => ", res.data);
                 }
             )
             .catch(function (error) {

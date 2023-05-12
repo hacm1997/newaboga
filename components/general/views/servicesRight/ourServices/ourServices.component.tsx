@@ -3,7 +3,7 @@ import styles from './ourServices.module.css';
 
 export default function OurServicesComponent(props: any) {
     const { t, lang } = useTranslation(`services`);
-    const list_services = t<any>(`${props.service}.our_services`, {}, { returnObjects: true });
+    const list_services = t<any>(`${props.typeService}.${props.service}.our_services`, {}, { returnObjects: true });
 
     return (
         <>

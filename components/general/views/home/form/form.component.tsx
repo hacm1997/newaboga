@@ -2,6 +2,7 @@ import styles from './form.module.css';
 import {useEffect, useState} from "react";
 import config from "../../../../../services/config";
 import {useRouter} from "next/router";
+import NotifierEmail from "../../../../../services/notifier";
 
 export default function FormComponent(props:any){
     const [valuesForm, setValuesForm] = useState<any>({email:config.EMAIL_ABOGA as string});
@@ -18,6 +19,11 @@ export default function FormComponent(props:any){
     const citySelect = props.city.map((item:any, index:any) => (
         <option key={index} value={item}>{item}</option>
     ));
+
+    const submitForm = (e:any) => {
+        e.preventDefault();
+        NotifierEmail(valuesForm);
+    }
 
     useEffect(()=>{
         props.setSelectDpto(valuesForm.dpto);
@@ -40,7 +46,7 @@ export default function FormComponent(props:any){
                     }
                 </div>
                 <div className={styles.form}>
-                    <form>
+                    <form onSubmit={submitForm}>
                         <div>
                             <select className="w-full mt-5" name="dpto" onChange={handleForm} required>
                                 <option value="">{props.translate('home:form.inputs.dpto')}</option>
@@ -68,13 +74,13 @@ export default function FormComponent(props:any){
                         <div>
                             <select className="w-full mt-5" name="type_service" onChange={handleForm} required>
                                 <option value="">{props.translate('home:form.inputs.type_service')}</option>
-
+                                <option value="Tipo servicio 1">Tipo servicio 1</option>
                             </select>
                         </div>
                         <div>
                             <select className="w-full mt-5" name="service" onChange={handleForm} required>
                                 <option value="">{props.translate('home:form.inputs.service')}</option>
-
+                                <option value="Servicio 1">Servicio 1</option>
                             </select>
                         </div>
                         <div className={styles.button}>

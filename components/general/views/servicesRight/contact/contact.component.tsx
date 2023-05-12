@@ -11,9 +11,9 @@ export default function ContactComponent(props: any) {
                     <div className='float-right '>
                         <div className={'flex w-[400px]  ' + styles.text}>
                             <p>
-                                {t(`${props.service}.need_assessor.title_pt1`)}
-                                <span> {t(`${props.service}.need_assessor.title_span`)} </span>
-                                {t(`${props.service}.need_assessor.title_pt2`)}
+                                {t(`${props.typeService}.${props.service}.need_assessor.title_pt1`)}
+                                <span> {t(`${props.typeService}.${props.service}.need_assessor.title_span`)} </span>
+                                {t(`${props.typeService}.${props.service}.need_assessor.title_pt2`)}
                             </p>
                         </div>
                         <div className={'pt-10  '+styles.contact_button}>

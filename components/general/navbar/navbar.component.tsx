@@ -27,7 +27,10 @@ export default function NavbarComponent(){
         <>
             <div className={"flex h-28 items-center place-content-around z-50 "+styles.menuNav}>
                 <div className="inline-flex w-auto ">
-                    <img src='/images/logo-aboga.png' alt="Aboga" title="Logo Aboga" />
+                    <Link href="/">
+                        <img className="cursor-pointer" src='/images/logo-aboga.png' alt="Aboga" title="Logo Aboga" />
+                    </Link>
+
                     <div className={"flex items-center pl-10 "+styles.list_menu}>
                         <ul className={"flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row gap-5 "+ menu}>
                             <li className={router.asPath === "/" ? styles.active : ""}>
@@ -64,11 +67,29 @@ export default function NavbarComponent(){
                                     {
                                         service_business?.map((item: any, index: number) => {
                                             return (
-                                                <li key={index}>
-                                                    <Link  href={`${item.url}`} title={item.title}>
-                                                        <p className={router.asPath === item.url ? styles.active : ""}>{item.title}</p>
-                                                    </Link>
-                                                </li>
+                                                <div key={index} >
+                                                    <div className={styles.dropdown_sub}>
+                                                        <Link  href={`${item.url}`} title={item.title} className={Array.isArray(item.sub_services) ? 'flex' : 'block'}>
+                                                            <p className={router.asPath === item.url ? styles.active : ""}>
+                                                                {item.title} {Array.isArray(item.sub_services) ?
+                                                                <i className='bx bx-chevron-right'></i> : null}
+                                                            </p>
+                                                        </Link>
+                                                        {Array.isArray(item.sub_services) ?
+                                                            <div className={styles.dropdown_content_sub}>
+                                                                {
+                                                                    Array.isArray(item.sub_services) ? item.sub_services.map((it:any, i:number) => (
+                                                                        <li key={index} >
+                                                                            <Link href={it.url} title={it.title}>
+                                                                                <p className={router.asPath === it.url ? styles.active : ""}>{it.title}</p>
+                                                                            </Link>
+                                                                        </li>
+                                                                    ))
+                                                                : null}
+                                                            </div>
+                                                        :null}
+                                                    </div>
+                                                </div>
                                             )
                                         })
                                     }

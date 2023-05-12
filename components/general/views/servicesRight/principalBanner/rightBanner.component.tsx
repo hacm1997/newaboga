@@ -6,15 +6,15 @@ export default function RightBannerComponent(props:any){
     const {t, lang} = useTranslation('services');
 
     useEffect(()=>{
-        props.setTitlePage(t(`${props.service}.title`))
+        props.setTitlePage(t(`${props.typeService}.${props.service}.title`))
     })
     return(
         <>
             <div className={"flex -mt-32 bg-no-repeat bg-right "+styles.content}>
                 <div className={"w-[65%] pt-[170px] pl-[50px] md:pl-[100px] md:pt-[260px] md:w-[75%] items-center "+styles.general}>
                     <div className={"w-[100%] "+styles.information}>
-                        <h1>{t(`${props.service}.banner.title`)}</h1>
-                        <p className="pt-6">{t(`${props.service}.banner.description`)}</p>
+                        <h1>{t(`${props.typeService}.${props.service}.banner.title`)}</h1>
+                        <p className="pt-6">{t(`${props.typeService}.${props.service}.banner.description`)}</p>
                         <div className="flex justify-center md:block">
                             <button>{t('general_button')}</button>
                         </div>

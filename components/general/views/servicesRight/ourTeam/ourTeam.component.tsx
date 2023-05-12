@@ -10,7 +10,7 @@ export default function OurTeamComponent(props:any){
                 <div className={"pl-[30px] w-[100%] mt-8 md:mt-0 flex items-center md:w-[45%] md:pl-[100px] "+styles.text1}>
                     <div>
                         <h2 className="text-lg md:-w[95%] xl:w-[430px]">
-                            {t(`${props.service}.our_team.title`)} <span>{t(`${props.service}.our_team.title_span`)}</span>
+                            {t(`${props.typeService}.${props.service}.our_team.title`)} <span>{t(`${props.typeService}.${props.service}.our_team.title_span`)}</span>
                         </h2>
                         <div className="flex justify-center md:block">
                             <button>{t('general_button')}</button>
@@ -19,7 +19,7 @@ export default function OurTeamComponent(props:any){
                 </div>
                 <div className={"w-[100%] mt-5 flex items-center md:mt-0 md:w-[55%] h-[220px] "+styles.text2}>
                     <p className="text-center md:text-left md:pl-10 md:w-80">
-                        {t(`${props.service}.our_team.title2`)} <span>{t(`${props.service}.our_team.title2_span`)}</span>
+                        {t(`${props.typeService}.${props.service}.our_team.title2`)} <span>{t(`${props.typeService}.${props.service}.our_team.title2_span`)}</span>
                     </p>
                 </div>
             </div>
