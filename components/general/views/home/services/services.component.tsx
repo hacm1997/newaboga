@@ -32,10 +32,10 @@ export default function ServicesComponent(props:any){
                     <button className={id === 'SP' ? styles.chooseButtons : styles.buttonNoActive} onClick={chooseServiceP}>{props.translate('home:list_services.s_persons')}</button>
                     <button className={id === 'SB' ? styles.chooseButtons : styles.buttonNoActive} onClick={chooseServiceB}>{props.translate('home:list_services.s_business')}</button>
                 </div>
-                <div className="grid w-[90%] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-[243px_243px_243px_243px_243px] 2xl:xl:grid-cols-[280px_280px_280px_280px_280px] gap-y-9 gap-x-0 pt-10 pb-16 ">
+                <div className="grid w-[90%] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-[243px_243px_243px_243px_243px] 2xl:xl:grid-cols-[280px_280px_280px_280px_280px] gap-y-9 gap-x-2 pt-10 pb-16 ">
                     {Array.isArray(selectedService) ? selectedService.map((item:any, index:number) => (
-                        <div key={index} className={"w-[240px] xl:w-[235px] xl:h-[300px] h-[290px] p-5 "+styles.card}>
-                            <div className="flex">
+                        <div key={index} className={`w-[240px] xl:w-[235px] xl:h-[300px] h-[290px] p-5 `+styles.card}>
+                            <div className={"flex "}>
                                 <img className={styles.img_principal} src={item.img} alt="Servicios" title={item.title} />
                                 <a>
                                     <img className={styles.img_second} src={item.img_hover} alt="Servicios" title={item.title} />
@@ -45,6 +45,9 @@ export default function ServicesComponent(props:any){
                                     <a onClick={() => analytic2(item.title)}>
                                         <img className="pl-[18px] pt-1" src="/images/home/services/arrow_button.png" alt="Button" title={item.title} />
                                     </a>
+                                    <div className={styles.expert_back_img}>
+                                        <img src={item.expert_img} />
+                                    </div>
                                 </div>
                             </div>
                             <div className={"w-full "+styles.description}>
