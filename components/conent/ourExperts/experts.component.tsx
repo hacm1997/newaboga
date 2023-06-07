@@ -9,13 +9,16 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Swiper as SwiperType, Navigation, Pagination, A11y, Autoplay } from "swiper";
 import ExpertCardComponent from "./card/expertCard.component";
 import {useRef} from "react";
+import { useRouter } from 'next/router';
 
 SwiperCore.use([Autoplay, Navigation]);
 export default function ExpertsComponent(props:any){
     const {t, lang} = useTranslation('services');
+    const router = useRouter();
     const item_experts = t<any>("our_experts.list", {}, {returnObjects: true});
     const swiperRef = useRef<SwiperType>();
-    const experts_id = t<any>(`${props.typeService}.${props.service}.experts_id`, [], {returnObjects: true})
+    const serciveName = router.asPath.includes('servicio-empresas') ? 'empresas' : 'personas'
+    const experts_id = t<any>(`${serciveName}.${props.service}.experts_id`, [], {returnObjects: true})
 
     return(
         <>
