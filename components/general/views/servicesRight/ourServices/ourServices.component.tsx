@@ -14,11 +14,11 @@ export default function OurServicesComponent(props: any) {
                 <div className='grid grid-cols-1 lg:grid-cols-2 w-[100%] pt-10 pl-10 md:pl-28 pr-10 md:pr-28 gap-5 '>
                     {
                         Array.isArray(list_services) ? list_services?.map((item: any, index:number) => (
-                            <div className={item.bg_color === 'blue' ? 'block md:flex items-center p-5 gap-5 pb-10 '+styles.card_blue : 'block md:flex items-center p-5 gap-5 pb-10 '+styles.card_white} key={index}>
-                                <div className='flex justify-center md:block'>
-                                    <img className='w-[30%] md:w-full' src={item.img} alt={item.title} title={item.title} />
+                            <div className={item.bg_color === 'blue' ? 'block md:flex items-center p-5 '+styles.card_blue : 'block md:flex items-center p-5 '+styles.card_white} key={index}>
+                                <div className='w-[100%] md:w-[17%] flex justify-center md:block align-center'>
+                                    <img className='w-[30%] md:w-[70%]' src={item.img} alt={item.alt} title={item.alt} />
                                 </div>
-                                <div className='pt-6 w-[100%] md:w-[72%] md:pt-0'>
+                                <div className='pt-6 w-[100%] md:w-[90%] md:pt-1'>
                                     <h5 className='text-center md:text-left pb-3'>{item.title}</h5>
                                     <p className='text-center md:text-left'>{item.description}</p>
                                 </div>

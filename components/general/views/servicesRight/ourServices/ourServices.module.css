@@ -11,8 +11,8 @@
     border-radius: 10px;
 }
 .card_blue h5{
-    width: 50%;
-    font-size: 18px;
+    width: 100%;
+    font-size: 15px;
     font-weight: 900;
     color: #FFFFFF;
 }
@@ -25,7 +25,8 @@
     border-radius: 10px;
 }
 .card_white h5{
-    width: 50%;
+    width: 100%;
+    font-size: 15px;
     font-weight: 900;
     color: #0070d4;
 }
