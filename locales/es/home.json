@@ -146,7 +146,7 @@
     "title": "Si necesitas ayuda legal, no dudes en",
     "title2": "ponerte en contacto con nosotros.",
     "inputs": {
-      "dpto": "Departameto",
+      "dpto": "Departamento",
       "city": "Ciudad",
       "address": "Dirección",
       "fullname": "Nombres y apellidos",

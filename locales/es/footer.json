@@ -5,12 +5,14 @@
   },
   "contact": {
     "title": "Contáctanos",
-    "direction": "Transversal 54 # 21a 120 Edificio Bosque Ejectutivo Oficina 702",
-    "phone": "(+57) 324 2382 277"
+    "direction": "Calle 29a #22-46 Esquina",
+    "direction2": "Cartagena, Bolívar, Colombia",
+    "phone": "(+57) 300 123 4567",
+    "phone2": "(+57) 312 234 5678"
   },
   "schedule": {
     "title": "Lunes a Viernes",
-    "content": "8:00 a.m. a 5:00 p.m."
+    "content": "9:00 a.m. a 7:00 p.m."
   },
   "emails": {
     "email": "info@boga.co"

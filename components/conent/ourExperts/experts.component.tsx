@@ -15,6 +15,7 @@ export default function ExpertsComponent(props:any){
     const {t, lang} = useTranslation('services');
     const item_experts = t<any>("our_experts.list", {}, {returnObjects: true});
     const swiperRef = useRef<SwiperType>();
+    const experts_id = t<any>(`${props.typeService}.${props.service}.experts_id`, [], {returnObjects: true})
 
     return(
         <>
@@ -38,7 +39,7 @@ export default function ExpertsComponent(props:any){
                             >
 
                                 {
-                                    item_experts?.map((item: any, index: any) => (
+                                    item_experts?.filter((item:any) => experts_id.includes(item.id)).map((item: any, index: any) => (
                                         <SwiperSlide key={index}>
                                             <ExpertCardComponent
                                                 name={item.name} ability={item.ability}

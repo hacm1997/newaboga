@@ -1,6 +1,8 @@
+import useTranslation from 'next-translate/useTranslation';
 import styles from './footer.module.css'
 
 export default function FooterComponent(){
+    const { t, lang } = useTranslation(`footer`);
 
     return(
         <>
@@ -17,14 +19,14 @@ export default function FooterComponent(){
                 <div className="w-68 ">
                     <div className={"flex flex-col gap-8  "+styles.contact}>
                         <div>
-                            <h4>Contacto</h4>
+                            <h4>{t('contact.title')}</h4>
                         </div>
                         <div className="flex gap-8 items-center ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 12q.825 0 1.413-.588T14 10q0-.825-.588-1.413T12 8q-.825 0-1.413.588T10 10q0 .825.588 1.413T12 12Zm0 7.35q3.05-2.8 4.525-5.088T18 10.2q0-2.725-1.738-4.462T12 4Q9.475 4 7.737 5.738T6 10.2q0 1.775 1.475 4.063T12 19.35ZM12 22q-4.025-3.425-6.012-6.362T4 10.2q0-3.75 2.413-5.975T12 2q3.175 0 5.588 2.225T20 10.2q0 2.5-1.988 5.438T12 22Zm0-11.8Z"/>
                             </svg>
                             <p>
-                                Calle 29a ##22-46 Esquina<br/>
-                                Cartagena, Bolívar, Colombia
+                                {t('contact.direction')}<br/>
+                                {t('contact.direction2')}
                             </p>
                         </div>
                         <div className="flex gap-8 items-center ">

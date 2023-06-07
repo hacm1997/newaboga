@@ -3,10 +3,11 @@
 }
 
 .information h1{
+    font-family: 'GothamMedium', sans-serif;
     color: #004477;
     font-size: 34px;
     font-weight: 700;
-    width: 75%;
+    width: 90%;
     line-height: 40px;
 }
 
