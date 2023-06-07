@@ -79,7 +79,7 @@ export default function Home() {
                     </Head>
                     <RightBannerComponent service={service} setTitlePage={setTitlePage} typeService={'personas'} gaEventTracker={gaEventTracker}/>
                     <OurTeamComponent service={service} setTitlePage={setTitlePage} typeService={'personas'} gaEventTracker={gaEventTracker}/>
-                    <ExpertsComponent gaEventTracker={gaEventTracker}/>
+                    <ExpertsComponent gaEventTracker={gaEventTracker} typeService={'personas'} service={service}/>
                     <OurServicesComponent service={service} setTitlePage={setTitlePage} typeService={'personas'} gaEventTracker={gaEventTracker}/>
                     <ContactComponent service={service} setTitlePage={setTitlePage} typeService={'personas'} gaEventTracker={gaEventTracker}/>
                     <FormServiceComponent service={service} setTitlePage={setTitlePage} setSelectDpto={setSelectDpto} dpto={dpto} city={city} typeService={'personas'} gaEventTracker={gaEventTracker}/>

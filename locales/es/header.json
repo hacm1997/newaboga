@@ -3,11 +3,11 @@
     "home": "Inicio",
     "advice": "Asesorías legales",
     "service_person": {
-      "title": "Servicio persona",
+      "title": "Servicio personas",
       "services": [
         {
-          "title": "Derecho de familia",
-          "url": "/servicio-personas/derecho-familia"
+          "title": "Derecho administrativo",
+          "url": "/servicio-personas/derecho-administrativo"
         },
         {
           "title": "Derecho constitucional",
