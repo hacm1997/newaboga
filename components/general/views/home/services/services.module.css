@@ -18,10 +18,26 @@
 .title_card h3{
     font-family: 'GothamMedium', sans-serif;
     width: 110px;
-    font-size: 18px;
+    font-size: 17px;
     color: #004477;
     font-weight: 600;
 }
+
+.title_card_extra{
+    padding-top: 0 !important;
+}
+.title_card_extra h3{
+    font-family: 'GothamMedium', sans-serif;
+    width: 100%;
+    font-size: 15px;
+    color: #004477;
+    font-weight: 600;
+}
+
+.card:hover .title_card_extra{
+    display: none;
+}
+
 .img_principal{
     height: 100px;
 }
@@ -51,6 +67,11 @@
     width: 60%;
 }
 
+.hover2 h3{
+    font-size: 14px;
+    width: 130px;
+}
+
 .card:hover{
     background: linear-gradient(0deg, rgba(0,68,119,1) 0%, rgba(0,157,255,1) 100%);
     border: 0;
@@ -59,6 +80,9 @@
     border-radius: 15px;
 }
 .card:hover .hover{
+    opacity: 1;
+}
+.card:hover .hover2{
     opacity: 1;
 }
 
