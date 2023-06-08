@@ -154,7 +154,8 @@
       "need_assessor": {
         "title_pt1": "Si estás en proceso de separación y necesitas",
         "title_span": "asesoramiento legal confiable y personalizado,",
-        "title_pt2": "no dudes en ponerte en contacto con nosotros."
+        "title_pt2": "no dudes en ponerte en contacto con nosotros.",
+        "image": "/images/experts/keiry.png"
       },
       "form":{
         "title1": "Nuestro equipo de",
@@ -215,7 +216,8 @@
       "need_assessor": {
         "title_pt1": "Brindamos asesoramiento experto y defensa eficaz",
         "title_span": "para resolver conflictos",
-        "title_pt2": "y reclamaciones de manera justa y equitativa."
+        "title_pt2": "y reclamaciones de manera justa y equitativa.",
+        "image": "/images/experts/juan-jose.png"
       },
       "form":{
         "title1": "Nuestro equipo de",
@@ -269,7 +271,8 @@
       "need_assessor": {
         "title_pt1": "¿Necesitas asesoría en propiedad horizontal? Estamos aquí para",
         "title_span": "guiarte en todas tus decisiones y resolver tus inquietudes.",
-        "title_pt2": ""
+        "title_pt2": "",
+        "image": "/images/experts/osman.png"
       },
       "form":{
         "title1": "Nuestro equipo de",

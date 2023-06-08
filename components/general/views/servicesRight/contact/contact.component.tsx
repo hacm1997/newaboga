@@ -6,8 +6,8 @@ export default function ContactComponent(props: any) {
 
     return (
         <>
-            <div className={'flex items-center justify-center pt-[50px] xl:pt-10 gap-0 ' + styles.general_content}>
-                <div className={'w-[45%] -mt-20 '+styles.principal_text}>
+            <div className={'flex items-center justify-center pt-[50px] xl:pt-10 gap-10 ' + styles.general_content}>
+                <div className={'w-[50%] -mt-20 '+styles.principal_text}>
                     <div className='float-right '>
                         <div className={'flex w-[400px]  ' + styles.text}>
                             <p>
@@ -26,8 +26,8 @@ export default function ContactComponent(props: any) {
                         </div>
                     </div>
                 </div>
-                <div className={'w-[55%] pr-32 -ml-12 '+styles.people}>
-                    <img src='/images/servicios/contact/people-contact.png' alt='Persona-asesor' title='Persona asesorada' />
+                <div className={'w-[50%] pr-32 -ml-12 '+styles.people}>
+                    <img src={t(`${props.typeService}.${props.service}.need_assessor.image`)} alt='Persona-asesor' title='Persona asesorada' />
                 </div>
             </div>
         </>
