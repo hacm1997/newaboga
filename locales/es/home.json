@@ -89,7 +89,7 @@
       {
         "img": "/images/home/services/default_icon2_color.png",
         "img_hover": "/images/home/services/default_icon2.png",
-        "expert_img": "/images/experts/juan-jose.png",
+        "expert_img": "/images/experts/keiry.png",
         "title": "Derecho laboral",
         "link": "/servicio-empresas/derecho-laboral",
         "description": "Asesoramos y representamos a empresas sobre asuntos contractuales, salariales y despidos. Para que no incurran en conductas contrarias a la ley. Nuestro equipo de abogados expertos en derecho laboral, te ayudarán y acompañarán durante todo el proceso."
@@ -105,7 +105,7 @@
       {
         "img": "/images/home/services/default_icon2_color.png",
         "img_hover": "/images/home/services/default_icon2.png",
-        "expert_img": "/images/experts/juan-jose.png",
+        "expert_img": "/images/experts/osman.png",
         "title": "Derecho civil",
         "link": "/servicio-empresas/derecho-civil",
         "description": "Ofrecemos asesoría legal para empresas y personas naturales, previniendo problemas legales y brindando soluciones personalizadas en temas jurídicos, desde redacción de contratos hasta representación en juicios civiles."
@@ -114,7 +114,7 @@
         "id": "0",
         "img": "/images/home/services/default_icon2_color.png",
         "img_hover": "/images/home/services/default_icon2.png",
-        "expert_img": "/images/experts/keiry.png",
+        "expert_img": "/images/experts/juan-jose.png",
         "title": "Derecho consumidor y competencia desleal",
         "link": "/servicio-empresas/derecho-consumidor-competencia-desleal",
         "description": "Asesoramos y representamos a su empresa para que no incurran en actos que puedan perjudicarlos o que las acciones que realice otra empresa no los perjudique. Nuestro equipo de abogados expertos en derecho del consumidor, te ayudarán y acompañarán durante todo el proceso."
@@ -122,7 +122,7 @@
       {
         "img": "/images/home/services/default_icon2_color.png",
         "img_hover": "/images/home/services/default_icon2.png",
-        "expert_img": "/images/experts/juan-jose.png",
+        "expert_img": "/images/experts/osman.png",
         "title": "Propiedad Horizontal",
         "link": "/servicio-empresas/propiedad-horizontal",
         "description": "Ofrecemos servicios jurídicos y asesorías para empresas sobre la gestión de edificios, condominios y conjuntos. Nuestro equipo de abogados expertos en propiedad horizontal, te ayudarán y acompañarán durante todo el proceso."

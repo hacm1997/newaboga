@@ -85,13 +85,23 @@
 }
 
 .hover2 h3{
+    transition: 1s;
     font-size: 14px;
     width: 130px;
 }
 
 .hover2 a img{
+    transition: 1s;
     width: 50%;
     padding-top: 40px;
+}
+.hover a img:hover{
+    transition: 0.5s;
+    transform: translateY(5px);
+}
+.hover2 a img:hover{
+    transition: 0.5s;
+    transform: translateX(5px);
 }
 
 .card:hover{
