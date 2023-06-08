@@ -49,9 +49,20 @@
 .description{
     display: none;
 }
+.description2{
+    display: none;
+}
 .description p{
     font-size: 11px;
-    background: rgba(0, 67, 119, 0.295) 0%;
+    /* background: rgba(0, 67, 119, 0.295) 0%; */
+    font-weight: 700;
+    height: 175px;
+    border-radius: 20px;
+}
+.description2{
+    margin-top: -10px;
+    font-size: 11px;
+    /* background: rgba(0, 67, 119, 0.295) 0%; */
     font-weight: 700;
     height: 175px;
     border-radius: 20px;
@@ -60,11 +71,17 @@
     display: none;
 }
 .expert_back_img{
-    z-index: -1;
-    display: none;
+    z-index: -2;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    transition: .5s;
+    backdrop-filter: blur(10px);
+    opacity: 0;
 }
 .expert_back_img img{
-    width: 60%;
+    width: 59.7%;
+    object-fit: cover;
 }
 
 .hover2 h3{
@@ -72,18 +89,46 @@
     width: 130px;
 }
 
+.hover2 a img{
+    width: 50%;
+    padding-top: 40px;
+}
+
 .card:hover{
     background: linear-gradient(0deg, rgba(0,68,119,1) 0%, rgba(0,157,255,1) 100%);
+    box-shadow: 0px 4px 20px 3px rgb(0 0 0 / 10%);
     border: 0;
-    transform: translateY(-5px);
+    transform: translateY(-7px);
     transition: 1s;
     border-radius: 15px;
 }
+.card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(23, 57, 131, 0.589);
+    z-index: -1;
+    opacity: 0;
+    border-radius: 15px;
+}
+
+.card:hover:before {
+    opacity: 1;
+}
+
+
 .card:hover .hover{
     opacity: 1;
 }
 .card:hover .hover2{
     opacity: 1;
+}
+
+.card:hover .hover2 a img{
+    padding-top: 0;
 }
 
 .card:hover .img_principal{
@@ -99,7 +144,11 @@
     display: flex;
     align-items: center;
     padding-top: 10px;
-
+}
+.card:hover .description2{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
 }
 .card:hover .title_card{
     transition: 1s;
@@ -109,10 +158,10 @@
     color: #FFFFFF;
 }
 .card:hover .expert_back_img{
-    display: block;
-    position: absolute;
-    top: 26%;
-    left: 0%;
+    opacity: 1;
+    backdrop-filter: blur(0px);
+    /* top: 26%;
+    left: 0%; */
 }
 
 .button{

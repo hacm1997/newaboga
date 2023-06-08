@@ -40,17 +40,17 @@ export default function ServicesComponent(props:any){
                                 <a>
                                     <img className={styles.img_second} src={item.img_hover} alt="Servicios" title={item.title} />
                                 </a>
-                                <div className={item.title === "0" ? "opacity-0 "+styles.hover2 : "opacity-0 "+styles.hover}>
+                                <div className={item.id === "0" ? "opacity-0 "+styles.hover2 : "opacity-0 "+styles.hover}>
                                     <h3 className={"w-full pl-[18px] "+styles.title_hover}>{item.title}</h3>
-                                    <a onClick={() => analytic2(item.title)}>
+                                    <a onClick={() => analytic2(item.title)} href={item.link}>
                                         <img className="pl-[18px] pt-1" src="/images/home/services/arrow_button.png" alt="Button" title={item.title} />
                                     </a>
-                                    {/* <div className={styles.expert_back_img}>
-                                        <img src={item.expert_img} />
-                                    </div> */}
+                                </div>
+                                <div className={styles.expert_back_img}>
+                                    <img src={item.expert_img} />
                                 </div>
                             </div>
-                            <div className={"w-full "+styles.description}>
+                            <div className={item.id === "0" ? "w-full "+styles.description2 : "w-full "+styles.description}>
                                 <p className="pt-4">
                                     {item.description}
                                 </p>
@@ -60,6 +60,8 @@ export default function ServicesComponent(props:any){
                                 <h3 className="self-start">{item.title}</h3>
                                 <img className="pl-8 w-18 h-8 " src="/images/home/services/arrow_button1.png" alt="Arrow" title={item.title} />
                             </div>
+
+                            
                         </div>
                     )): null}
                 </div>

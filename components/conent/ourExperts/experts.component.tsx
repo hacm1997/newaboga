@@ -20,14 +20,30 @@ export default function ExpertsComponent(props:any){
     const serciveName = router.asPath.includes('servicio-empresas') ? 'empresas' : 'personas'
     const experts_id = t<any>(`${serciveName}.${props.service}.experts_id`, [], {returnObjects: true})
 
+    const identifyGender = item_experts?.filter((item:any) => experts_id.includes(item.id)).map((item: any, index: any) => {
+        if(item.gender === 'female'){
+            return (
+                <div className="flex justify-center" key={index}>
+                    <h2>Nuestra <span>Experta</span></h2>
+                </div>
+            )
+        }else{
+            return (
+                <div className="flex justify-center" key={index}>
+                    <h2>Nuestro <span>Experto</span></h2>
+                </div>
+            )
+        }
+    })
+        
+    
+
     return(
         <>
             <div className={styles.section}>
                 <div className={styles.general}>
                     <div className="pl-0 xl:pl-24 w-full ">
-                        <div className="flex justify-center">
-                            <h2>{t('our_experts.title')} <span>{t('our_experts.title_pt2')}</span></h2>
-                        </div>
+                        {identifyGender}
 
                         <div className={styles.content_swiper}>
                             <Swiper
