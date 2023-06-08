@@ -99,6 +99,7 @@
         "description": "Ofrecemos asesoría legal para empresas y personas naturales, previniendo problemas legales y brindando soluciones personalizadas en temas jurídicos, desde redacción de contratos hasta representación en juicios civiles."
       },
       {
+        "id": "0",
         "img": "/images/home/services/default_icon2_color.png",
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/keiry.png",
