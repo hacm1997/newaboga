@@ -21,7 +21,7 @@ export default function FormServiceComponent(props: any) {
     ));
     const submitForm = (e:any) => {
         e.preventDefault();
-        props.gaEventTracker('Clic Contactar - Formulario servicios');
+        props.gaEventTracker(`Clic Contactar - Formulario ${t(`${props.typeService}.${props.service}.title`)}`);
         NotifierEmail(valuesForm);
     }
 
@@ -31,7 +31,7 @@ export default function FormServiceComponent(props: any) {
 
     return (
         <>
-            <div className={'block md:flex items-center place-content-around ' + styles.background}>
+            <div id='Form' className={'block md:flex items-center place-content-around ' + styles.background}>
                 <div className='w-full md:w-[28%] mt-0 md:-mt-36 float-none md:float-right '>
                     <div className='pb-24'>
                         <img src='/images/squards_white.png' alt="Recurso-gráfico" title='recurso cuadros'/>

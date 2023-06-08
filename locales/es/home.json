@@ -23,6 +23,7 @@
         "expert_img": "/images/experts/osman.png",
         "link": "/servicio-personas/propiedad-horizontal",
         "title": "Propiedad Horizontal",
+        "link": "propiedad-horizontal",
         "description": "Ofrecemos servicios jurídicos completos y personalizados para resolver conflictos que se presenten entre los copropietarios y residentes, o entre los copropietarios y la propiedad horizontal, ofrecemos soluciones efectivas y eficientes, para la sana convivencia y el correcto funcionamiento en la copropiedad."
       },
       {
@@ -30,6 +31,7 @@
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/keiry.png",
         "title": "Derecho laboral",
+        "link": "derecho-laboral",
         "description": "Nuestro objetivo principal es proteger tus derechos como trabajador y brindarte las herramientas necesarias para enfrentarte a cualquier situación laboral, con el fin de obtener resultados justos y equitativos."
       },
       {
@@ -37,6 +39,7 @@
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/juan-jose.png",
         "title": "Derecho penal",
+        "link": "derecho-penal",
         "description": "Entendemos la importancia de tu libertad y reputación, y sabemos que se pueden ver comprometidas cuando nos enfrentamos a situaciones penales, por eso, ofrecemos asesorías y representación en las etapas preliminares y de juicio oral de sus asuntos en materia penal."
       },
       {
@@ -44,6 +47,7 @@
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/keiry.png",
         "title": "Derecho constitucional",
+        "link": "derecho-constitucional",
         "description": "Ofrecemos asesoramiento y representación legal en situaciones penales para proteger los derechos y libertades de nuestros clientes. Buscamos el mejor resultado posible en cada caso. Si necesita ayuda en asuntos penales, contáctenos, estamos aquí para proteger sus intereses y libertad."
       },
       {
@@ -51,6 +55,7 @@
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/juan-jose.png",
         "title": "Derecho del consumidor",
+        "link": "derecho-consumidor",
         "description": "Protegemos sus derechos como consumidor con nuestros servicios legales en derecho del consumidor. Brindamos asesoramiento experto y defensa eficaz para resolver conflictos y reclamaciones de manera justa y equitativa."
       },
       {
@@ -58,6 +63,7 @@
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/keiry.png",
         "title": "Derecho civil",
+        "link": "derecho-civil",
         "description": "Entendemos la importancia de proteger tus derechos y resolver controversias civilmente, por esto, trabajamos de forma personalizada y revisamos en cada caso todos los detalles, con el objetivo de encontrar las mejores estrategias y soluciones."
       },
       {
@@ -78,6 +84,7 @@
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/keiry.png",
         "title": "Derecho comercial",
+        "link": "derecho-comercial",
         "description": "Ofrecemos asesoramiento y representación legal en derecho comercial para empresas y personas naturales. Nuestros servicios incluyen creación y revisión de contratos, resolución de conflictos comerciales, asesoría en estructuración de empresas y demás asuntos relacionados con la actividad empresarial."
       },
       {
@@ -85,6 +92,7 @@
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/juan-jose.png",
         "title": "Derecho laboral",
+        "link": "derecho-laboral",
         "description": "Asesoramos y representamos a empresas sobre asuntos contractuales, salariales y despidos. Para que no incurran en conductas contrarias a la ley. Nuestro equipo de abogados expertos en derecho laboral, te ayudarán y acompañarán durante todo el proceso."
       },
       {
@@ -92,6 +100,7 @@
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/keiry.png",
         "title": "Derecho Tributario",
+        "link": "derecho-tributario",
         "description": "Brindamos asesoría en asuntos tributarios, con el propósito de prevenir que su empresa sea sancionada y, así, garantizar el crecimiento seguro de su compañía. Nuestro equipo de abogados expertos en derecho tributario, te ayudarán y acompañarán durante todo el proceso."
       },
       {
@@ -99,6 +108,7 @@
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/juan-jose.png",
         "title": "Derecho civil",
+        "link": "derecho-civil",
         "description": "Ofrecemos asesoría legal para empresas y personas naturales, previniendo problemas legales y brindando soluciones personalizadas en temas jurídicos, desde redacción de contratos hasta representación en juicios civiles."
       },
       {
@@ -107,6 +117,7 @@
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/keiry.png",
         "title": "Derecho consumidor y competencia desleal",
+        "link": "derecho-consumidor-competencia-desleal",
         "description": "Asesoramos y representamos a su empresa para que no incurran en actos que puedan perjudicarlos o que las acciones que realice otra empresa no los perjudique. Nuestro equipo de abogados expertos en derecho del consumidor, te ayudarán y acompañarán durante todo el proceso."
       },
       {
@@ -114,6 +125,7 @@
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/juan-jose.png",
         "title": "Propiedad Horizontal",
+        "link": "propiedad-horizontal",
         "description": "Ofrecemos servicios jurídicos y asesorías para empresas sobre la gestión de edificios, condominios y conjuntos. Nuestro equipo de abogados expertos en propiedad horizontal, te ayudarán y acompañarán durante todo el proceso."
       }
     ]

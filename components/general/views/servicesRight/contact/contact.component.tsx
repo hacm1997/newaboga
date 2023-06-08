@@ -17,9 +17,11 @@ export default function ContactComponent(props: any) {
                             </p>
                         </div>
                         <div className={'pt-10  '+styles.contact_button}>
-                            <button onClick={props.gaEventTracker(`Clic Agendar cita 5 - ${t(`${props.typeService}.${props.service}.title`)}`)}>
-                                {t('general_button')}
-                            </button>
+                            <a onClick={props.gaEventTracker(`Clic Agendar cita 5 - ${t(`${props.typeService}.${props.service}.title`)}`)} href='#Form'>
+                                <button>
+                                    {t('general_button')}
+                                </button>
+                            </a>
                         </div>
                         <div className={'pt-32 md:pt-10 lg:pt-32 '+styles.arrow_top}>
                             <img src='/images/servicios/contact/arrow-top.png' alt='Arrow' title='Arrow top' />

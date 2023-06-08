@@ -1,6 +1,10 @@
 import styles from './extraInfo.module.css';
 
 export default function ExtraInfoComponent(props:any){
+    const analytics = () =>{
+        props.gaEventTracker('Asesorias legales - Clic contratar 4');
+        window.location.href = "#Form"
+    }
 
     return(
         <>
@@ -34,7 +38,7 @@ export default function ExtraInfoComponent(props:any){
                                 {props.translate('asesorias:extra_info.text2')}
                             </p>
                             <div className="flex justify-center sm:justify-normal">
-                                <button>{props.translate('asesorias:general_button2')}</button>
+                                <button onClick={analytics}>{props.translate('asesorias:general_button2')}</button>
                             </div>
                         </div>
                     </div>

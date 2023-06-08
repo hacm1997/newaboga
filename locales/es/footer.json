@@ -5,6 +5,7 @@
   },
   "contact": {
     "title": "Contáctanos",
+    "google_map": "https://goo.gl/maps/Eovd7qKibjcrhuSHA",
     "direction": "Transversal 54 # 21a 120",
     "direction2": "Edificio Bosque Ejectutivo Oficina 702",
     "direction3": "Cartagena, Bolívar, Colombia",
@@ -21,19 +22,23 @@
   "social": {
     "item": [
       {
+        "name": "Instagram",
         "icon": "bx bxl-instagram",
         "link": "https://www.instagram.com/abogacol_/"
       },
       {
+        "name": "LinkdIn",
         "icon": "bx bxl-linkedin",
         "link": "https://www.linkedin.com/company/aboga-s-a-s/?viewAsMember=true"
       },
       {
+        "name": "Facebook",
         "icon": "bx bxl-facebook",
         "link": "https://www.facebook.com/profile.php?id=100090863963031"
       },
 
       {
+        "name": "Twitter",
         "icon": "bx bxl-twitter",
         "link": "https://twitter.com/Abogacoll_"
       }
