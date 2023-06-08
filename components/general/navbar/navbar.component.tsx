@@ -73,11 +73,11 @@ export default function NavbarComponent(){
                                                     <div className={styles.dropdown_sub}>
                                                         <Link href={item.url} title={item.title} className={Array.isArray(item.sub_services) ? 'flex' : 'block'}>
                                                             <p className={router.asPath === item.url ? styles.active : ""}>
-                                                                {item.title} {Array.isArray(item.sub_services) ?
-                                                                <i className='bx bx-chevron-right'></i> : null}
+                                                                {item.title} {/*Array.isArray(item.sub_services) ?
+                                                                <i className='bx bx-chevron-right'></i> : null*/}
                                                             </p>
                                                         </Link>
-                                                        {Array.isArray(item.sub_services) ?
+                                                        {/*Array.isArray(item.sub_services) ?
                                                             <div className={styles.dropdown_content_sub}>
                                                                 {
                                                                     Array.isArray(item.sub_services) ? item.sub_services.map((it:any, i:number) => (
@@ -89,7 +89,7 @@ export default function NavbarComponent(){
                                                                     ))
                                                                 : null}
                                                             </div>
-                                                        :null}
+                                                                    :null*/}
                                                     </div>
                                                 </div>
                                             )

@@ -10,10 +10,8 @@ export default function FooterComponent(){
                 <div className="w-56 ">
                     <img src='/images/logo-aboga-white.png' alt="Aboga" title="Logo Aboga Blanco" />
                     <h4 className="pt-6">Sobre nosotros</h4>
-                    <p className={"pt-6 w-58 "}>
-                        Lorem ipsum dolor sit amet, conse
-                        tetuer adipiscing elit, sed diam
-                        nonummy nibh euismod tincidunt ut.
+                    <p className={"pt-6 w-64 "}>
+                        {t('about.content')}
                     </p>
                 </div>
                 <div className="w-68 ">
@@ -26,21 +24,22 @@ export default function FooterComponent(){
                             </svg>
                             <p>
                                 {t('contact.direction')}<br/>
-                                {t('contact.direction2')}
+                                {t('contact.direction2')}<br/>
+                                {t('contact.direction3')}
                             </p>
                         </div>
                         <div className="flex gap-8 items-center ">
                             <i className='bx bxs-phone'></i>
                             <p>
-                                (+57) 300 123 4567<br/>
-                                (+57) 312 234 5678
+                                {t('contact.phone')}
                             </p>
                         </div>
                         <div className="flex gap-8 items-center ">
                             <i className='bx bx-time-five'></i>
                             <p>
-                                Horario de atención<br/>
-                                9:00 am a 7:00 pm
+                                {t('schedule.title')}:<br/>
+                                {t('schedule.title2')}<br/>
+                                {t('schedule.content')}
                             </p>
                         </div>
                     </div>
