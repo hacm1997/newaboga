@@ -1,6 +1,9 @@
 import styles from './banner.module.css';
 
 export default function BannerAdviceComponent(props: any) {
+    const analytics = () =>{
+        props.gaEventTracker(`Asesorias legales - Clic Agendar cita 1`);
+    }
 
     return (
         <>
@@ -14,9 +17,11 @@ export default function BannerAdviceComponent(props: any) {
                             {props.translate('asesorias:banner_content.description')}
                         </p>
                         <div className={"pl-32 w-4/4 pt-4 sm:pl-18 " + styles.button}>
-                            <button >
-                                {props.translate('home:button')}
-                            </button>
+                            <a onClick={analytics} href='#Form'>
+                                <button>
+                                    {props.translate('home:button')}
+                                </button>
+                            </a>
                         </div>
                         <div className="pl-32 w-[18rem] pt-4 sm:pl-18 relative top-[203px] hidden md:block">
                             <img

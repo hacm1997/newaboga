@@ -22,7 +22,7 @@ export default function FormComponent(props:any){
 
     const submitForm = (e:any) => {
         e.preventDefault();
-        props.gaEventTracker(`Clic Contactar - Formulario ${props.id}`);
+        props.gaEventTracker(`Asesorias legales - Formulario ${props.id}`);
         NotifierEmail(valuesForm);
     }
 
@@ -32,7 +32,7 @@ export default function FormComponent(props:any){
 
     return(
         <>
-            <div className={router.asPath === '/asesorias-legales' ? "h-[auto] block p-5 md:flex md:p-0 place-content-around items-center bg-contain bg-no-repeat "+styles.content_general_advice :
+            <div id="Form" className={router.asPath === '/asesorias-legales' ? "h-[auto] block p-5 md:flex md:p-0 place-content-around items-center bg-contain bg-no-repeat "+styles.content_general_advice :
                 "h-[auto] block p-5 md:flex md:p-0 place-content-around items-center bg-contain bg-no-repeat "+styles.content_general}>
                 <div className={styles.title}>
                     {router.asPath === '/asesorias-legales' ?

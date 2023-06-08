@@ -18,9 +18,11 @@ export default function RightBannerComponent(props:any){
                         <h1>{t(`${props.typeService}.${props.service}.banner.title`)}</h1>
                         <p className="pt-6">{t(`${props.typeService}.${props.service}.banner.description`)}</p>
                         <div className="flex justify-center md:block">
-                            <button onClick={props.gaEventTracker(`CLic Agendar cita 1 - ${t(`${props.typeService}.${props.service}.title`)}`)}>
-                                {t('general_button')}
-                            </button>
+                            <a onClick={props.gaEventTracker(`Clic Agendar cita 1 - ${t(`${props.typeService}.${props.service}.title`)}`)} href='#Form'>
+                                <button>
+                                    {t('general_button')}
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>

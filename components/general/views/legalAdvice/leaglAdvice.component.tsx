@@ -60,9 +60,9 @@ export default function LegalAdviceComponent(){
 
     return(
         <>
-            <BannerAdviceComponent translate={t}/>
-            <PackagesComponent translate={t} packages_items={packages_items}/>
-            <ExtraInfoComponent translate={t}/>
+            <BannerAdviceComponent translate={t} gaEventTracker={gaEventTracker}/>
+            <PackagesComponent translate={t} packages_items={packages_items} gaEventTracker={gaEventTracker}/>
+            <ExtraInfoComponent translate={t} gaEventTracker={gaEventTracker}/>
             <FormComponent translate={t} setSelectDpto={setSelectDpto} dpto={dpto} city={city} gaEventTracker={gaEventTracker} id={'Aseosrias legales'}/>
         </>
     );

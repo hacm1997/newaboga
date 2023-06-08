@@ -19,7 +19,7 @@ export default function ServicesComponent(props:any){
         props.gaEventTracker('Inicio: Agendar cita 2');
     }
     const analytic2 = (name:string) =>{
-        props.gaEventTracker(`Inicio: clic servicio `);
+        props.gaEventTracker(`Inicio: clic ${name}`);
     }
 
     return(

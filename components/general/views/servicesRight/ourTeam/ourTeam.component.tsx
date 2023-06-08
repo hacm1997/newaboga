@@ -13,9 +13,11 @@ export default function OurTeamComponent(props:any){
                             {t(`${props.typeService}.${props.service}.our_team.title`)} <span>{t(`${props.typeService}.${props.service}.our_team.title_span`)}</span>
                         </h2>
                         <div className="flex justify-center md:block">
-                            <button onClick={props.gaEventTracker(`Clic Agendar cita 2 - ${t(`${props.typeService}.${props.service}.title`)}`)}>
-                                {t('general_button')}
-                            </button>
+                            <a onClick={props.gaEventTracker(`Clic Agendar cita 2 - ${t(`${props.typeService}.${props.service}.title`)}`)} href='#Form'>
+                                <button>
+                                    {t('general_button')}
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>

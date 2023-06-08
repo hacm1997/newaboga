@@ -7,9 +7,10 @@ import {useRouter} from "next/router";
 import useAnalyticsEventTracker from "../../../services/analytics/useAnalyticsEventTracker";
 
 export default function NavbarComponent(){
-    const {t, lang} = useTranslation('header');
-    const service_persons = t<any>("nav.service_person.services", {}, {returnObjects: true});
-    const service_business = t<any>("nav.service_business.services", {}, {returnObjects: true});
+    const {t, lang} = useTranslation('');
+    const service_persons = t<any>("header:nav.service_person.services", {}, {returnObjects: true});
+    const service_business = t<any>("header:nav.service_business.services", {}, {returnObjects: true});
+    const social_networks = t<any>("footer:social.item", {}, {returnObjects: true});
     const [icon, setIcon] = useState("bx bx-menu-alt-right");
     const [menu, setMenu] = useState(styles.menu);
     const gaEventTracker = useAnalyticsEventTracker('Menu');
@@ -36,13 +37,13 @@ export default function NavbarComponent(){
                     <div className={"flex items-center pl-10 "+styles.list_menu}>
                         <ul className={"flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row gap-5 "+ menu}>
                             <li className={router.asPath === "/" ? styles.active : ""}>
-                                <Link href="/" title="Inicio" onClick={() => gaEventTracker('Clic menu inicio')}>{t('nav.home')}</Link>
+                                <Link href="/" title="Inicio" onClick={() => gaEventTracker('Clic menu inicio')}>{t('header:nav.home')}</Link>
                             </li>
 
                             <div className={styles.dropdown}>
 
                                <li className={router.asPath.split('/')[1] === 'servicio-personas' ? styles.active : ""}>
-                                   {t('nav.service_person.title')} <i className='bx bx-chevron-down'></i>
+                                   {t('header:nav.service_person.title')} <i className='bx bx-chevron-down'></i>
                                </li>
 
                                 <div className={styles.dropdown_content}>
@@ -62,7 +63,7 @@ export default function NavbarComponent(){
                             <div className={styles.dropdown}>
 
                                 <li className={router.asPath.split('/')[1] === 'servicio-empresas' ? styles.active : ""}>
-                                    {t('nav.service_business.title')} <i className='bx bx-chevron-down'></i>
+                                    {t('header:nav.service_business.title')} <i className='bx bx-chevron-down'></i>
                                 </li>
 
                                 <div className={styles.dropdown_content}>
@@ -98,18 +99,20 @@ export default function NavbarComponent(){
                                 </div>
                             </div>
                             <li className={router.asPath === "/asesorias-legales" ? styles.active : ""}>
-                                <Link href="/asesorias-legales" title="Advices">{t('nav.advice')}</Link>
+                                <Link href="/asesorias-legales" title="Advices">{t('header:nav.advice')}</Link>
                             </li>
                             <div className="flex-initial w-32 items-center ">
-                                <div className={"flex w-auto gap-4 "+ styles.socials_mob}>
-
-                                    <a className="w-9">
-                                        <i className='bx bxl-instagram'></i>
+                                <div className={"flex w-auto gap-2 "+ styles.socials_mob}>
+                                {social_networks?.map((item:any, index:number) => (
+                                    <a  key={index} 
+                                        className="w-9"
+                                        href={item.link} target='_blank' 
+                                        onClick={() => gaEventTracker(`Clic menu: ${item.name}`)}
+                                        title={item.name}
+                                    >
+                                        <i className={item.icon}></i>
                                     </a>
-                                    <a className="w-9">
-                                        <i className='bx bxl-facebook'></i>
-                                    </a>
-
+                                ))}
                                 </div>
                             </div>
                         </ul>
@@ -117,16 +120,18 @@ export default function NavbarComponent(){
                     </div>
 
                 </div>
-                <div className="flex-initial w-32 items-center ">
-                    <div className={"flex w-auto gap-4 "+ styles.socials}>
-
-                        <a className="w-9">
-                            <i className='bx bxl-instagram'></i>
-                        </a>
-                        <a className="w-9">
-                            <i className='bx bxl-facebook'></i>
-                        </a>
-
+                <div className="flex-initial w-34 items-center ">
+                    <div className={"flex w-auto gap-2 "+ styles.socials}>
+                        {social_networks?.map((item:any, index:number) => (
+                            <a  key={index} 
+                                className="w-9"
+                                href={item.link} target='_blank' 
+                                onClick={() => gaEventTracker(`Clic menu: ${item.name}`)}
+                                title={item.name}
+                            >
+                                <i className={item.icon}></i>
+                            </a>
+                        ))}
                     </div>
                 </div>
                 <div onClick={handleMenu} className={styles.botonMovil}>
