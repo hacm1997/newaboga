@@ -40,12 +40,12 @@
       {
         "id": 3,
         "gender": "female",
-        "name": "Liz",
+        "name": "Liz Buendía Tatis",
         "photo": "/images/experts/liz.png",
-        "position": "Profesional",
-        "ability": "Esp. en Derecho civil, comercial, propiedad horizontal y derecho administrativo",
-        "description": "Con 10 meses de experiencia en la rama judicial y 4 meses de experiencia en la casa del consumidor.",
-        "exp_number": "1⁺",
+        "position": "Abogada",
+        "ability": "Profesional en Derecho, con un enfoque en las áreas de derecho laboral y derecho de familia",
+        "description": "Con 2 años de experiencia en empresas nacionales en la creación de contratos laborales, respuestas a PQR, tutelas e incidentes de desacato y 9 meses de experiencia en la Rama Judicial en el análisis y proyección de asuntos constitucionales y penales",
+        "exp_number": "2⁺",
         "exp_text": "Años de experiencia"
       }
     ]
@@ -68,7 +68,7 @@
   "personas": {
     "derecho-administrativo": {
       "title": "Derecho administrativo",
-      "experts_id": "[0,1]",
+      "experts_id": "[0]",
       "banner": {
         "title": "¡Obtén la ayuda legal que necesitas para tu proceso de separación!",
         "description": "¿Te encuentras en un proceso de separación con tu pareja y necesitas orientación legal confiable? ¿te gustaría saber como se dividen los bienes? En ABOGA, entendemos que la separación puede ser un momento\nemocionalmente difícil y legalmente complejo."

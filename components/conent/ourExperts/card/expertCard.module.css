@@ -29,7 +29,7 @@
     border-radius: 20px;
     z-index: -1;
     padding-top: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     padding-left: 180px;
 }
 
@@ -37,20 +37,20 @@
     color: #FFFFFF;
 }
 .info h5{
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 600;
 }
 .info p:nth-child(5){
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 200;
 }
 .info p:nth-child(2){
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
 }
 .info p:nth-child(3){
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .exp div{

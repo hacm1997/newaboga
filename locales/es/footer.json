@@ -1,18 +1,19 @@
 {
   "about": {
     "title": "Sobre nosotros",
-    "content": "Somos una empresa caracterizada por el compromiso en la defensa de los intereses jurídicos de las personas y empresas, con un enfoque multidisciplinar. Su caso es importante para nosotros, contáctenos. "
+    "content": "Somos una empresa caracterizada por el compromiso en la defensa de los intereses jurídicos de las personas y empresas, con un enfoque multidisciplinar. Su caso es importante para nosotros, contáctenos."
   },
   "contact": {
     "title": "Contáctanos",
-    "direction": "Calle 29a #22-46 Esquina",
-    "direction2": "Cartagena, Bolívar, Colombia",
-    "phone": "(+57) 300 123 4567",
-    "phone2": "(+57) 312 234 5678"
+    "direction": "Transversal 54 # 21a 120",
+    "direction2": "Edificio Bosque Ejectutivo Oficina 702",
+    "direction3": "Cartagena, Bolívar, Colombia",
+    "phone": "(+57) 324 238 2277"
   },
   "schedule": {
-    "title": "Lunes a Viernes",
-    "content": "9:00 a.m. a 7:00 p.m."
+    "title": "Horario de atención",
+    "title2": "Lunes a Viernes",
+    "content": "8:00 a.m. a 5:00 p.m."
   },
   "emails": {
     "email": "info@boga.co"

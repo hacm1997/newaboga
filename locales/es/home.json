@@ -63,7 +63,8 @@
       {
         "img": "/images/home/services/default_icon2_color.png",
         "img_hover": "/images/home/services/default_icon2.png",
-        "expert_img": "/images/experts/juan-jose.png",
+        "expert_img": "/images/experts/osman.png",
+        "link": "/servicio-personas/tramites-administrativos",
         "title": "Trámites administrativos",
         "description": "Simplificamos los trámites administrativos para personas, agilizando procesos en áreas como contratos, laboral, civil y constitucional, brindando soluciones legales eficientes y protegiendo tus derechos."
       }
