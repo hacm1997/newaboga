@@ -22,6 +22,10 @@
     color: #004477;
     font-weight: 600;
 }
+
+.title_card_extra{
+    padding-top: 0 !important;
+}
 .img_principal{
     height: 100px;
 }

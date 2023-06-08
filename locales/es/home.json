@@ -56,21 +56,14 @@
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/keiry.png",
         "title": "Derecho civil",
-        "description": "Ofrecemos asesoría legal para empresas y personas naturales, previniendo problemas legales y brindando soluciones personalizadas en temas jurídicos, desde redacción de contratos hasta representación en juicios civiles."
+        "description": "Entendemos la importancia de proteger tus derechos y resolver controversias civilmente, por esto, trabajamos de forma personalizada y revisamos en cada caso todos los detalles, con el objetivo de encontrar las mejores estrategias y soluciones."
       },
       {
         "img": "/images/home/services/default_icon2_color.png",
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/juan-jose.png",
-        "title": "Derecho consumidor",
-        "description": "Protegemos sus derechos como consumidor con nuestros servicios legales en derecho del consumidor. Brindamos asesoramiento experto y defensa eficaz para resolver conflictos y reclamaciones de manera justa y equitativa."
-      },
-      {
-        "img": "/images/home/services/default_icon2_color.png",
-        "img_hover": "/images/home/services/default_icon2.png",
-        "expert_img": "/images/experts/keiry.png",
-        "title": "Derecho Dev",
-        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+        "title": "Trámites administrativos",
+        "description": "Simplificamos los trámites administrativos para personas, agilizando procesos en áreas como contratos, laboral, civil y constitucional, brindando soluciones legales eficientes y protegiendo tus derechos."
       }
     ]
   },
@@ -88,8 +81,8 @@
         "img": "/images/home/services/default_icon2_color.png",
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/keiry.png",
-        "title": "Derecho comercialB",
-        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+        "title": "Derecho comercial",
+        "description": "Ofrecemos asesoramiento y representación legal en derecho comercial para empresas y personas naturales. Nuestros servicios incluyen creación y revisión de contratos, resolución de conflictos comerciales, asesoría en estructuración de empresas y demás asuntos relacionados con la actividad empresarial."
       },
       {
         "img": "/images/home/services/default_icon2_color.png",
@@ -123,15 +116,15 @@
         "img": "/images/home/services/default_icon2_color.png",
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/juan-jose.png",
-        "title": "Derecho civilB",
-        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+        "title": "Derecho civil",
+        "description": "Ofrecemos asesoría legal para empresas y personas naturales, previniendo problemas legales y brindando soluciones personalizadas en temas jurídicos, desde redacción de contratos hasta representación en juicios civiles."
       },
       {
         "img": "/images/home/services/default_icon2_color.png",
         "img_hover": "/images/home/services/default_icon2.png",
         "expert_img": "/images/experts/keiry.png",
-        "title": "Derecho consumidorB",
-        "description": "Podemos ayudarte en una amplia gama de asuntos legales, incluyendo divorcios, custodia de menores, manutención de menores, violencia doméstica y adopciones. Estamos comprometidos en encontrar la mejor solución para ti y tu familia en estas situaciones difíciles."
+        "title": "Derecho consumidor y competencia desleal",
+        "description": "Asesoramos y representamos a su empresa para que no incurran en actos que puedan perjudicarlos o que las acciones que realice otra empresa no los perjudique. Nuestro equipo de abogados expertos en derecho del consumidor, te ayudarán y acompañarán durante todo el proceso."
       },
       {
         "img": "/images/home/services/default_icon2_color.png",

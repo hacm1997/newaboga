@@ -55,7 +55,7 @@ export default function ServicesComponent(props:any){
                                     {item.description}
                                 </p>
                             </div>
-                            <div className={"flex pt-20 items-center align-baseline "+styles.title_card}>
+                            <div className={"flex pt-20 items-center align-baseline "+ item.title === 'Derecho consumidor y competencia desleal' ? styles.title_card_extra : styles.title_card}>
                                 <h3 className="self-start">{item.title}</h3>
                                 <img className="pl-8 w-18 h-8 " src="/images/home/services/arrow_button1.png" alt="Arrow" title={item.title} />
                             </div>
