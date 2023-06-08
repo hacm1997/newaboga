@@ -34,18 +34,18 @@
         "position": "Abogado profesional",
         "ability": "Esp. en Derecho civil, comercial, propiedad horizontal y derecho administrativo",
         "description": "Con 10 meses de experiencia en la rama judicial y 4 meses de experiencia en la casa del consumidor.",
-        "exp_number": "1⁺",
-        "exp_text": "Años de experiencia"
+        "exp_number": "10",
+        "exp_text": "Meses de experiencia"
       },
       {
         "id": 3,
         "gender": "female",
-        "name": "Liz",
+        "name": "Liz Buendía Tatis",
         "photo": "/images/experts/liz.png",
-        "position": "Profesional",
-        "ability": "Esp. en Derecho civil, comercial, propiedad horizontal y derecho administrativo",
-        "description": "Con 10 meses de experiencia en la rama judicial y 4 meses de experiencia en la casa del consumidor.",
-        "exp_number": "1⁺",
+        "position": "Abogada",
+        "ability": "Profesional en Derecho, con un enfoque en las áreas de derecho laboral y derecho de familia",
+        "description": "Con 2 años de experiencia en empresas nacionales en la creación de contratos laborales, respuestas a PQR, tutelas e incidentes de desacato y 9 meses de experiencia en la Rama Judicial en el análisis y proyección de asuntos constitucionales y penales",
+        "exp_number": "2⁺",
         "exp_text": "Años de experiencia"
       }
     ]
@@ -53,8 +53,8 @@
   "general_services_title": "Nuestros servicios incluyen",
   "form_general":{
     "form_data": {
-      "title_span": "¡Agenda una consulta con nosotros",
-      "title": "hoy mismo y deja que te ayudemos a navegar por tu proceso de separación con profesionalismo y compasión!",
+      "title_span": "Llena este formulario",
+      "title": "y nos contactaremos contigo para resolver tus problemas.",
       "dpto": "Departamento",
       "city": "Ciudad",
       "address": "Dirección",
@@ -68,7 +68,7 @@
   "personas": {
     "derecho-administrativo": {
       "title": "Derecho administrativo",
-      "experts_id": "[0,1]",
+      "experts_id": "[0]",
       "banner": {
         "title": "¡Obtén la ayuda legal que necesitas para tu proceso de separación!",
         "description": "¿Te encuentras en un proceso de separación con tu pareja y necesitas orientación legal confiable? ¿te gustaría saber como se dividen los bienes? En ABOGA, entendemos que la separación puede ser un momento\nemocionalmente difícil y legalmente complejo."
@@ -290,7 +290,7 @@
       "title": "Derecho civil",
       "experts_id": "[2]",
       "banner": {
-        "title": "¿Necesitas asesoramiento legal en temas relacionados con el derecho Comercial? ¡Estamos aquí para ayudarte!.",
+        "title": "¿Necesitas asesoramiento legal en temas relacionados con el derecho civil? ¡Estamos aquí para ayudarte!",
         "description": "En ABOGA ofrecemos asesoría legal para empresas, previniendo problemas legales y brindando soluciones personalizadas en temas jurídicos, desde redacción de contratos hasta representación en juicios civiles."
       },
       "our_team": {
@@ -303,41 +303,42 @@
         {
           "img": "/images/servicios/our-services/logo-asesoria.png",
           "title": "Asuntos Inmobiliarios",
-          "description": "Nuestros abogados altamente calificados te brindarán asesoramiento legal personalizado, teniendo en cuenta tu situación única y tus necesidades específicas. Te ayudaremos a entender tus derechos y opciones legales en el proceso de separación, incluyendo la división de bienes, la custodia de los hijos, el mantenimiento o la pensión alimenticia, y otros aspectos relevantes.",
+          "description": "",
           "bg_color": "blue"
         },
         {
           "img": "/images/servicios/our-services/logo-negociacion.png",
           "title": "Demandas",
-          "description": "Nos esforzamos por encontrar soluciones amistosas y equitativas para resolver los conflictos en el proceso de separación. Nuestros abogados son expertos en la negociación y la mediación, y trabajaremos para llegar a acuerdos justos y favorables para ti, evitando costosos y prolongados litigios en la medida de lo posible.",
+          "description": "",
           "bg_color": "white"
         },
         {
           "img": "/images/servicios/our-services/logo-representacion.png",
           "title": "Titulación de inmuebles.",
-          "description": "Si el proceso de separación se vuelve más complicado y requiere acciones legales más formales, nuestro equipo de abogados está preparado para representarte en los tribunales. Defendemos tus derechos en litigios de derecho familiar, asegurándonos de que tus intereses estén protegidos y abogando enérgicamente en tu nombre.",
+          "description": "",
           "bg_color": "white"
         },
         {
           "img": "/images/servicios/our-services/logo-soluciones.png",
           "title": "Procesos ejecutivos",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
+          "description": "",
           "bg_color": "blue"
         },
         {
           "img": "/images/servicios/our-services/logo-soluciones.png",
           "title": "Elaboración de cobros prejurídicos",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
+          "description": "",
           "bg_color": "blue"
         },
         {
           "img": "/images/servicios/our-services/logo-soluciones.png",
           "title": "Acuerdos de pagos",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
+          "description": "",
           "bg_color": "blue"
         }
       ],
       "need_assessor": {
+        "image": "/images/experts/osman.png",
         "title_pt1": "Nos encargamos de la",
         "title_span": "representación judicial y extrajudicial",
         "title_pt2": "de nuestros clientes."
@@ -352,197 +353,343 @@
       "title": "Derecho Comercial",
       "experts_id": "[0]",
       "banner": {
-        "title": "¿Necesitas asesoramiento legal en temas relacionados con el derecho Comercial? ¡Estamos aquí para ayudarte!.",
-        "description": "En ABOGA ofrecemos asesoramiento y representación legal en derecho comercial para empresas y personas naturales."
+        "title": "Servicios legales para empresas: Asesoría integral en trámites societarios, contratos comerciales y marcas",
+        "description": "En ABOGA ofrecemos asesoramiento y representación legal en derecho comercial para pequeñas y medianas empresas o personas naturales"
       },
       "our_team": {
-        "title": "Nuestro equipo de abogados expertos en derecho del consumidor,",
-        "title_span": "te ayudarán y acompañarán en todo el proceso.",
-        "title2": "Te brindaremos el apoyo y la asesoría legal que necesitas para",
-        "title2_span": "proteger tus derechos comerciales."
+        "title": "Es importante que los propietarios de pequeñas y medianas empresas tengan un",
+        "title_span": "conocimiento básico del derecho comercial",
+        "title2": "Nuestro equipo de abogados expertos en derecho del comercial,",
+        "title2_span": "te ayudarán y acompañarán durante todo el proceso."
       },
       "our_services": [
         {
           "img": "/images/servicios/our-services/logo-asesoria.png",
           "title": "Trámites societarios, revisión y modificación de estatutos.",
-          "description": "Nuestros abogados altamente calificados te brindarán asesoramiento legal personalizado, teniendo en cuenta tu situación única y tus necesidades específicas. Te ayudaremos a entender tus derechos y opciones legales en el proceso de separación, incluyendo la división de bienes, la custodia de los hijos, el mantenimiento o la pensión alimenticia, y otros aspectos relevantes.",
+          "description": "",
           "bg_color": "blue"
         },
         {
           "img": "/images/servicios/our-services/logo-negociacion.png",
           "title": "Operaciones societarias (fusión, escisión y adquisiciones)",
-          "description": "Nos esforzamos por encontrar soluciones amistosas y equitativas para resolver los conflictos en el proceso de separación. Nuestros abogados son expertos en la negociación y la mediación, y trabajaremos para llegar a acuerdos justos y favorables para ti, evitando costosos y prolongados litigios en la medida de lo posible.",
+          "description": "",
           "bg_color": "white"
         },
         {
           "img": "/images/servicios/our-services/logo-representacion.png",
           "title": "Creación de modelos/minutas comerciales.",
-          "description": "Si el proceso de separación se vuelve más complicado y requiere acciones legales más formales, nuestro equipo de abogados está preparado para representarte en los tribunales. Defendemos tus derechos en litigios de derecho familiar, asegurándonos de que tus intereses estén protegidos y abogando enérgicamente en tu nombre.",
+          "description": "",
           "bg_color": "white"
         },
         {
           "img": "/images/servicios/our-services/logo-soluciones.png",
           "title": "Constitución de sociedades",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
+          "description": "",
           "bg_color": "blue"
         },
         {
           "img": "/images/servicios/our-services/logo-soluciones.png",
           "title": "Revisión de contratos con proveedores.",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
+          "description": "",
           "bg_color": "blue"
         },
         {
-          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "img": "/images/servicios/our-services/logo-representacion.png",
           "title": "Contratación comercial",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
+          "description": "",
           "bg_color": "white"
         },
         {
-          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "img": "/images/servicios/our-services/logo-representacion.png",
           "title": "Asesoría en la realización de acuerdos comerciales",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
+          "description": "",
           "bg_color": "white"
         },
         {
           "img": "/images/servicios/our-services/logo-soluciones.png",
           "title": "Examen de registrabilidad de marcas y signos distintivos",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
+          "description": "",
           "bg_color": "blue"
         }
       ],
       "need_assessor": {
-        "title_pt1": "Además de los servicios expresados, nos encargamos del caso puntual que necesite, contáctenos",
-        "title_span": "",
-        "title_pt2": ""
+        "image": "/images/experts/keiry.png",
+        "title_pt1": "Además de los servicios expresados, nos encargamos",
+        "title_span": "del caso puntual que necesite,",
+        "title_pt2": "contáctenos."
       },
       "form":{
         "title1": "Nuestro equipo de",
-        "titpleSpan": "abogados especializados en derecho familiar",
+        "titpleSpan": "abogados especializados en derecho comercial",
         "title2": "está aquí para ayudarte en cada paso del camino."
       }
     },
-    "derecho-consumidor": {
-      "title": "Derecho del consumidor y competencia desleal",
-      "banner": {
-        "title": "¡Obtén la ayuda legal que necesitas para tu proceso de separación!",
-        "description": "¿Te encuentras en un proceso de separación con tu pareja y necesitas orientación legal confiable? ¿te gustaría saber como se dividen los bienes? En ABOGA, entendemos que la separación puede ser un momento\nemocionalmente difícil y legalmente complejo."
-      },
-      "our_team": {
-        "title": "Nuestro equipo de abogados especializados en derecho familiar ",
-        "title_span": "está aquí para\nayudarte en cada paso\ndel camino.",
-        "title2": "Te brindaremos el apoyo y la asesoría legal que necesitas para",
-        "title2_span": "proteger tus derechos e intereses."
-      },
-      "our_services": [
-        {
-          "img": "/images/servicios/our-services/logo-asesoria.png",
-          "title": "Asesoramiento legal personalizado",
-          "description": "Nuestros abogados altamente calificados te brindarán asesoramiento legal personalizado, teniendo en cuenta tu situación única y tus necesidades específicas. Te ayudaremos a entender tus derechos y opciones legales en el proceso de separación, incluyendo la división de bienes, la custodia de los hijos, el mantenimiento o la pensión alimenticia, y otros aspectos relevantes.",
-          "bg_color": "blue"
-        },
-        {
-          "img": "/images/servicios/our-services/logo-negociacion.png",
-          "title": "Negociación y mediación",
-          "description": "Nos esforzamos por encontrar soluciones amistosas y equitativas para resolver los conflictos en el proceso de separación. Nuestros abogados son expertos en la negociación y la mediación, y trabajaremos para llegar a acuerdos justos y favorables para ti, evitando costosos y prolongados litigios en la medida de lo posible.",
-          "bg_color": "white"
-        },
-        {
-          "img": "/images/servicios/our-services/logo-representacion.png",
-          "title": "Representación legal en litigios",
-          "description": "Si el proceso de separación se vuelve más complicado y requiere acciones legales más formales, nuestro equipo de abogados está preparado para representarte en los tribunales. Defendemos tus derechos en litigios de derecho familiar, asegurándonos de que tus intereses estén protegidos y abogando enérgicamente en tu nombre.",
-          "bg_color": "white"
-        },
-        {
-          "img": "/images/servicios/our-services/logo-soluciones.png",
-          "title": "Soluciones a medida",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
-          "bg_color": "blue"
-        }
-      ],
-      "need_assessor": {
-        "title_pt1": "Si estás en proceso de separación y necesitas",
-        "title_span": "asesoramiento legal confiable y personalizado,",
-        "title_pt2": "no dudes en ponerte en contacto con nosotros."
-      },
-      "form":{
-        "title1": "Nuestro equipo de",
-        "titpleSpan": "abogados especializados en derecho familiar",
-        "title2": "está aquí para ayudarte en cada paso del camino."
-      }
-    },
-    "proteccion-datos-personales": {
-      "title": "Protección de datos personales",
+    "derecho-consumidor-competencia-desleal": {
+      "title": "Derecho del consumidor",
       "experts_id": "[1]",
       "banner": {
-        "title": "¡Obtén la ayuda legal que necesitas para tu proceso de separación!",
-        "description": "En ABOGA asesoramos y representamos a su empresa para que no incurran en actos que puedan perjudicarlos o que las acciones que realice otra empresa no los damnifique"
+        "title": "Protección legal, competencia desleal y tratamientos de datos personales",
+        "description": "En ABOGA asesoramos y representamos a su empresa para que no incurran en actos que puedan perjudicarlos o que las acciones que realice otra empresa no los damnifique."
       },
       "our_team": {
         "title": "Nuestro equipo de abogados expertos en derecho del consumidor,",
-        "title_span": "te ayudarán y acompañarán durante todo el proceso.",
-        "title2": "Te brindaremos el apoyo y la asesoría legal que necesitas para",
-        "title2_span": "proteger tus derechos e intereses."
+        "title_span": "te ayudarán y acompañarán durante todo el proceso",
+        "title2": "Tenemos abogados especializados en esta area dispuestos a asesorarte",
+        "title2_span": "en tus problemas con respecto a tratamientos de datos personales y redacción de términos y condiciones."
       },
       "our_services": [
         {
           "img": "/images/servicios/our-services/logo-asesoria.png",
           "title": "Conceptos sobre incumplimiento de normas en publicidad.",
-          "description": "Nuestros abogados altamente calificados te brindarán asesoramiento legal personalizado, teniendo en cuenta tu situación única y tus necesidades específicas. Te ayudaremos a entender tus derechos y opciones legales en el proceso de separación, incluyendo la división de bienes, la custodia de los hijos, el mantenimiento o la pensión alimenticia, y otros aspectos relevantes.",
+          "description": "",
           "bg_color": "blue"
         },
         {
           "img": "/images/servicios/our-services/logo-negociacion.png",
           "title": "Trámites jurisdiccionales ante la Superintendencia de Industria y Comercio (acción de protección al consumidor, actos de competencia desleal, infracciones de propiedad industrial).",
-          "description": "Nos esforzamos por encontrar soluciones amistosas y equitativas para resolver los conflictos en el proceso de separación. Nuestros abogados son expertos en la negociación y la mediación, y trabajaremos para llegar a acuerdos justos y favorables para ti, evitando costosos y prolongados litigios en la medida de lo posible.",
+          "description": "",
           "bg_color": "white"
         },
         {
           "img": "/images/servicios/our-services/logo-representacion.png",
-          "title": "Diagnóstico sobre implementación de normas de protección del consumidor en establecimientos comerciales.",
-          "description": "Si el proceso de separación se vuelve más complicado y requiere acciones legales más formales, nuestro equipo de abogados está preparado para representarte en los tribunales. Defendemos tus derechos en litigios de derecho familiar, asegurándonos de que tus intereses estén protegidos y abogando enérgicamente en tu nombre.",
+          "title": "Diagnóstico sobre implementación de normas de protección del consumidor en establecimientos comerciales. ",
+          "description": "",
           "bg_color": "white"
         },
         {
           "img": "/images/servicios/our-services/logo-soluciones.png",
           "title": "Consultoría sobre derechos del consumidor y del consumidor financiero.",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
+          "description": "",
           "bg_color": "blue"
         },
         {
           "img": "/images/servicios/our-services/logo-soluciones.png",
           "title": "Asesoría en acciones de competencia desleal.",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
+          "description": "",
           "bg_color": "blue"
         },
         {
-          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "img": "/images/servicios/our-services/logo-representacion.png",
           "title": "Además en relación con la protección de datos personales",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Creación y redacción de términos y condiciones para la página web de su empresa.",
+          "description": "",
           "bg_color": "white"
         },
         {
           "img": "/images/servicios/our-services/logo-soluciones.png",
-          "title": "Creación y redacción de términos y condiciones para la página web de su empresa",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
-          "bg_color": "white"
-        },
-        {
-          "img": "/images/servicios/our-services/logo-soluciones.png",
-          "title": "Creación y redacción de políticas de tratamiento de datos personales",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
+          "title": "Creación y redacción de políticas de tratamiento de datos personales. ",
+          "description": "",
           "bg_color": "blue"
         }
       ],
       "need_assessor": {
+        "image": "/images/experts/juan-jose.png",
+        "title_pt1": "Además de los servicios expresados, nos encargamos",
+        "title_span": "del caso puntual que necesite,",
+        "title_pt2": "contáctenos."
+      },
+      "form":{
+        "title1": "Nuestro equipo de",
+        "titpleSpan": "abogados especializados en derecho del consumidor",
+        "title2": "está aquí para ayudarte en cada paso del camino."
+      }
+    },
+    "derecho-laboral": {
+      "title": "Derecho laboral",
+      "experts_id": "[0]",
+      "banner": {
+        "title": "Optimiza tu gestión laboral: Contratación laboral, reglamento interno, seguridad y aportes al Sistema de Seguridad Social",
+        "description": "En ABOGA asesoramos y representamos a empresas sobre asuntos contractuales, salariales y despidos. Para que no incurran en conductas contrarias a la ley."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en derecho laboral,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso",
+        "title2": "Protege tus derechos e intereses con nuestra",
+        "title2_span": "asesoría legal y apoyo especializado."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/logo-asesoria.png",
+          "title": "Redacción y creación de contratos de trabajo. ",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-negociacion.png",
+          "title": "Minutas laborales.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Manejo de despidos.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Manejo de procesos disciplinarios.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Redacción y socialización del reglamento interno de trabajo.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Levantamiento de fuero sindical.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Trámites de seguridad en el trabajo y la responsabilidad del empleador en casos de accidentes laborales.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Afiliaciones, liquidación oportuna y correcta de aportes al Sistema de Seguridad Social.",
+          "description": "",
+          "bg_color": "blue"
+        }
+      ],
+      "need_assessor": {
+        "image": "/images/experts/keiry.png",
+        "title_pt1": "Además de los servicios expresados, nos encargamos",
+        "title_span": "del caso puntual que necesite,",
+        "title_pt2": "contáctenos."
+      },
+      "form":{
+        "title1": "Nuestro equipo de",
+        "titpleSpan": "abogados especializados en derecho laboral",
+        "title2": "está aquí para ayudarte en cada paso del camino."
+      }
+    },
+    "derecho-tributario": {
+      "title": "Derecho Tributario",
+      "experts_id": "[0]",
+      "banner": {
+        "title": "Protege tu empresa y asegura su crecimiento con nuestro equipo de expertos en Derecho Tributario",
+        "description": "En ABOGA brindamos asesoría en asuntos tributarios, con el propósito de prevenir que su empresa sea sancionada y, así, garantizar el crecimiento seguro de su compañía."
+      },
+      "our_team": {
+        "title": " Nuestro equipo de abogados expertos en derecho tributario,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso.",
+        "title2": "Protege los derechos e",
+        "title2_span": "intereses de tu empresa."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/logo-asesoria.png",
+          "title": "Representación y asesoría en vía gubernativa por requerimientos administrativos.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-negociacion.png",
+          "title": "Representación y asesoría ante la jurisdicción administrativa por asuntos tributarios.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Asesoría y representación en devolución de impuestos.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Asesoría y representación frente a impuestos nacionales, departamentales y municipales.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Asesoría y representación en asuntos tributarios ante Gobernaciones y Alcaldías.",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Auditoría para el cumplimiento de obligaciones tributarias.",
+          "description": "",
+          "bg_color": "white"
+        }
+      ],
+      "need_assessor": {
+        "image": "/images/experts/keiry.png",
         "title_pt1": "Además de los servicios expresados, nos encargamos del caso puntual que necesite, contáctenos",
         "title_span": "",
         "title_pt2": ""
       },
       "form":{
         "title1": "Nuestro equipo de",
-        "titpleSpan": "abogados especializados en derecho familiar",
+        "titpleSpan": "abogados especializados en derecho tributario",
         "title2": "está aquí para ayudarte en cada paso del camino."
+      }
+    },
+    "propiedad-horizontal": {
+      "title": "Propiedad-horizontal",
+      "experts_id": "[2]",
+      "banner": {
+        "title": " Soluciones Jurídicas Especializadas para tu Propiedad Horizontal. ¡Estamos aquí para ayudarte!",
+        "description": "En ABOGA, ofrecemos servicios jurídicos completos y personalizados para resolver conflictos que se presenten entre los copropietarios y residentes, o entre los copropietarios y la propiedad horizontal."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en propiedad horizontal,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso.",
+        "title2": "¡Confía en Nuestro Equipo de",
+        "title2_span": "Abogados Expertos!"
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/logo-asesoria.png",
+          "title": "Recuperación de cartera morosa.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Cartera morosa"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-negociacion.png",
+          "title": "Realización de reglamento de la propiedad horizontal.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "reglamento de la propiedad horizontal"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Realizamos asesorías sobre el cobro y manejo de cartera morosa.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Cobro y manejo de cartera morosa"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Protección de los derechos de los copropietarios y residentes.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Protección de los derechos de los copropietarios y residentes"
+        }
+      ],
+      "need_assessor": {
+        "title_pt1": "Ofrecemos soluciones efectivas y eficientes, para la sana convivencia y",
+        "title_span": "el correcto funcionamiento en la copropiedad.",
+        "title_pt2": "",
+        "image": "/images/experts/osman.png"
+      },
+      "form":{
+        "title1": "Nuestro equipo de",
+        "titpleSpan": "abogados expertos en propiedad horizontal,",
+        "title2": "te ayudarán y acompañarán durante todo el proceso."
       }
     }
   }

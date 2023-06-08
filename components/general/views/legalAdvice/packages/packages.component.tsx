@@ -1,6 +1,10 @@
 import styles from './packages.module.css';
 
 export default function PackagesComponent(props:any){
+    const analytics = (plan:string) =>{
+        props.gaEventTracker(`Asesorias legales - Clic contratar ${plan}`);
+        window.location.href = "#Form"
+    }
 
     return(
         <>
@@ -19,11 +23,11 @@ export default function PackagesComponent(props:any){
                                         ))}
                                     </ul>
                                     <div className="flex justify-center pt-10">
-                                        <button className={styles.btn}>{props.translate('asesorias:general_button2')}</button>
+                                        <button onClick={() => analytics(item.name)} className={styles.btn}>{props.translate('asesorias:general_button2')}</button>
                                     </div>
                                 </div>
                             ))
-                            :null}
+                        :null}
                     </div>
                 </div>
             </div>

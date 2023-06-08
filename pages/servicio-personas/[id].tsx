@@ -13,7 +13,7 @@ import ReactGA from "react-ga4";
 import useAnalyticsEventTracker from "../../services/analytics/useAnalyticsEventTracker";
 
 export default function Home() {
-    ReactGA.send({ hitType: "pageview", page: "/", title: "Page: Servicio para personas" });
+    ReactGA.send({ hitType: "pageview", page: "/", title: "Page: Servicio personas" });
     const [titlePage, setTitlePage] = useState('');
     const gaEventTracker = useAnalyticsEventTracker('Servicio personas');
     const router = useRouter();

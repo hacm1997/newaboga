@@ -6,8 +6,8 @@
       "title": "Servicio personas",
       "services": [
         {
-          "title": "Derecho administrativo",
-          "url": "/servicio-personas/derecho-administrativo"
+          "title": "Trámites administrativo",
+          "url": "/servicio-personas/tramites-administrativos"
         },
         {
           "title": "Derecho familiar",
@@ -52,7 +52,7 @@
         },
         {
           "title": "Derecho del consumidor y competencia desleal",
-          "url": "#",
+          "url": "/servicio-empresas/derecho-consumidor-competencia-desleal",
           "sub_services": [
             {
               "title": "Proteccion de datos personales",
@@ -71,6 +71,10 @@
         {
           "title": "Derecho tributario",
           "url": "/servicio-empresas/derecho-tributario"
+        },
+        {
+          "title": "Propiedad horizontal",
+          "url": "/servicio-empresas/propiedad-horizontal"
         }
       ]
     }

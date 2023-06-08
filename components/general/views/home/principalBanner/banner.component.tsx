@@ -17,9 +17,11 @@ export default function BannerComponent(props:any){
                             {props.translate('home:description')}
                         </p>
                         <div className={"pl-32 w-4/4 pt-4 sm:pl-18 "+ styles.button}>
-                            <button onClick={analytic}>
-                                {props.translate('home:button')}
-                            </button>
+                            <a onClick={analytic} href='#Form'>
+                                <button>
+                                    {props.translate('home:button')}
+                                </button>
+                            </a>
                         </div>
 
                     </div>

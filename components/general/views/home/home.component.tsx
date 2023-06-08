@@ -66,7 +66,7 @@ export default function HomeComponent(){
             <BannerComponent translate={t} gaEventTracker={gaEventTracker}/>
             <ServicesComponent translate={t} servicesP={services_persons} servicesB={services_business} gaEventTracker={gaEventTracker}/>
             <AboutComponent translate={t}/>
-            <VideoComponent />
+            <VideoComponent gaEventTracker={gaEventTracker}/>
             <FormComponent translate={t} setSelectDpto={setSelectDpto} dpto={dpto} city={city} gaEventTracker={gaEventTracker} id={'Inicio'}/>
         </>
     );
