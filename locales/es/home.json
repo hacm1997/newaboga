@@ -12,14 +12,16 @@
       {
         "img": "/images/home/services/default_icon1_color.png",
         "img_hover": "/images/home/services/default_icon1.png",
-        "expert_img": "/images/experts/keiry.png",
+        "expert_img": "/images/experts/liz.png",
         "title": "Derecho de familia",
+        "link": "/servicio-personas/derecho-familiar",
         "description": "Ofrecemos asesoramiento y representación legal en situaciones penales para proteger los derechos y libertades de nuestros clientes. Buscamos el mejor resultado posible en cada caso. Si necesita ayuda en asuntos penales, contáctenos, estamos aquí para proteger sus intereses y libertad."
       },
       {
         "img": "/images/home/services/default_icon2_color.png",
         "img_hover": "/images/home/services/default_icon2.png",
-        "expert_img": "/images/experts/juan-jose.png",
+        "expert_img": "/images/experts/osman.png",
+        "link": "/servicio-personas/propiedad-horizontal",
         "title": "Propiedad Horizontal",
         "description": "Ofrecemos servicios jurídicos y asesorías para empresas sobre la gestión de edificios, condominios y conjuntos. Nuestro equipo de abogados expertos en propiedad horizontal, te ayudarán y acompañarán durante todo el proceso."
       },

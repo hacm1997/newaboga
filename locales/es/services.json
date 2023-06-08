@@ -1,11 +1,12 @@
 {
   "general_button": "Agendar cita",
   "our_experts": {
-    "title": "Nuestros",
-    "title_pt2": "expertos",
+    "title": "Nuestro",
+    "title_pt2": "experto",
     "list": [
       {
         "id": 0,
+        "gender": "female",
         "name": "Keiry Berdugo",
         "photo": "/images/experts/keiry.png",
         "position": "Abogada profesional",
@@ -17,6 +18,7 @@
       {
         "id": 1,
         "name": "Juan José",
+        "gender": "male",
         "photo": "/images/experts/juan-jose.png",
         "position": "Abogado profesional",
         "ability": "Esp. En Derecho constitucional, penal y empresarial",
@@ -26,6 +28,7 @@
       },
       {
         "id": 2,
+        "gender": "male",
         "name": "Osman",
         "photo": "/images/experts/osman.png",
         "position": "Abogado profesional",
@@ -36,8 +39,9 @@
       },
       {
         "id": 3,
-        "name": "Lina",
-        "photo": "/images/experts/osman.png",
+        "gender": "female",
+        "name": "Liz",
+        "photo": "/images/experts/liz.png",
         "position": "Profesional",
         "ability": "Esp. en Derecho civil, comercial, propiedad horizontal y derecho administrativo",
         "description": "Con 10 meses de experiencia en la rama judicial y 4 meses de experiencia en la casa del consumidor.",
@@ -114,7 +118,7 @@
     },
     "derecho-familiar": {
       "title": "Derecho familiar",
-      "experts_id": "[0]",
+      "experts_id": "[3]",
       "banner": {
         "title": "¡Obtén la ayuda legal que necesitas para tu proceso de separación!",
         "description": "¿Te encuentras en un proceso de separación con tu pareja y necesitas orientación legal confiable? ¿te gustaría saber como se dividen los bienes? En ABOGA, entendemos que la separación puede ser un momento\nemocionalmente difícil y legalmente complejo."
@@ -155,7 +159,7 @@
         "title_pt1": "Si estás en proceso de separación y necesitas",
         "title_span": "asesoramiento legal confiable y personalizado,",
         "title_pt2": "no dudes en ponerte en contacto con nosotros.",
-        "image": "/images/experts/keiry.png"
+        "image": "/images/experts/liz.png"
       },
       "form":{
         "title1": "Nuestro equipo de",
