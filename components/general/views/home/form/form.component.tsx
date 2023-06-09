@@ -7,6 +7,7 @@ import NotifierEmail from "../../../../../services/notifier";
 export default function FormComponent(props:any){
     const [valuesForm, setValuesForm] = useState<any>({email:config.EMAIL_ABOGA as string});
     const router = useRouter();
+    const [service, setService] = useState([]);
 
     const handleForm = async (e: any) => {
         const value = e.target.value;
@@ -30,11 +31,21 @@ export default function FormComponent(props:any){
         props.setSelectDpto(valuesForm.dpto);
     }, [valuesForm.dpto]);
 
+    useEffect(() => {
+        if(valuesForm.type_service === "SP"){
+            setService(props.servicesP);
+        }else if(valuesForm.type_service === "SB"){
+            setService(props.servicesB);
+        }else{
+            setService([]);
+        }
+    }, [valuesForm.type_service]);
+
     return(
         <>
             <div id="Form" className={router.asPath === '/asesorias-legales' ? "h-[auto] block p-5 md:flex md:p-0 place-content-around items-center bg-contain bg-no-repeat "+styles.content_general_advice :
                 "h-[auto] block p-5 md:flex md:p-0 place-content-around items-center bg-contain bg-no-repeat "+styles.content_general}>
-                <div className={styles.title}>
+                <div className={styles.title} >
                     {router.asPath === '/asesorias-legales' ?
                         <h4 className={"w-[450px] "+styles.h4_advice}>
                             {props.translate('asesorias:form.title')}
@@ -46,7 +57,7 @@ export default function FormComponent(props:any){
                         </h4>
                     }
                 </div>
-                <div className={styles.form}>
+                <div className={styles.form} data-aos="fade-left">
                     <form onSubmit={submitForm}>
                         <div>
                             <select className="w-full mt-5" name="dpto" onChange={handleForm} required>
@@ -75,13 +86,18 @@ export default function FormComponent(props:any){
                         <div>
                             <select className="w-full mt-5" name="type_service" onChange={handleForm} required>
                                 <option value="">{props.translate('home:form.inputs.type_service')}</option>
-                                <option value="Tipo servicio 1">Tipo servicio 1</option>
+                                <option value="SP">Servicio Personas</option>
+                                <option value="SB">Servicio Empresas</option>
                             </select>
                         </div>
                         <div>
                             <select className="w-full mt-5" name="service" onChange={handleForm} required>
                                 <option value="">{props.translate('home:form.inputs.service')}</option>
-                                <option value="Servicio 1">Servicio 1</option>
+                                {service?.map((item:any, index:number) => (
+                                    <option key={index} value={item.value}>
+                                        {item.value}
+                                    </option>
+                                ))}
                             </select>
                         </div>
                         <div className={styles.button}>

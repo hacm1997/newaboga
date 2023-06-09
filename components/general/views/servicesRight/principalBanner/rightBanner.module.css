@@ -35,7 +35,7 @@
 
 .arrow_style{
     position: absolute;
-    top: 70%;
+    top: 70% !important;
 }
 .arrow_style img{
     width: 50%;

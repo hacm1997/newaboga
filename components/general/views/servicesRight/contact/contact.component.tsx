@@ -7,7 +7,7 @@ export default function ContactComponent(props: any) {
     return (
         <>
             <div className={'flex items-center justify-center pt-[50px] xl:pt-10 gap-10 ' + styles.general_content}>
-                <div className={'w-[50%] -mt-20 '+styles.principal_text}>
+                <div className={'w-[50%] -mt-20 '+styles.principal_text} data-aos="fade-right" data-aos-duration="1000">
                     <div className='float-right '>
                         <div className={'flex w-[400px]  ' + styles.text}>
                             <p>
@@ -23,12 +23,12 @@ export default function ContactComponent(props: any) {
                                 </button>
                             </a>
                         </div>
-                        <div className={'pt-32 md:pt-10 lg:pt-32 '+styles.arrow_top}>
+                        <div className={'pt-32 md:pt-10 lg:pt-32 '+styles.arrow_top} data-aos="fade-up" data-aos-duration="2000">
                             <img src='/images/servicios/contact/arrow-top.png' alt='Arrow' title='Arrow top' />
                         </div>
                     </div>
                 </div>
-                <div className={'w-[50%] pr-32 -ml-12 '+styles.people}>
+                <div className={'w-[50%] pr-32 -ml-12 '+styles.people} data-aos="zoom-out" data-aos-duration="1000">
                     <img src={t(`${props.typeService}.${props.service}.need_assessor.image`)} alt='Persona-asesor' title='Persona asesorada' />
                 </div>
             </div>

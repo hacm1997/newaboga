@@ -12,7 +12,7 @@ export default function ExpertCardComponent(props:any){
                 <div className={"flex items-center gap-10 "+styles.card}>
                     <div className={"w-[60%] "+styles.info}>
                         <h5>{props.name}</h5>
-                        <p>{props.position}</p>
+                        <p><strong>{props.position}</strong></p>
                         <p>{props.ability}</p><br/>
                         <p>{props.description}</p>
                     </div>

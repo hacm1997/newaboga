@@ -13,6 +13,8 @@ export default function HomeComponent(){
     const {t, lang} = useTranslation('');
     const services_persons = t<any>("home:services-persons.items", {}, {returnObjects: true});
     const services_business = t<any>("home:services-business.items", {}, {returnObjects: true});
+    const servicesP = t<any>("form:SP", {}, {returnObjects: true});
+    const servicesB = t<any>("form:SB", {}, {returnObjects: true});
     const gaEventTracker = useAnalyticsEventTracker('Inicio');
 
     const colData = "https://www.datos.gov.co/resource/xdk5-pm3f.json";
@@ -67,7 +69,9 @@ export default function HomeComponent(){
             <ServicesComponent translate={t} servicesP={services_persons} servicesB={services_business} gaEventTracker={gaEventTracker}/>
             <AboutComponent translate={t}/>
             <VideoComponent gaEventTracker={gaEventTracker}/>
-            <FormComponent translate={t} setSelectDpto={setSelectDpto} dpto={dpto} city={city} gaEventTracker={gaEventTracker} id={'Inicio'}/>
+            <FormComponent translate={t} setSelectDpto={setSelectDpto} 
+            dpto={dpto} city={city} gaEventTracker={gaEventTracker} 
+            id={'Inicio'} servicesP={servicesP} servicesB={servicesB}/>
         </>
     );
 }

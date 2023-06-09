@@ -7,12 +7,13 @@ export default function VideoComponent(props:any){
 
     return(
         <>
-            <div className={styles.content_video} title="Video">
+            <div className={styles.content_video} title="Video" data-aos="fade-up">
                 <a>
                     <video 
                         src='Video Web Aboga.webm'
                         autoPlay={false}
                         playsInline={true}
+                        poster='/images/home/video/video.png'
                         onPauseCapture={() => analytic('Pause')}
                         onPlayCapture={() => analytic('Play')}
                         controls

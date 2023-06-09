@@ -8,7 +8,7 @@ export default function ServicesComponent(props:any){
     const chooseServiceP = () => {
         setSelectedService(props.servicesP)
         props.gaEventTracker('Inicio: click botón servicio personas')
-        setId('SP')
+        setId('SP');
     }
     const chooseServiceB = () => {
         setSelectedService(props.servicesB)
@@ -25,16 +25,21 @@ export default function ServicesComponent(props:any){
     return(
         <>
             <div className="pl-10 xl:pl-14 md:pl-[110px] bg-[#F2F2F2] pb-20 ">
-                <div className={"pt-16 "+styles.title}>
+                <div className={"pt-16 "+styles.title} data-aos="fade-right" data-aos-duration="1500">
                     <h2>{props.translate('home:services-persons.title')}</h2>
                 </div>
-                <div className={"flex pt-10 gap-10 "}>
+                <div className={"flex pt-10 gap-10 "} data-aos="fade-right" data-aos-duration="1500">
                     <button className={id === 'SP' ? styles.chooseButtons : styles.buttonNoActive} onClick={chooseServiceP}>{props.translate('home:list_services.s_persons')}</button>
                     <button className={id === 'SB' ? styles.chooseButtons : styles.buttonNoActive} onClick={chooseServiceB}>{props.translate('home:list_services.s_business')}</button>
                 </div>
                 <div className="grid w-[90%] grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-[243px_243px_243px_243px_243px] 2xl:xl:grid-cols-[280px_280px_280px_280px_280px] gap-y-9 gap-x-2 pt-10 pb-16 ">
                     {Array.isArray(selectedService) ? selectedService.map((item:any, index:number) => (
-                        <div key={index} className={`w-[240px] xl:w-[235px] xl:h-[300px] h-[290px] p-5 `+styles.card}>
+                        <div key={index} className={`w-[240px] xl:w-[235px] xl:h-[300px] h-[290px] p-5 `+styles.card} 
+                            data-aos="fade-right"
+                            data-aos-easing="ease-in-back"
+                            data-aos-delay={index*250}
+                            data-aos-offset="0"
+                        >
                             <div className={"flex "}>
                                 <img className={styles.img_principal} src={item.img} alt="Servicios" title={item.title} />
                                 <a>
@@ -65,7 +70,7 @@ export default function ServicesComponent(props:any){
                         </div>
                     )): null}
                 </div>
-                <div className={"flex w-[85%] "+styles.button}>
+                <div className={"flex w-[85%] "+styles.button} data-aos="fade-up">
                     <button onClick={analytic}>{props.translate('home:button')}</button>
                 </div>
             </div>
