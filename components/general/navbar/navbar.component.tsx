@@ -29,7 +29,7 @@ export default function NavbarComponent(){
     return(
         <>
             <div className={"flex h-28 items-center place-content-around z-50 "+styles.menuNav}>
-                <div className="inline-flex w-auto " data-aos="zoom-out" data-aos-duration="500">
+                <div className="inline-flex w-auto ">
                     <Link href="/">
                         <img className="cursor-pointer" src='/images/logo-aboga.png' alt="Aboga" title="Logo Aboga" />
                     </Link>
@@ -120,7 +120,7 @@ export default function NavbarComponent(){
                     </div>
 
                 </div>
-                <div className="flex-initial w-34 items-center " data-aos="zoom-out" data-aos-duration="500">
+                <div className="flex-initial w-34 items-center ">
                     <div className={"flex w-auto gap-2 "+ styles.socials}>
                         {social_networks?.map((item:any, index:number) => (
                             <a  key={index} 
