@@ -2,10 +2,10 @@
     "general_button": "Agendar cita",
     "general_button2": "Contratar",
     "banner_content": {
-        "title": "En nuestro despacho, ofrecemos una amplia variedad de servicios jurídicos.",
+        "title": "En nuestro despacho ofrecemos una amplia variedad de servicios jurídicos.",
         "description": "Diseñados específicamente para satisfacer las necesidades de las empresas. Sabemos que cada empresa es única, por lo que hemos creado varios paquetes de servicios para adaptarnos a las necesidades de cada cliente.",
-        "image": "/images/asesorias/keiry-y-juan.png",
-        "alt": "Juan José - Keiry Berdugo"
+        "image": "/images/asesorias/equipo-aboga.png",
+        "alt": "Equipo ABOGA"
     },
     "packages": {
         "title": "A continuación, te presentamos los paquetes que ofrecemos:",
@@ -49,7 +49,7 @@
         ]
     },
     "extra_info": {
-        "text1_p1": "En nuestro despacho,",
+        "text1_p1": "En nuestro despacho",
         "text1_p2": "creemos en la importancia de adaptar nuestros servicios a las necesidades específicas de cada cliente.",
         "text2": "Si no encuentra el paquete que se ajusta a sus necesidades, contáctenos y trabajaremos juntos para diseñar un paquete que satisfaga sus necesidades."
     },
