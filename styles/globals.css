@@ -33,3 +33,16 @@ body{
 a{
   text-decoration: none;
 }
+
+/* CUSTOM SCROLL BAR */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0070f3;
+}

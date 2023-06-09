@@ -28,7 +28,7 @@ export default function ContactComponent(props: any) {
                         </div>
                     </div>
                 </div>
-                <div className={'w-[50%] pr-32 -ml-12 '+styles.people} data-aos="zoom-out" data-aos-duration="1000">
+                <div className={'w-[50%] pr-32 -ml-12 '+styles.people} >
                     <img src={t(`${props.typeService}.${props.service}.need_assessor.image`)} alt='Persona-asesor' title='Persona asesorada' />
                 </div>
             </div>

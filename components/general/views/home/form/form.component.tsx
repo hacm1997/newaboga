@@ -57,7 +57,7 @@ export default function FormComponent(props:any){
                         </h4>
                     }
                 </div>
-                <div className={styles.form} data-aos="fade-left">
+                <div className={styles.form}>
                     <form onSubmit={submitForm}>
                         <div>
                             <select className="w-full mt-5" name="dpto" onChange={handleForm} required>

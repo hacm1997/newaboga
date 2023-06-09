@@ -11,7 +11,7 @@ export default function AboutComponent(props:any){
                 <div className={"ml-10 md:-ml-8 md:w-[20%] "+styles.squard} data-aos="zoom-out" data-aos-delay={400}>
                     <img src="/images/home/squards_img.png" alt="recurso" title="squards resource" />
                 </div>
-                <div data-aos="fade-left" data-aos-delay={400}>
+                <div data-aos="zoom-out" data-aos-delay={400}>
                     <img className="w-36 -mt-[185px]" src="/images/home/arrow-style.png" alt="flecha-estilo" title="recurso flech"/>
                 </div>
             </div>
