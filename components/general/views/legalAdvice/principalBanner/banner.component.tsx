@@ -32,7 +32,7 @@ export default function BannerAdviceComponent(props: any) {
                         </div>
                     </div>
                     <div className={"bg-[url('/images/asesorias/background-asesorias-banner.png')] w-[90%] lg:w-[50%] xl:w-[50%] mt-3 md:-mt-36 bg-no-repeat " + styles.experts_content}>
-                        <img className="float-left mt-10 md-0 pl-8 md:pl-10 w-full md:pt-[150px] md:w-[65%] "
+                        <img className="float-left mt-10 md-0 pl-8 md:pl-10 w-full md:pt-[150px] md:w-[80%] "
                             src={props.translate('asesorias:banner_content.image')}
                             alt={props.translate('asesorias:banner_content.alt')}
                             title={props.translate('asesorias:banner_content.alt')}
