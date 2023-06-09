@@ -6,7 +6,7 @@ export default function OurTeamComponent(props:any){
 
     return(
         <>
-            <div className="block md:flex h-[auto] pb-10 gap-14">
+            <div className="block md:flex h-[auto] pb-10 gap-14 -mt-[148px]">
                 <div className={"pl-[30px] w-[100%] mt-8 md:mt-0 flex items-center md:w-[45%] md:pl-[100px] "+styles.text1} 
                     data-aos="fade-right" data-aos-duration="1000"
                 >
@@ -23,7 +23,7 @@ export default function OurTeamComponent(props:any){
                         </div>
                     </div>
                 </div>
-                <div className={"w-[100%] mt-5 flex items-center md:mt-0 md:w-[55%] h-[220px] "+styles.text2}>
+                <div className={"w-[100%] mt-5 flex items-center md:mt-0 md:w-[55%] h-[240px] "+styles.text2}>
                     <p className="text-center md:text-left md:pl-10 md:w-80" data-aos="zoom-out" data-aos-duration="5000">
                         {t(`${props.typeService}.${props.service}.our_team.title2`)} <span>{t(`${props.typeService}.${props.service}.our_team.title2_span`)}</span>
                     </p>

@@ -70,6 +70,7 @@
       "title": "Trámite administrativo",
       "experts_id": "[2]",
       "banner": {
+        "image": "/images/portadas-web/tramites-administrativos.png",
         "title": "Ofrecemos asesoramiento legal en trámites administrativos",
         "description": "En ABOGA, brindamos representación legal sólida y eficaz para proteger tus derechos frente a la administración pública, sabemos que estos asuntos pueden afectar tanto a los ciudadanos como a las empresas, por eso, estamos aquí para ayudarte."
       },
@@ -139,6 +140,7 @@
       "title": "Derecho de familia",
       "experts_id": "[3]",
       "banner": {
+        "image": "/images/portadas-web/derecho-familia.png",
         "title": "Somos tu equipo legal de confianza en casos de derecho de familia",
         "description": "En nuestra oficina jurídica, ofrecemos servicios profesionales en derecho de familia, con el objetivo de ayudar a nuestros clientes a resolver asuntos legales de manera efectiva y satisfactoria en asuntos como el divorcio, la custodia y alimentación de los hijos, adopción, violencia doméstica, entre otros."
       },
@@ -215,6 +217,7 @@
       "title": "Derecho del consumidor",
       "experts_id": "[1]",
       "banner": {
+        "image": "/images/portadas-web/derecho-consumidor.png",
         "title": "Servicios legales en derecho del consumidor: Garantías, publicidad engañosa y más",
         "description": "En ABOGA defendemos tus derechos como consumidor con nuestros servicios legales, evaluamos cada caso en detalle, en aras de brindar una defensa eficaz al momento de resolver conflictos y asesorar a nuestros clientes para que no sean víctimas de prácticas comerciales injustas o engañosas"
       },
@@ -277,6 +280,7 @@
       "title": "Propiedad horizontal",
       "experts_id": "[2]",
       "banner": {
+        "image": "/images/portadas-web/propiedad-horizontal.png",
         "title": "Asesoramiento legal en propiedad horizontal para personas: Expertos en la correcta convivencia",
         "description": "En ABOGA, ofrecemos servicios jurídicos completos y personalizados para resolver conflictos que se presenten entre los copropietarios y residentes, o entre los copropietarios y la propiedad horizontal, ofrecemos soluciones efectivas y eficientes, para la sana convivencia y el correcto funcionamiento en la copropiedad."
       },
@@ -332,6 +336,7 @@
       "title": "Derecho laboral",
       "experts_id": "[3]",
       "banner": {
+        "image": "/images/portadas-web/derecho-laboral.png",
         "title": "Asesoramiento y acompañamiento en derecho laboral para trabajadores",
         "description": "En ABOGA, nuestro objetivo principal es proteger tus derechos como trabajador y brindarte las herramientas necesarias para enfrentarte a cualquier situación laboral, con el fin de obtener resultados justos y equitativos."
       },
@@ -408,6 +413,7 @@
       "title": "Derecho penal",
       "experts_id": "[3]",
       "banner": {
+        "image": "/images/portadas-web/derecho-penal.png",
         "title": "¿Necesitas asesoramiento legal en temas penales? ¡Estamos aquí para ayudarte!",
         "description": "En ABOGA, entendemos la importancia de tu libertad y reputación, y sabemos que se pueden ver comprometidas cuando nos enfrentamos a situaciones penales, por eso, ofrecemos asesorías y representación en las etapas preliminares y de juicio oral de sus asuntos en materia penal."
       },
@@ -484,6 +490,7 @@
       "title": "Derecho constitucional",
       "experts_id": "[1]",
       "banner": {
+        "image": "/images/portadas-web/derecho-constitucional.png",
         "title": "Asesoramiento y acompañamiento en derecho constitucional",
         "description": "En ABOGA, entendemos la importancia de los derechos fundamentales, por eso, brindamos asesoría legal sólida y eficaz al momento de defenderlos, trabajamos contigo de manera comprometida para desarrollar estrategias legales efectivas."
       },
@@ -560,6 +567,7 @@
       "title": "Derecho civil",
       "experts_id": "[2]",
       "banner": {
+        "image": "/images/portadas-web/derecho-civil.png",
         "title": "Protege tus derechos civiles con asesoramiento legal personalizado",
         "description": "En ABOGA, entendemos la importancia de proteger tus derechos y resolver controversias civilmente, por esto, trabajamos de forma personalizada y revisamos en cada caso todos los detalles, con el objetivo de encontrar las mejores estrategias y soluciones."
       },
@@ -659,6 +667,7 @@
       "title": "Derecho civil",
       "experts_id": "[2]",
       "banner": {
+        "image": "/images/portadas-web/derecho-civil-empresas.png",
         "title": "¿Necesitas asesoramiento legal en temas relacionados con el derecho civil? ¡Estamos aquí para ayudarte!",
         "description": "En ABOGA ofrecemos asesoría legal para empresas, previniendo problemas legales y brindando soluciones personalizadas en temas jurídicos, desde redacción de contratos hasta representación en juicios civiles."
       },
@@ -722,6 +731,7 @@
       "title": "Derecho Comercial",
       "experts_id": "[0]",
       "banner": {
+        "image": "/images/portadas-web/derecho-comercial.png",
         "title": "Servicios legales para empresas: Asesoría integral en trámites societarios, contratos comerciales y marcas",
         "description": "En ABOGA ofrecemos asesoramiento y representación legal en derecho comercial para pequeñas y medianas empresas o personas naturales"
       },
@@ -794,9 +804,10 @@
       }
     },
     "derecho-consumidor-competencia-desleal": {
-      "title": "Derecho del consumidor",
+      "title": "Derecho del consumidor y competencia desleal",
       "experts_id": "[1]",
       "banner": {
+        "image": "/images/portadas-web/competencia-desleal.png",
         "title": "Protección legal, competencia desleal y tratamientos de datos personales",
         "description": "En ABOGA asesoramos y representamos a su empresa para que no incurran en actos que puedan perjudicarlos o que las acciones que realice otra empresa no los damnifique."
       },
@@ -872,6 +883,7 @@
       "title": "Derecho laboral",
       "experts_id": "[0]",
       "banner": {
+        "image": "/images/portadas-web/background_banner.png",
         "title": "Optimiza tu gestión laboral: Contratación laboral, reglamento interno, seguridad y aportes al Sistema de Seguridad Social",
         "description": "En ABOGA asesoramos y representamos a empresas sobre asuntos contractuales, salariales y despidos. Para que no incurran en conductas contrarias a la ley."
       },
@@ -947,6 +959,7 @@
       "title": "Derecho Tributario",
       "experts_id": "[0]",
       "banner": {
+        "image": "/images/portadas-web/derecho-tributario.png",
         "title": "Protege tu empresa y asegura su crecimiento con nuestro equipo de expertos en Derecho Tributario",
         "description": "En ABOGA brindamos asesoría en asuntos tributarios, con el propósito de prevenir que su empresa sea sancionada y, así, garantizar el crecimiento seguro de su compañía."
       },
@@ -1010,6 +1023,7 @@
       "title": "Propiedad-horizontal",
       "experts_id": "[2]",
       "banner": {
+        "image": "/images/portadas-web/empresas-horizontal.png",
         "title": " Soluciones Jurídicas Especializadas para tu Propiedad Horizontal. ¡Estamos aquí para ayudarte!",
         "description": "En ABOGA, ofrecemos servicios jurídicos completos y personalizados para resolver conflictos que se presenten entre los copropietarios y residentes, o entre los copropietarios y la propiedad horizontal."
       },

@@ -224,3 +224,9 @@
         grid-template-columns: repeat(4, 320px);
     }
 }
+@media (max-width: 920px){
+    .expert_back_img img{
+        width: 55.5%;
+        object-fit: cover;
+    }
+}

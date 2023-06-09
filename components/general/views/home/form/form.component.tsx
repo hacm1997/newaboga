@@ -32,9 +32,9 @@ export default function FormComponent(props:any){
     }, [valuesForm.dpto]);
 
     useEffect(() => {
-        if(valuesForm.type_service === "SP"){
+        if(valuesForm.type_service === "Servicio Personas"){
             setService(props.servicesP);
-        }else if(valuesForm.type_service === "SB"){
+        }else if(valuesForm.type_service === "Servicio Empresas"){
             setService(props.servicesB);
         }else{
             setService([]);
@@ -83,26 +83,43 @@ export default function FormComponent(props:any){
                         <div>
                             <input className="w-full mt-5" name="useremail" type="email" placeholder={props.translate('home:form.inputs.email')} onChange={handleForm} required/>
                         </div>
-                        <div>
-                            <select className="w-full mt-5" name="type_service" onChange={handleForm} required>
-                                <option value="">{props.translate('home:form.inputs.type_service')}</option>
-                                <option value="SP">Servicio Personas</option>
-                                <option value="SB">Servicio Empresas</option>
-                            </select>
-                        </div>
-                        <div>
-                            <select className="w-full mt-5" name="service" onChange={handleForm} required>
-                                <option value="">{props.translate('home:form.inputs.service')}</option>
-                                {service?.map((item:any, index:number) => (
-                                    <option key={index} value={item.value}>
-                                        {item.value}
-                                    </option>
-                                ))}
-                            </select>
-                        </div>
+                        {router.asPath.includes('asesorias') ? 
+                            <div>
+                                <select className="w-full mt-5" name="type_service" onChange={handleForm} required>
+                                    <option value="">Elige el tipo de asesoría</option>
+                                    <option value="Asesoría Básica">Asesoría Básica</option>
+                                    <option value="Asesoría Superior">Asesoría Superior</option>
+                                    <option value="Asesoría Integral">Asesoría Integral</option>
+                                </select>
+                            </div>
+                        :
+                            <div>
+                                <select className="w-full mt-5" name="type_service" onChange={handleForm} required>
+                                    <option value="">{props.translate('home:form.inputs.type_service')}</option>
+                                    <option value="Servicio Personas">Servicio Personas</option>
+                                    <option value="Servicio Empresas">Servicio Empresas</option>
+                                </select>
+                            </div>
+                        }
+                        {!router.asPath.includes('asesorias') ? 
+                            <div>
+                                <select className="w-full mt-5" name="service" onChange={handleForm} required>
+                                    <option value="">{props.translate('home:form.inputs.service')}</option>
+                                    {service?.map((item:any, index:number) => (
+                                        <option key={index} value={item.value}>
+                                            {item.value}
+                                        </option>
+                                    ))}
+                                </select>
+                            </div>
+                        :
+                            null
+                        }
                         <div className={styles.button}>
                             <button className="w-full mt-5">Contactar</button>
                         </div>
+                        
+                            
                     </form>
                 </div>
             </div>
