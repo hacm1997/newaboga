@@ -52,7 +52,7 @@ export default function ServicesComponent(props:any){
                                     </a>
                                 </div>
                                 <div className={styles.expert_back_img}>
-                                    <img src={item.expert_img} />
+                                    <img src={item.expert_img} alt='experto' title='Aboga experto'/>
                                 </div>
                             </div>
                             <div className={item.id === "0" ? "w-full "+styles.description2 : "w-full "+styles.description}>

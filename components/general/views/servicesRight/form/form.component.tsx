@@ -45,7 +45,7 @@ export default function FormServiceComponent(props: any) {
                         </h4>
                     </div>
                 </div>
-                <div className={'w-[80%] md:w-[45%] ml-10 '+ styles.form} data-aos="fade-left" data-aos-duration="1000">
+                <div className={'w-[80%] md:w-[45%] ml-10 '+ styles.form} data-aos="zoom-out" data-aos-duration="1000">
                     <form onSubmit={submitForm}>
                         <div className={'flex justify-center '+styles.form_text}>
                             <p className='text-center w-[80%]'>

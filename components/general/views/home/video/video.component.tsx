@@ -7,7 +7,7 @@ export default function VideoComponent(props:any){
 
     return(
         <>
-            <div className={styles.content_video} title="Video" data-aos="fade-up">
+            <div className={styles.content_video} title="Video">
                 <a>
                     <video 
                         src='Video Web Aboga.webm'

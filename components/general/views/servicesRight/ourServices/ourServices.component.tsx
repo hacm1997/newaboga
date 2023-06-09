@@ -8,7 +8,7 @@ export default function OurServicesComponent(props: any) {
     return (
         <>
             <div className={styles.background_content}>
-                <div className={'flex justify-center pt-14 '+styles.title} data-aos="zoom-out" data-aos-duration="1000">
+                <div className={'flex justify-center pt-14 '+styles.title} >
                     <h3 className='text-center'>{t(`general_services_title`)}</h3>
                 </div>
                 <div className='grid grid-cols-1 lg:grid-cols-2 w-[100%] pt-10 pl-10 md:pl-28 pr-10 md:pr-28 gap-5 '>
@@ -31,7 +31,7 @@ export default function OurServicesComponent(props: any) {
                     : null}
 
                 </div>
-                <div className={'flex justify-center pt-10 '+styles.general_button} data-aos="fade-up" data-aos-duration="1000">
+                <div className={'flex justify-center pt-10 '+styles.general_button} >
                     <a onClick={props.gaEventTracker(`Clic Agendar cita 4 - ${t(`${props.typeService}.${props.service}.title`)}`)} href='#Form'>
                         <button>
                             {t('general_button')}
