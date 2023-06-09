@@ -1,6 +1,6 @@
 {
   "title_banner": "Somos un equipo de abogados que brinda soluciones jurídicas con un enfoque preventivo y multidisciplinario.",
-  "description": "En ABOGA ofrecemos asesoría legal para empresas, previniendo problemas legales y brindando soluciones personalizadas en temas jurídicos, desde redacción de contratos hasta representación judicial.",
+  "description": "En ABOGA ofrecemos asesoría legal para empresas, previniendo problemas legales y brindando soluciones personalizadas en asuntos jurídicos, desde redacción de contratos hasta representación judicial.",
   "button": "Agendar cita",
   "list_services": {
     "s_persons": "Servicio Personas",
@@ -28,7 +28,7 @@
       {
         "img": "/images/home/services/default_icon2_color.png",
         "img_hover": "/images/home/services/default_icon2.png",
-        "expert_img": "/images/experts/keiry.png",
+        "expert_img": "/images/experts/liz.png",
         "title": "Derecho laboral",
         "link": "/servicio-personas/derecho-laboral",
         "description": "Nuestro objetivo principal es proteger tus derechos como trabajador y brindarte las herramientas necesarias para enfrentarte a cualquier situación laboral, con el fin de obtener resultados justos y equitativos."
@@ -44,7 +44,7 @@
       {
         "img": "/images/home/services/default_icon2_color.png",
         "img_hover": "/images/home/services/default_icon2.png",
-        "expert_img": "/images/experts/keiry.png",
+        "expert_img": "/images/experts/juan-jose.png",
         "title": "Derecho constitucional",
         "link": "/servicio-personas/derecho-constitucional",
         "description": "Entendemos la importancia de los derechos fundamentales, por eso, brindamos asesoría legal sólida y eficaz al momento de defenderlos, trabajamos contigo de manera comprometida para desarrollar estrategias legales efectivas."

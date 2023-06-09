@@ -17,7 +17,7 @@ export default function FooterComponent(){
                 <div className="w-56 ">
                     <img src='/images/logo-aboga-white.png' alt="Aboga" title="Logo Aboga Blanco" />
                     <h4 className="pt-6">Sobre nosotros</h4>
-                    <p className={"pt-6 w-64 "}>
+                    <p className={"pt-6 w-64 text-justify"}>
                         {t('about.content')}
                     </p>
                 </div>
@@ -76,8 +76,9 @@ export default function FooterComponent(){
                         </div>
                         <div className="flex gap-4 items-center ">
                             <p>
+                                <span>Correo: info@aboga.co</span><br/>
                                 Terminos y condiciones.<br/>
-                                NIT. 1226852962
+                                NIT. 901671566
                             </p>
                         </div>
                     </div>
