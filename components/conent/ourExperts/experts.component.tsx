@@ -23,13 +23,13 @@ export default function ExpertsComponent(props:any){
     const identifyGender = item_experts?.filter((item:any) => experts_id.includes(item.id)).map((item: any, index: any) => {
         if(item.gender === 'female'){
             return (
-                <div className="flex justify-center" key={index}>
+                <div className="flex justify-center" key={index} data-aos="fade-up" data-aos-duration="1000">
                     <h2>Nuestra <span>Experta</span></h2>
                 </div>
             )
         }else{
             return (
-                <div className="flex justify-center" key={index}>
+                <div className="flex justify-center" key={index} data-aos="fade-up" data-aos-duration="1000">
                     <h2>Nuestro <span>Experto</span></h2>
                 </div>
             )
@@ -45,7 +45,7 @@ export default function ExpertsComponent(props:any){
                     <div className="pl-0 xl:pl-24 w-full ">
                         {identifyGender}
 
-                        <div className={styles.content_swiper}>
+                        <div className={styles.content_swiper} data-aos="fade-in" data-aos-duration="1000">
                             <Swiper
                                 modules={[A11y, Navigation, Pagination]}
                                 autoplay={{ delay: 10000 }}
@@ -71,7 +71,7 @@ export default function ExpertsComponent(props:any){
 
                             </Swiper>
                         </div>
-                        <div className={"flex justify-center gap-10 md:gap-64 xl:-mt-8 pl-60 "+styles.footer_experts}>
+                        <div className={"flex justify-center gap-10 md:gap-64 xl:-mt-8 pl-60 "+styles.footer_experts} data-aos="fade-up">
                             <a onClick={() => props.gaEventTracker('Clic Agendar cita 3 - nuestros expertos')} href='#Form'>
                                 <button>Agendar cita</button>
                             </a>

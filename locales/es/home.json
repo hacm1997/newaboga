@@ -1,13 +1,13 @@
 {
-  "title_banner": "¡Somos su mayor aliado legal! En Aboga, velamos por usted y su empresa",
-  "description": "En nuestro equipo contamos con abogados altamente capacitados y con amplia experiencia en diversas áreas del derecho. Nos especializamos en derecho familiar, derecho comercial, derecho constitucional o laboral, y ofrecemos servicios de asesoría legal.",
+  "title_banner": "Somos un equipo de abogados que te brinda soluciones jurídicas con un enfoque preventivo y multidisciplinario.",
+  "description": "En ABOGA ofrecemos asesoría legal para empresas, previniendo problemas legales y brindando soluciones personalizadas en temas jurídicos, desde redacción de contratos hasta representación en juicios civiles.",
   "button": "Agendar cita",
   "list_services": {
     "s_persons": "Servicio Personas",
     "s_business": "Servicio Empresas"
   },
   "services-persons": {
-    "title": "Ofrecemos servicios en",
+    "title": "Ofrecemos servicios en:",
     "items": [
       {
         "img": "/images/home/services/default_icon1_color.png",
@@ -15,7 +15,7 @@
         "expert_img": "/images/experts/liz.png",
         "title": "Derecho de familia",
         "link": "/servicio-personas/derecho-familiar",
-        "description": "Ofrecemos asesoramiento y representación legal en situaciones penales para proteger los derechos y libertades de nuestros clientes. Buscamos el mejor resultado posible en cada caso. Si necesita ayuda en asuntos penales, contáctenos, estamos aquí para proteger sus intereses y libertad."
+        "description": "Ofrecemos servicios profesionales en derecho de familia, con el objetivo de ayudar a nuestros clientes a resolver asuntos legales de manera efectiva y satisfactoria, recuerda que no estás solo en esta situación."
       },
       {
         "img": "/images/home/services/default_icon2_color.png",
@@ -47,7 +47,7 @@
         "expert_img": "/images/experts/keiry.png",
         "title": "Derecho constitucional",
         "link": "/servicio-personas/derecho-constitucional",
-        "description": "Ofrecemos asesoramiento y representación legal en situaciones penales para proteger los derechos y libertades de nuestros clientes. Buscamos el mejor resultado posible en cada caso. Si necesita ayuda en asuntos penales, contáctenos, estamos aquí para proteger sus intereses y libertad."
+        "description": "Entendemos la importancia de los derechos fundamentales, por eso, brindamos asesoría legal sólida y eficaz al momento de defenderlos, trabajamos contigo de manera comprometida para desarrollar estrategias legales efectivas."
       },
       {
         "img": "/images/home/services/default_icon2_color.png",
@@ -55,7 +55,7 @@
         "expert_img": "/images/experts/juan-jose.png",
         "title": "Derecho del consumidor",
         "link": "/servicio-personas/derecho-consumidor",
-        "description": "Protegemos sus derechos como consumidor con nuestros servicios legales en derecho del consumidor. Brindamos asesoramiento experto y defensa eficaz para resolver conflictos y reclamaciones de manera justa y equitativa."
+        "description": "Defendemos tus derechos como consumidor con nuestros servicios legales, evaluamos cada caso en detalle, en aras de brindar una defensa eficaz al momento de resolver conflictos, y asesorar a nuestros clientes para que no sean víctimas de prácticas comerciales injustas o engañosas."
       },
       {
         "img": "/images/home/services/default_icon2_color.png",
@@ -71,12 +71,12 @@
         "expert_img": "/images/experts/osman.png",
         "link": "/servicio-personas/tramites-administrativos",
         "title": "Trámites administrativos",
-        "description": "Simplificamos los trámites administrativos para personas, agilizando procesos en áreas como contratos, laboral, civil y constitucional, brindando soluciones legales eficientes y protegiendo tus derechos."
+        "description": "Brindamos representación legal sólida y eficaz para proteger tus derechos frente a la administración pública, sabemos que estos asuntos pueden afectar tanto a los ciudadanos como las empresas, por eso, estamos aquí para ayudarte."
       }
     ]
   },
   "services-business": {
-    "title": "Ofrecemos servicios en",
+    "title": "Ofrecemos servicios en:",
     "items": [
       {
         "img": "/images/home/services/default_icon2_color.png",
@@ -108,7 +108,7 @@
         "expert_img": "/images/experts/osman.png",
         "title": "Derecho civil",
         "link": "/servicio-empresas/derecho-civil",
-        "description": "Ofrecemos asesoría legal para empresas y personas naturales, previniendo problemas legales y brindando soluciones personalizadas en temas jurídicos, desde redacción de contratos hasta representación en juicios civiles."
+        "description": "Ofrecemos asesoría legal para empresas, previniendo problemas legales y brindando soluciones personalizadas en temas jurídicos, desde redacción de contratos hasta representación en juicios civiles."
       },
       {
         "id": "0",
@@ -139,8 +139,8 @@
       "fullname": "Nombres y apellidos",
       "phone": "Tel/Cel",
       "email": "E-mail",
-      "type_service": "Tipo de servicio",
-      "service": "Servicio"
+      "type_service": "Eligo el tipo de servicio",
+      "service": "Elige un servicio"
     }
   },
   "areas": {

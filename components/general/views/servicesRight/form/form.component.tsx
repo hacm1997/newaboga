@@ -33,11 +33,11 @@ export default function FormServiceComponent(props: any) {
         <>
             <div id='Form' className={'block md:flex items-center place-content-around ' + styles.background}>
                 <div className='w-full md:w-[28%] mt-0 md:-mt-36 float-none md:float-right '>
-                    <div className='pb-24'>
+                    <div className='pb-24' data-aos="zoom-out" data-aos-duration="500">
                         <img src='/images/squards_white.png' alt="Recurso-gráfico" title='recurso cuadros'/>
                     </div>
 
-                    <div className={styles.titleP}>
+                    <div className={styles.titleP} data-aos="fade-right" data-aos-duration="1000">
                         <h4 className='text-center md:text-left'>
                             {t(`${props.typeService}.${props.service}.form.title1`)}
                             <span> {t(`${props.typeService}.${props.service}.form.titpleSpan`)} </span>
@@ -45,7 +45,7 @@ export default function FormServiceComponent(props: any) {
                         </h4>
                     </div>
                 </div>
-                <div className={'w-[80%] md:w-[45%] ml-10 '+ styles.form}>
+                <div className={'w-[80%] md:w-[45%] ml-10 '+ styles.form} data-aos="fade-left" data-aos-duration="1000">
                     <form onSubmit={submitForm}>
                         <div className={'flex justify-center '+styles.form_text}>
                             <p className='text-center w-[80%]'>

@@ -17,7 +17,7 @@
       },
       {
         "id": 1,
-        "name": "Juan José",
+        "name": "Juan José Castillo",
         "gender": "male",
         "photo": "/images/experts/juan-jose.png",
         "position": "Abogado profesional",
@@ -29,7 +29,7 @@
       {
         "id": 2,
         "gender": "male",
-        "name": "Osman",
+        "name": "Osman E. Guzmán Medrano",
         "photo": "/images/experts/osman.png",
         "position": "Abogado profesional",
         "ability": "Esp. en Derecho civil, comercial, propiedad horizontal y derecho administrativo",
@@ -40,7 +40,7 @@
       {
         "id": 3,
         "gender": "female",
-        "name": "Liz Buendía Tatis",
+        "name": "Liz V. Buendía Tatis",
         "photo": "/images/experts/liz.png",
         "position": "Abogada",
         "ability": "Profesional en Derecho, con un enfoque en las áreas de derecho laboral y derecho de familia",
@@ -66,104 +66,148 @@
     }
   },
   "personas": {
-    "derecho-administrativo": {
-      "title": "Derecho administrativo",
-      "experts_id": "[0]",
+    "tramites-administrativos": {
+      "title": "Trámite administrativo",
+      "experts_id": "[2]",
       "banner": {
-        "title": "¡Obtén la ayuda legal que necesitas para tu proceso de separación!",
-        "description": "¿Te encuentras en un proceso de separación con tu pareja y necesitas orientación legal confiable? ¿te gustaría saber como se dividen los bienes? En ABOGA, entendemos que la separación puede ser un momento\nemocionalmente difícil y legalmente complejo."
+        "title": "Ofrecemos asesoramiento legal en trámites administrativos",
+        "description": "En ABOGA, brindamos representación legal sólida y eficaz para proteger tus derechos frente a la administración pública, sabemos que estos asuntos pueden afectar tanto a los ciudadanos como a las empresas, por eso, estamos aquí para ayudarte."
       },
       "our_team": {
-        "title": "Nuestro equipo de abogados especializados en derecho familiar ",
+        "title": "Nuestro equipo de abogados expertos en derecho administrativo,",
         "title_span": "está aquí para\nayudarte en cada paso\ndel camino.",
-        "title2": "Te brindaremos el apoyo y la asesoría legal que necesitas para",
-        "title2_span": "proteger tus derechos e intereses."
+        "title2": "Cobro excesivo de servicios públicos: Rectifique facturas injustas y",
+        "title2_span": "recupere su equilibrio financiero con nuestro recurso de rectificación."
       },
       "our_services": [
         {
           "img": "/images/servicios/our-services/logo-asesoria.png",
-          "title": "Asesoramiento legal personalizado",
-          "description": "Nuestros abogados altamente calificados te brindarán asesoramiento legal personalizado, teniendo en cuenta tu situación única y tus necesidades específicas. Te ayudaremos a entender tus derechos y opciones legales en el proceso de separación, incluyendo la división de bienes, la custodia de los hijos, el mantenimiento o la pensión alimenticia, y otros aspectos relevantes.",
+          "title": "Solicitudes de prescripción de multas de tránsito.",
+          "description": "",
           "bg_color": "blue"
         },
         {
           "img": "/images/servicios/our-services/logo-negociacion.png",
-          "title": "Negociación y mediación",
-          "description": "Nos esforzamos por encontrar soluciones amistosas y equitativas para resolver los conflictos en el proceso de separación. Nuestros abogados son expertos en la negociación y la mediación, y trabajaremos para llegar a acuerdos justos y favorables para ti, evitando costosos y prolongados litigios en la medida de lo posible.",
+          "title": "Solicitud de prescripción de impuesto predial.",
+          "description": "",
           "bg_color": "white"
         },
         {
           "img": "/images/servicios/our-services/logo-representacion.png",
-          "title": "Representación legal en litigios",
-          "description": "Si el proceso de separación se vuelve más complicado y requiere acciones legales más formales, nuestro equipo de abogados está preparado para representarte en los tribunales. Defendemos tus derechos en litigios de derecho familiar, asegurándonos de que tus intereses estén protegidos y abogando enérgicamente en tu nombre.",
+          "title": "Proceso policivo por comportamientos contrarios al uso del espacio público",
+          "description": "",
           "bg_color": "white"
         },
         {
           "img": "/images/servicios/our-services/logo-soluciones.png",
-          "title": "Soluciones a medida",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
+          "title": "Recurso de rectificación de factura por cobro excesivo de servicios públicos.",
+          "description": "",
           "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Comportamientos que afecten la actividad económica",
+          "description": "",
+          "bg_color": "blue"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Procesos policivos por comportamientos contrarios a la integridad urbanística.",
+          "description": "",
+          "bg_color": "white"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Procesos policivos por comportamientos contrarios que afectan la actividad económica.",
+          "description": "",
+          "bg_color": "white"
         }
       ],
       "need_assessor": {
-        "title_pt1": "Si estás en proceso de separación y necesitas",
-        "title_span": "asesoramiento legal confiable y personalizado,",
-        "title_pt2": "no dudes en ponerte en contacto con nosotros."
+        "title_pt1": "Además de los servicios expresados,",
+        "title_span": "nos encargamos del caso puntual que necesite,",
+        "title_pt2": "contáctenos.",
+        "image": "/images/experts/osman.png"
       },
       "form":{
         "title1": "Nuestro equipo de",
-        "titpleSpan": "abogados especializados en derecho familiar",
+        "titpleSpan": "abogados especializados en trámite administrativo",
         "title2": "está aquí para ayudarte en cada paso del camino."
       }
     },
     "derecho-familiar": {
-      "title": "Derecho familiar",
+      "title": "Derecho de familia",
       "experts_id": "[3]",
       "banner": {
-        "title": "¡Obtén la ayuda legal que necesitas para tu proceso de separación!",
-        "description": "¿Te encuentras en un proceso de separación con tu pareja y necesitas orientación legal confiable? ¿te gustaría saber como se dividen los bienes? En ABOGA, entendemos que la separación puede ser un momento\nemocionalmente difícil y legalmente complejo."
+        "title": "Somos tu equipo legal de confianza en casos de derecho de familia",
+        "description": "En nuestra oficina jurídica, ofrecemos servicios profesionales en derecho de familia, con el objetivo de ayudar a nuestros clientes a resolver asuntos legales de manera efectiva y satisfactoria en asuntos como el divorcio, la custodia y alimentación de los hijos, adopción, violencia doméstica, entre otros."
       },
       "our_team": {
-        "title": "Nuestro equipo de abogados especializados en derecho familiar ",
-        "title_span": "está aquí para\nayudarte en cada paso\ndel camino.",
-        "title2": "Te brindaremos el apoyo y la asesoría legal que necesitas para",
-        "title2_span": "proteger tus derechos e intereses."
+        "title": "Nuestro equipo de abogados expertos en derecho de familia,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso",
+        "title2": "Nuestro equipo de abogados expertos en derecho de familia te ayudará a resolver conflictos familiares,",
+        "title2_span": "incluyendo cuota alimentaria, divorcios, adopciones y más."
       },
       "our_services": [
         {
           "img": "/images/servicios/our-services/logo-asesoria.png",
-          "title": "Asesoramiento legal personalizado",
-          "description": "Nuestros abogados altamente calificados te brindarán asesoramiento legal personalizado, teniendo en cuenta tu situación única y tus necesidades específicas. Te ayudaremos a entender tus derechos y opciones legales en el proceso de separación, incluyendo la división de bienes, la custodia de los hijos, el mantenimiento o la pensión alimenticia, y otros aspectos relevantes.",
-          "bg_color": "blue"
+          "title": "Fijación, disminución y aumento de cuota alimentaria.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Cuota alimentaria"
         },
         {
           "img": "/images/servicios/our-services/logo-negociacion.png",
           "title": "Negociación y mediación",
-          "description": "Nos esforzamos por encontrar soluciones amistosas y equitativas para resolver los conflictos en el proceso de separación. Nuestros abogados son expertos en la negociación y la mediación, y trabajaremos para llegar a acuerdos justos y favorables para ti, evitando costosos y prolongados litigios en la medida de lo posible.",
-          "bg_color": "white"
+          "description": "Acompañamiento en conciliaciones.",
+          "bg_color": "white",
+          "alt": "Acompañamiento en conciliaciones"
         },
         {
           "img": "/images/servicios/our-services/logo-representacion.png",
-          "title": "Representación legal en litigios",
-          "description": "Si el proceso de separación se vuelve más complicado y requiere acciones legales más formales, nuestro equipo de abogados está preparado para representarte en los tribunales. Defendemos tus derechos en litigios de derecho familiar, asegurándonos de que tus intereses estén protegidos y abogando enérgicamente en tu nombre.",
-          "bg_color": "white"
+          "title": "Asesoría y trámite de divorcios, disolución y liquidación de sociedad conyugal",
+          "description": "",
+          "bg_color": "white",
+          "alt": "trámite de divorcios, disolución y liquidación de sociedad conyugal"
         },
         {
           "img": "/images/servicios/our-services/logo-soluciones.png",
-          "title": "Soluciones a medida",
-          "description": "En ABOGA, creemos en encontrar soluciones a medida para nuestros clientes. Nos adaptamos a tus necesidades y preferencias, ya sea que busques una solución amistosa o necesites una representación legal más agresiva. Nuestro objetivo es ayudarte a lograr tus objetivos y proteger tus intereses en tu proceso de separación con tu pareja.",
-          "bg_color": "blue"
+          "title": "Asesoría y trámite de disolución y liquidación de sociedad.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Trámite de disolución y liquidación de sociedad"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Asesoría y acompañamiento en trámites de adopción.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Trámites de adopción"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Trámites de custodia y patria potestad.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Trámites de custodia y patria potestad"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Trámites de sucesiones.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Trámites de sucesiones"
         }
       ],
       "need_assessor": {
-        "title_pt1": "Si estás en proceso de separación y necesitas",
-        "title_span": "asesoramiento legal confiable y personalizado,",
-        "title_pt2": "no dudes en ponerte en contacto con nosotros.",
+        "title_pt1": "Además de los servicios expresados,",
+        "title_span": "nos encargamos del caso puntual que necesite,",
+        "title_pt2": "contáctenos.",
         "image": "/images/experts/liz.png"
       },
       "form":{
         "title1": "Nuestro equipo de",
-        "titpleSpan": "abogados especializados en derecho familiar",
+        "titpleSpan": "abogados especializados en derecho de familia",
         "title2": "está aquí para ayudarte en cada paso del camino."
       }
     },
@@ -171,7 +215,7 @@
       "title": "Derecho del consumidor",
       "experts_id": "[1]",
       "banner": {
-        "title": "¿Necesitas asesoramiento legal en temas relacionados con los derechos de los consumidores? ¡Estamos aquí para ayudarte! ",
+        "title": "Servicios legales en derecho del consumidor: Garantías, publicidad engañosa y más",
         "description": "En ABOGA defendemos tus derechos como consumidor con nuestros servicios legales, evaluamos cada caso en detalle, en aras de brindar una defensa eficaz al momento de resolver conflictos y asesorar a nuestros clientes para que no sean víctimas de prácticas comerciales injustas o engañosas"
       },
       "our_team": {
@@ -230,10 +274,10 @@
       }
     },
     "propiedad-horizontal": {
-      "title": "Propiedad-horizontal",
+      "title": "Propiedad horizontal",
       "experts_id": "[2]",
       "banner": {
-        "title": "¿Necesitas asesoramiento legal en temas relacionados con tu propiedad horizontal? ¡Estamos aquí para ayudarte!",
+        "title": "Asesoramiento legal en propiedad horizontal para personas: Expertos en la correcta convivencia",
         "description": "En ABOGA, ofrecemos servicios jurídicos completos y personalizados para resolver conflictos que se presenten entre los copropietarios y residentes, o entre los copropietarios y la propiedad horizontal, ofrecemos soluciones efectivas y eficientes, para la sana convivencia y el correcto funcionamiento en la copropiedad."
       },
       "our_team": {
@@ -281,6 +325,331 @@
       "form":{
         "title1": "Nuestro equipo de",
         "titpleSpan": "abogados expertos en propiedad horizontal,",
+        "title2": "te ayudarán y acompañarán durante todo el proceso."
+      }
+    },
+    "derecho-laboral": {
+      "title": "Derecho laboral",
+      "experts_id": "[3]",
+      "banner": {
+        "title": "Asesoramiento y acompañamiento en derecho laboral para trabajadores",
+        "description": "En ABOGA, nuestro objetivo principal es proteger tus derechos como trabajador y brindarte las herramientas necesarias para enfrentarte a cualquier situación laboral, con el fin de obtener resultados justos y equitativos."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en derecho laboral,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso",
+        "title2": "Nuestro objetivo es obtener resultados justos y equitativos en tu entorno laboral.",
+        "title2_span": "Te asesoramos en conciliaciones, representación en casos de despido injustificado, acoso laboral y otros conflictos laborales."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/logo-asesoria.png",
+          "title": "Fijación, disminución y aumento de cuota alimentaria.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "cuota alimentaria"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-negociacion.png",
+          "title": "Acompañamiento en conciliaciones.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Acompañamiento en conciliaciones"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Asesoría y trámite de divorcios, disolución y liquidación de sociedad conyugal.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "sociedad conyugal"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Asesoría y trámite de disolución y liquidación de sociedad.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Asesoría y trámite de disolución y liquidación de sociedad"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Asesoría y acompañamiento en trámites de adopción.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Trámites de adopción"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Trámites de custodia y patria potestad.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Custodia y patria potestad"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Trámites de sucesiones.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Trámites de sucesiones"
+        }
+      ],
+      "need_assessor": {
+        "title_pt1": "Además de los servicios expresados, nos encargamos del caso puntual que necesite,",
+        "title_span": "contáctenos",
+        "title_pt2": "",
+        "image": "/images/experts/liz.png"
+      },
+      "form":{
+        "title1": "Protegemos tus derechos como trabajador y te brindamos",
+        "titpleSpan": "las herramientas necesarias",
+        "title2": "para enfrentar situaciones laborales"
+      }
+    },
+    "derecho-penal": {
+      "title": "Derecho penal",
+      "experts_id": "[3]",
+      "banner": {
+        "title": "¿Necesitas asesoramiento legal en temas penales? ¡Estamos aquí para ayudarte!",
+        "description": "En ABOGA, entendemos la importancia de tu libertad y reputación, y sabemos que se pueden ver comprometidas cuando nos enfrentamos a situaciones penales, por eso, ofrecemos asesorías y representación en las etapas preliminares y de juicio oral de sus asuntos en materia penal."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en derecho penal,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso",
+        "title2": "Brindamos asesoría y representación de personas en las etapas preliminares y de",
+        "title2_span": "juicio oral de sus asuntos en materia penal."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/logo-asesoria.png",
+          "title": "Acompañamiento en etapas preliminares.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "etapas preliminares"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-negociacion.png",
+          "title": "Redacción y presentación de denuncias.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Denuncias"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Acompañamiento en audiencias de acusación, preparatoria y juicio oral",
+          "description": "",
+          "bg_color": "white",
+          "alt": "acusación, preparatoria y juicio oral"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Acompañamiento en audiencias de entrega de vehículos.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Audiencias de entrega de vehículos"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Redacción y presentación de recursos.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Redacción y presentación de recursos"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Redacción y presentación de querellas.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Redacción y presentación de querellas"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Redacción y presentación de incidentes de reparación integral.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Reparación integral"
+        }
+      ],
+      "need_assessor": {
+        "title_pt1": "Protege tus derechos y obtén la mejor defensa con una gran",
+        "title_span": "equipo de profesionales",
+        "title_pt2": "",
+        "image": "/images/experts/liz.png"
+      },
+      "form":{
+        "title1": "Nuestro equipo de ,",
+        "titpleSpan": "abogados expertos en derecho penal,",
+        "title2": "te ayudarán y acompañarán durante todo el proceso."
+      }
+    },
+    "derecho-constitucional": {
+      "title": "Derecho constitucional",
+      "experts_id": "[1]",
+      "banner": {
+        "title": "Asesoramiento y acompañamiento en derecho constitucional",
+        "description": "En ABOGA, entendemos la importancia de los derechos fundamentales, por eso, brindamos asesoría legal sólida y eficaz al momento de defenderlos, trabajamos contigo de manera comprometida para desarrollar estrategias legales efectivas."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en derecho constitucional,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso",
+        "title2": "Desarrollamos estrategias legales efectivas, como acciones de tutela, acciones de grupo y",
+        "title2_span": "restablecimiento de derechos de menores de edad, para garantizar tus derechos constitucionales."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/logo-asesoria.png",
+          "title": "Acciones de tutela.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Acciones de tutela"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-negociacion.png",
+          "title": "Incidentes de desacato.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Incidentes de desacato"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Acciones de cumplimiento.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Acciones de cumplimiento"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Acciones populares.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Acciones populares"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Acciones de grupo.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Acciones de grupo"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Procesos de restablecimiento de derechos de menores de edad.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Restablecimiento de derechos de menores de edad"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Demandas de inconstitucionalidad y demandas de nulidad por inconstitucionalidad.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Demandas por inconstitucionalidad"
+        }
+      ],
+      "need_assessor": {
+        "title_pt1": "Además de los servicios expresados,",
+        "title_span": "nos encargamos del caso puntual que necesite",
+        "title_pt2": "contáctenos.",
+        "image": "/images/experts/juan-jose.png"
+      },
+      "form":{
+        "title1": "Nuestro equipo de ,",
+        "titpleSpan": "abogados expertos en derecho constitucional,",
+        "title2": "te ayudarán y acompañarán durante todo el proceso."
+      }
+    },
+    "derecho-civil": {
+      "title": "Derecho civil",
+      "experts_id": "[2]",
+      "banner": {
+        "title": "Protege tus derechos civiles con asesoramiento legal personalizado",
+        "description": "En ABOGA, entendemos la importancia de proteger tus derechos y resolver controversias civilmente, por esto, trabajamos de forma personalizada y revisamos en cada caso todos los detalles, con el objetivo de encontrar las mejores estrategias y soluciones."
+      },
+      "our_team": {
+        "title": "Nuestro equipo de abogados expertos en derecho civil,",
+        "title_span": "te ayudarán y acompañarán durante todo el proceso",
+        "title2": "Protege tus bienes, contratos y derechos civiles con nuestra asesoría legal en derecho civil,",
+        "title2_span": "donde nuestro equipo de abogados te ayudará en procesos de titulación de inmuebles, prescripción adquisitiva y otros temas relacionados."
+      },
+      "our_services": [
+        {
+          "img": "/images/servicios/our-services/logo-asesoria.png",
+          "title": "Procesos de restitución de bien inmueble arrendado.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Restitución inmueble arrendado"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-negociacion.png",
+          "title": "Asuntos inmobiliarios.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Asuntos inmobiliarios"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Redacción de contratos.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Redacción de contratos"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Demandas y contestaciones de demandas civiles.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Demandas y contestaciones"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Procesos monitorios.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Procesos monitorios"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Procesos ejecutivos.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Procesos ejecutivos"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Reclamación de seguros.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Reclamación de seguros"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Titulación de inmuebles.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Titulación de inmuebles"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-soluciones.png",
+          "title": "Procesos de prescripción adquisitiva.",
+          "description": "",
+          "bg_color": "blue",
+          "alt": "Procesos de prescripción adquisitiva"
+        },
+        {
+          "img": "/images/servicios/our-services/logo-representacion.png",
+          "title": "Procesos declarativos.",
+          "description": "",
+          "bg_color": "white",
+          "alt": "Procesos declarativos"
+        }
+      ],
+      "need_assessor": {
+        "title_pt1": "Además de los servicios expresados,",
+        "title_span": "nos encargamos del caso puntual que necesite",
+        "title_pt2": "contáctenos.",
+        "image": "/images/experts/osman.png"
+      },
+      "form":{
+        "title1": "Nuestro equipo de ,",
+        "titpleSpan": "abogados expertos en derecho civil,",
         "title2": "te ayudarán y acompañarán durante todo el proceso."
       }
     }
