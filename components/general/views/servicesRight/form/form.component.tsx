@@ -54,31 +54,31 @@ export default function FormServiceComponent(props: any) {
                             </p>
                         </div>
                         <div>
-                            <select className="w-full mt-5" name="dpto" onChange={handleForm} required>
+                            <select className="w-full mt-5 pl-2" name="dpto" onChange={handleForm} required>
                                 <option value="">{t('form_general.form_data.dpto')}</option>
                                 {dptoSelect}
                             </select>
                         </div>
                         <div>
-                            <select className="w-full mt-5" name="city" onChange={handleForm} required>
+                            <select className="w-full mt-5 pl-2" name="city" onChange={handleForm} required>
                                 <option value="">{t('form_general.form_data.city')}</option>
                                 {citySelect}
                             </select>
                         </div>
                         <div>
-                            <input className="w-full mt-5" name="address" type="text" placeholder={t('form_general.form_data.address')} onChange={handleForm} required />
+                            <input className="w-full mt-5 pl-2" name="address" type="text" placeholder={t('form_general.form_data.address')} onChange={handleForm} required />
                         </div>
                         <div>
-                            <input className="w-full mt-5" name="name" type="text" placeholder={t('form_general.form_data.fullname')} onChange={handleForm} required />
+                            <input className="w-full mt-5 pl-2" name="name" type="text" placeholder={t('form_general.form_data.fullname')} onChange={handleForm} required />
                         </div>
                         <div>
-                            <input className="w-full mt-5" name="phone" type="number" placeholder={t('form_general.form_data.phone')} onChange={handleForm} required />
+                            <input className="w-full mt-5 pl-2" name="phone" type="number" placeholder={t('form_general.form_data.phone')} onChange={handleForm} required />
                         </div>
                         <div>
-                            <input className="w-full mt-5" name="useremail" type="email" placeholder={t('form_general.form_data.email')} onChange={handleForm} required />
+                            <input className="w-full mt-5 pl-2" name="useremail" type="email" placeholder={t('form_general.form_data.email')} onChange={handleForm} required />
                         </div>
                         <div>
-                            <input className="w-full mt-5" name="service" type="text" value={t(`${props.typeService}.${props.service}.title`)} onChange={handleForm} readOnly required />
+                            <input className="w-full mt-5 pl-2" name="service" type="text" value={t(`${props.typeService}.${props.service}.title`)} onChange={handleForm} readOnly required />
                         </div>
                         <div className={styles.button}>
                             <button className="w-full mt-5">Contactar</button>

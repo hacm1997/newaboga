@@ -60,32 +60,32 @@ export default function FormComponent(props:any){
                 <div className={styles.form}>
                     <form onSubmit={submitForm}>
                         <div>
-                            <select className="w-full mt-5" name="dpto" onChange={handleForm} required>
+                            <select className="w-full mt-5 pl-2" name="dpto" onChange={handleForm} required>
                                 <option value="">{props.translate('home:form.inputs.dpto')}</option>
                                 {dptoSelect}
                             </select>
                         </div>
                         <div>
-                            <select className="w-full mt-5" name="city" onChange={handleForm} required>
+                            <select className="w-full mt-5 pl-2" name="city" onChange={handleForm} required>
                                 <option value="">{props.translate('home:form.inputs.city')}</option>
                                 {citySelect}
                             </select>
                         </div>
                         <div>
-                            <input className="w-full mt-5" name="address" type="text" placeholder={props.translate('home:form.inputs.address')} onChange={handleForm} required/>
+                            <input className="w-full mt-5 pl-2" name="address" type="text" placeholder={props.translate('home:form.inputs.address')} onChange={handleForm} required/>
                         </div>
                         <div>
-                            <input className="w-full mt-5" name="name" type="text" placeholder={props.translate('home:form.inputs.fullname')} onChange={handleForm} required/>
+                            <input className="w-full mt-5 pl-2" name="name" type="text" placeholder={props.translate('home:form.inputs.fullname')} onChange={handleForm} required/>
                         </div>
                         <div>
-                            <input className="w-full mt-5" name="phone" type="number" placeholder={props.translate('home:form.inputs.phone')} onChange={handleForm} required/>
+                            <input className="w-full mt-5 pl-2" name="phone" type="number" placeholder={props.translate('home:form.inputs.phone')} onChange={handleForm} required/>
                         </div>
                         <div>
-                            <input className="w-full mt-5" name="useremail" type="email" placeholder={props.translate('home:form.inputs.email')} onChange={handleForm} required/>
+                            <input className="w-full mt-5 pl-2" name="useremail" type="email" placeholder={props.translate('home:form.inputs.email')} onChange={handleForm} required/>
                         </div>
                         {router.asPath.includes('asesorias') ? 
                             <div>
-                                <select className="w-full mt-5" name="type_service" onChange={handleForm} required>
+                                <select className="w-full mt-5 pl-2" name="type_service" onChange={handleForm} required>
                                     <option value="">Elige el tipo de asesoría</option>
                                     <option value="Asesoría Básica">Asesoría Básica</option>
                                     <option value="Asesoría Superior">Asesoría Superior</option>
@@ -94,7 +94,7 @@ export default function FormComponent(props:any){
                             </div>
                         :
                             <div>
-                                <select className="w-full mt-5" name="type_service" onChange={handleForm} required>
+                                <select className="w-full mt-5 pl-2" name="type_service" onChange={handleForm} required>
                                     <option value="">{props.translate('home:form.inputs.type_service')}</option>
                                     <option value="Servicio Personas">Servicio Personas</option>
                                     <option value="Servicio Empresas">Servicio Empresas</option>
@@ -103,7 +103,7 @@ export default function FormComponent(props:any){
                         }
                         {!router.asPath.includes('asesorias') ? 
                             <div>
-                                <select className="w-full mt-5" name="service" onChange={handleForm} required>
+                                <select className="w-full mt-5 pl-2" name="service" onChange={handleForm} required>
                                     <option value="">{props.translate('home:form.inputs.service')}</option>
                                     {service?.map((item:any, index:number) => (
                                         <option key={index} value={item.value}>
