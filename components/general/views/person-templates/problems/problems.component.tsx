@@ -52,7 +52,7 @@ const ProblemsComponent = (props:any) => {
           </section>
           
         </aside>
-        <div className={'flex pt-0 justify-center '+styles.general_button} >
+        <div className={'flex pt-5 justify-center '+styles.general_button} >
         <a onClick={props.gaEventTracker(`Clic Agendar cita 4 - ${t(`${props.typeService}.${props.service}.title`)}`)} href='#Form'>
             <button>
                 {t('general_button')}

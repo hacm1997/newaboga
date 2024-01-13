@@ -64,13 +64,13 @@
         "video": "/videos/jurisdiccion/jurisdiccion.mp4",
         "question1": "¡Libera tu historial! Trabajamos en la prescripción de multas de tránsito con más de 6 años de antigüedad.",
         "description1": "Elimina multas de tráfico antiguas con nuestro servicio de prescripción. Revisamos cada caso para liberarte de obligaciones pasadas. ¡Contáctanos para un futuro sin preocupaciones legales!",
-        "img1": "/images/home/banner-home.webp",
+        "img1": "/images/servicios/our-services/personas/jurisdiccion/multas-trafico.png",
         "question2": "¡Protege tu propiedad recuperando la tranquilidad financiera con la prescripción de impuestos prediales antiguos!",
         "description2": "No pierdas tu propiedad, contamos con especialistas experimentados en la prescripción de impuestos antiguos. Consulta con nosotros y libérate de deudas del pasado, toma el control de tus finanzas hoy.",
-        "img2": "/images/home/banner-home.webp",
+        "img2": "/images/servicios/our-services/personas/jurisdiccion/impuesto-predial.png",
         "question3": "¿Recibiste una notificación de cobro por impuestos o multas?",
         "description3": "Defensa experta contra cobro coactivo de multas e impuestos. Protegemos tus derechos, ¡contáctanos ahora!",
-        "img3": "/images/home/banner-home.webp"
+        "img3": "/images/servicios/our-services/personas/jurisdiccion/cobro-impuestos.png"
       },
       "vulnerabilities": {
         "title": "¿Consideras vulnerados tus derechos fundamentales?",
@@ -509,13 +509,13 @@
         "video": "/videos/derecho-constitucional/Presentacion-Aboga1.mp4",
         "question1": "¿Retrasos en la entrega de medicamentos y en la programación de citas?",
         "description1": "¿Problemas con tu EPS? Demandamos por el retraso en la entrega de tus medicamentos y la programación de tus procedimientos médicos. Protegemos tu derecho a la salud con acciones legales efectivas. ¡Tu bienestar es nuestra causa!",
-        "img1": "/images/home/banner-home.webp",
+        "img1": "/images/servicios/our-services/personas/constitucional/retrasos-medicamentos.png",
         "question2": "¿Presentaste una petición y no fue respondida?",
         "description2": "Te asistimos en la presentación de acciones de tutela contra autoridades o particulares por la falta de respuesta oportuna a tus solicitudes, cumpliendo con los términos legales. ¡Tus derechos son nuestra prioridad!",
-        "img2": "/images/home/banner-home.webp",
+        "img2": "/images/servicios/our-services/personas/constitucional/peticion-no-respondida.png",
         "question3": "¿Crees que una decisión judicial afectó gravemente tus derechos fundamentales?",
         "description3": "Estudiamos a fondo las sentencias para identificar posibles errores que te brinden oportunidades para interponer recursos, o incluso, presentar una acción de tutela en contra de la decisión judicial. Confía en nuestro asesoramiento legal para proteger tus derechos.",
-        "img3": "/images/home/banner-home.webp"
+        "img3": "/images/servicios/our-services/personas/constitucional/decision-judicial.png"
       },
       "vulnerabilities": {
         "title": "¿Consideras vulnerados tus derechos fundamentales?",
