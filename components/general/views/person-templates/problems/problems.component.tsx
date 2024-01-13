@@ -20,7 +20,7 @@ const ProblemsComponent = (props:any) => {
           <section className='md:flex md:gap-10 2xl:gap-24'>
 
             <div className='pt-5 md:pt-0 border-r pr-0 md:pr-10 md:w-[30%] 2xl:w-full'>
-              <h2 className='text-base md:text-[16px] 2xl:text-4xl font-bold text-center pb-2 md:h-20 2xl:h-36 '>
+              <h2 className='text-base md:text-[16px] 2xl:text-2xl font-bold text-center pb-2 md:h-20 2xl:h-[120px] '>
                 {t(`${props.typeService}.${props.service}.over_video.question1`)}
               </h2><br/>
               <div className='md:pl-1 pb-5'>
@@ -30,7 +30,7 @@ const ProblemsComponent = (props:any) => {
             </div>
 
             <div className='pt-5 md:pt-0 border-r pr-0 md:pr-10 md:w-[30%] 2xl:w-full'>
-              <h2 className='text-base md:text-[16px] 2xl:text-4xl font-bold text-center pb-2 md:h-20 2xl:h-36 2xl:w-[95%]'>
+              <h2 className='text-base md:text-[16px] 2xl:text-2xl font-bold text-center pb-2 md:h-20 2xl:h-[120px] 2xl:w-[95%]'>
                 {t(`${props.typeService}.${props.service}.over_video.question2`)}
               </h2><br/>
               <div className='md:pl-1 pb-5'>
@@ -40,7 +40,7 @@ const ProblemsComponent = (props:any) => {
             </div>
 
             <div className='pt-5 md:pt-0 pr-0 md:pr-10 md:w-[30%] 2xl:w-full'>
-              <h2 className='text-base md:text-[16px] 2xl:text-4xl font-bold text-center pb-2 md:h-20 2xl:h-36'>
+              <h2 className='text-base md:text-[16px] 2xl:text-2xl font-bold text-center pb-2 md:h-20 2xl:h-[120px]'>
                 {t(`${props.typeService}.${props.service}.over_video.question3`)}
               </h2><br/>
               <div className='md:pl-1 pb-5'>
