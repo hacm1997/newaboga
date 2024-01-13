@@ -18,7 +18,7 @@
     z-index: 1;
 }
 .card {
-    background-image: url("/images/experts/expert-background.png");
+    background-image: url("/images/experts/expert-background.webp");
     background-size: 100% 100%;
     position: relative;
     width: 50%;

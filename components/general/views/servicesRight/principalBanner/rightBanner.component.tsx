@@ -12,8 +12,8 @@ export default function RightBannerComponent(props:any){
     })
     return(
         <>
-            <div className={"flex -mt-32 bg-no-repeat bg-right "+styles.content} data-aos="fade-left">
-                <div className={"w-[65%] pt-[170px] pl-[50px] md:pl-[100px] md:pt-[220px] md:w-[85%] items-center "+styles.general} data-aos="fade-right" data-aos-duration="5000">
+            <div className={"flex bg-no-repeat bg-right "+styles.content} data-aos="fade-top">
+                <div className={"w-[65%] pt-[170px] pl-[50px] md:pl-[100px] md:pt-[220px] md:w-[85%] items-center "+styles.general} data-aos="fade-top" data-aos-duration="5000">
                     <div className={"w-[100%] "+styles.information}>
                         <h1>{t(`${props.typeService}.${props.service}.banner.title`)}</h1>
                         <p className="pt-6">{t(`${props.typeService}.${props.service}.banner.description`)}</p>

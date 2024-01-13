@@ -6,7 +6,7 @@ export default function HeaderComponent(){
     return(
         <>
             <Head>
-            <link rel="icon" type="image/png" sizes="50x50" href="/images/favicon.png"/>
+                <link rel="icon" type="image/png" sizes="50x50" href="/images/favicon.png"/>
                 <meta property="og:description" content="Somos una empresa caracterizada por el compromiso en la defensa de los intereses jurídicos de las personas y empresas, con un enfoque multidisciplinar. Su caso es importante para nosotros, contáctenos."/>
                 <meta property="image" content="/images/logo-portada"/>
                 <meta charSet="utf-8"/>
@@ -22,7 +22,7 @@ export default function HeaderComponent(){
                 <meta name="googlebot-news" content="index, follow"/>
                 <meta name="googlebot-image" content="index, follow"/>
                 <meta name="googlebot-video" content="index, follow"/>
-                <link rel="canonical" href="https://aboga.com"/>
+                <link rel="icon" href="/favicon.ico" sizes="any" />
                 <title>Aboga</title>
             </Head>
         </>

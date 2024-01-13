@@ -9,7 +9,7 @@ export default function OurServicesComponent(props: any) {
         <>
             <div className={styles.background_content}>
                 <div className={'flex justify-center pt-14 '+styles.title} >
-                    <h3 className='text-center'>{t(`general_services_title`)}</h3>
+                    <h3 className='text-center'>{t(`general_services_title`)}:</h3>
                 </div>
                 <div className='grid grid-cols-1 lg:grid-cols-2 w-[100%] pt-10 pl-10 md:pl-28 pr-10 md:pr-28 gap-5 '>
                     {
@@ -20,7 +20,7 @@ export default function OurServicesComponent(props: any) {
                             data-aos-offset="0"
                             >
                                 <div className='w-[100%] md:w-[17%] flex justify-center md:block align-center'>
-                                    <img className='w-[30%] md:w-[70%]' src={item.img} alt={item.alt} title={item.alt} />
+                                    <img className='w-[30%] md:w-[70%]' src={item.img} alt={item.title} title={item.title} />
                                 </div>
                                 <div className='pt-6 w-[100%] md:w-[90%] md:pt-1'>
                                     <h5 className='text-center md:text-left pb-3'>{item.title}</h5>

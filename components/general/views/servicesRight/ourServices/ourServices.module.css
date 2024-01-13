@@ -74,3 +74,9 @@
         padding: 10px;
     }
 }
+
+@media (max-width: 644px){
+    .background_content{
+        margin-top: 200px;
+    }
+}

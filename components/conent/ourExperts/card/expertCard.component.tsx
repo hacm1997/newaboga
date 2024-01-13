@@ -10,7 +10,7 @@ export default function ExpertCardComponent(props:any){
                     <img src={props.photo} alt={props.name} title={props.name}/>
                 </div>
                 <div className={"flex items-center gap-10 "+styles.card}>
-                    <div className={"w-[60%] "+styles.info}>
+                    <div className={"w-[62%] "+styles.info}>
                         <h5>{props.name}</h5>
                         <p><strong>{props.position}</strong></p>
                         <p>{props.ability}</p><br/>
@@ -24,7 +24,7 @@ export default function ExpertCardComponent(props:any){
                             <p>{props.experience}</p>
                         </div>
                         <div className="flex justify-center pt-16 -ml-[30px]">
-                            <img className="w-[50px]" src="/images/experts/recurso-dising.png" alt="Cuadros" title={"aboga diseños"}/>
+                            <img className="w-[50px]" src="/images/experts/recurso-dising.webp" alt="Cuadros" title={"aboga diseños"}/>
                         </div>
                     </div>
 

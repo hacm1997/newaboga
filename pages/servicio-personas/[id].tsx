@@ -3,7 +3,6 @@ import {useEffect, useState} from "react";
 import Head from "next/head";
 import Layout from "../../components/general/layout/layout.component";
 import RightBannerComponent from "../../components/general/views/servicesRight/principalBanner/rightBanner.component";
-import OurTeamComponent from "../../components/general/views/servicesRight/ourTeam/ourTeam.component";
 import ExpertsComponent from "../../components/conent/ourExperts/experts.component";
 import OurServicesComponent from "../../components/general/views/servicesRight/ourServices/ourServices.component";
 import ContactComponent from "../../components/general/views/servicesRight/contact/contact.component";
@@ -11,6 +10,8 @@ import FormServiceComponent from "../../components/general/views/servicesRight/f
 import axios from "axios";
 import ReactGA from "react-ga4";
 import useAnalyticsEventTracker from "../../services/analytics/useAnalyticsEventTracker";
+import AlliesComponent from "../../components/conent/allies/allies.component";
+import OurTeamComponent from "../../components/general/views/person-templates/our-team/ourTeam.component";
 
 export default function Home() {
     ReactGA.send({ hitType: "pageview", page: "/", title: "Page: Servicio personas" });
@@ -75,14 +76,19 @@ export default function Home() {
             <>
                 <Layout>
                     <Head>
+                        <link rel="canonical" href={router.asPath}/>
                         <title>{titlePage} | Aboga</title>
                     </Head>
                     <RightBannerComponent service={service} setTitlePage={setTitlePage} typeService={'personas'} gaEventTracker={gaEventTracker}/>
-                    <OurTeamComponent service={service} setTitlePage={setTitlePage} typeService={'personas'} gaEventTracker={gaEventTracker}/>
-                    <ExpertsComponent gaEventTracker={gaEventTracker} typeService={'personas'} service={service}/>
                     <OurServicesComponent service={service} setTitlePage={setTitlePage} typeService={'personas'} gaEventTracker={gaEventTracker}/>
-                    <ContactComponent service={service} setTitlePage={setTitlePage} typeService={'personas'} gaEventTracker={gaEventTracker}/>
-                    <FormServiceComponent service={service} setTitlePage={setTitlePage} setSelectDpto={setSelectDpto} dpto={dpto} city={city} typeService={'personas'} gaEventTracker={gaEventTracker}/>
+                    {/* <ExpertsComponent gaEventTracker={gaEventTracker} typeService={'personas'} service={service}/> */}
+                    <OurTeamComponent service={service} setTitlePage={setTitlePage} typeService={'personas'} gaEventTracker={gaEventTracker}/>
+                    {/* <ContactComponent service={service} setTitlePage={setTitlePage} typeService={'personas'} gaEventTracker={gaEventTracker}/> */}
+                    {/* <AlliesComponent/> */}
+                    <FormServiceComponent service={service} setTitlePage={setTitlePage} setSelectDpto={setSelectDpto}
+                    dpto={dpto} city={city} typeService={'personas'} gaEventTracker={gaEventTracker}
+                    router={router}
+                    />
                 </Layout>
 
             </>

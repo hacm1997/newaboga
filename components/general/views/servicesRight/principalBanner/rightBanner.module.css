@@ -83,15 +83,18 @@
     }
 }
 
-@media (max-width: 450px){
+@media (max-width: 644px){
     .content{
         display: block;
     }
+}
+
+@media (max-width: 450px){
     .general{
         width: 90%;
     }
     .image{
-        padding-top: 30px !important;
+        padding-top: 20px !important;
     }
     .image img{
         height: 330px;

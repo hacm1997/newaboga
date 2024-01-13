@@ -6,36 +6,36 @@
       "title": "Servicio personas",
       "services": [
         {
-          "title": "Trámites administrativos",
-          "url": "/servicio-personas/tramites-administrativos"
+          "title": "Jurisdicción coactiva",
+          "url": "/person-template/jurisdiccion-coactiva/"
         },
         {
           "title": "Derecho de familia",
-          "url": "/servicio-personas/derecho-familiar"
+          "url": "/servicio-personas/derecho-familiar/"
         },
         {
           "title": "Derecho constitucional",
-          "url": "/servicio-personas/derecho-constitucional"
+          "url": "/person-template/derecho-constitucional/"
         },
         {
           "title": "Derecho civil",
-          "url": "/servicio-personas/derecho-civil"
+          "url": "/servicio-personas/derecho-civil/"
         },
         {
           "title": "Derecho laboral",
-          "url": "/servicio-personas/derecho-laboral"
+          "url": "/servicio-personas/derecho-laboral/"
         },
         {
           "title": "Derecho del consumidor",
-          "url": "/servicio-personas/derecho-consumidor"
+          "url": "/servicio-personas/derecho-consumidor/"
         },
         {
           "title": "Propiedad horizontal",
-          "url": "/servicio-personas/propiedad-horizontal"
+          "url": "/servicio-personas/propiedad-horizontal/"
         },
         {
           "title": "Derecho penal",
-          "url": "/servicio-personas/derecho-penal"
+          "url": "/servicio-personas/derecho-penal/"
         }
       ]
     },
@@ -44,37 +44,37 @@
       "services": [
         {
           "title": "Derecho civil",
-          "url": "/servicio-empresas/derecho-civil"
+          "url": "/servicio-empresas/derecho-civil/"
         },
         {
           "title": "Derecho comercial",
-          "url": "/servicio-empresas/derecho-comercial"
+          "url": "/servicio-empresas/derecho-comercial/"
         },
         {
           "title": "Derecho del consumidor y competencia desleal",
-          "url": "/servicio-empresas/derecho-consumidor-competencia-desleal",
+          "url": "/servicio-empresas/derecho-consumidor-competencia-desleal/",
           "sub_services": [
             {
               "title": "Proteccion de datos personales",
-              "url": "/servicio-empresas/derecho-consumidor/proteccion-datos-personales"
+              "url": "/servicio-empresas/derecho-consumidor/proteccion-datos-personales/"
             },
             {
               "title": "Términos y condiciones",
-              "url": "/servicio-empresas/derecho-consumidor/terminos-condiciones"
+              "url": "/servicio-empresas/derecho-consumidor/terminos-condiciones/"
             }
           ]
         },
         {
           "title": "Derecho laboral",
-          "url": "/servicio-empresas/derecho-laboral"
+          "url": "/servicio-empresas/derecho-laboral/"
         },
         {
           "title": "Derecho tributario",
-          "url": "/servicio-empresas/derecho-tributario"
+          "url": "/servicio-empresas/derecho-tributario/"
         },
         {
           "title": "Propiedad horizontal",
-          "url": "/servicio-empresas/propiedad-horizontal"
+          "url": "/servicio-empresas/propiedad-horizontal/"
         }
       ]
     }

@@ -72,11 +72,13 @@ export default function Home() {
             <>
                 <Layout>
                     <Head>
+                        <link rel="canonical" href={router.asPath}/>
                         <title>{titlePage} | Aboga</title>
                     </Head>
                     <RightBannerComponent service={service} setTitlePage={setTitlePage} typeService={'empresas'} gaEventTracker={gaEventTracker}/>
                     <OurTeamComponent service={service} setTitlePage={setTitlePage} typeService={'empresas'} gaEventTracker={gaEventTracker}/>
-                    <ExpertsComponent gaEventTracker={gaEventTracker} typeService={'empresas'} service={service}/>
+                    {/* <ExpertsComponent gaEventTracker={gaEventTracker} typeService={'empresas'} service={service}/> */}
+                    <OurTeamComponent />
                     <OurServicesComponent service={service} setTitlePage={setTitlePage} typeService={'empresas'} gaEventTracker={gaEventTracker}/>
                     <ContactComponent service={service} setTitlePage={setTitlePage} typeService={'empresas'} gaEventTracker={gaEventTracker}/>
                     <FormServiceComponent service={service} setTitlePage={setTitlePage} setSelectDpto={setSelectDpto} dpto={dpto} city={city} typeService={'empresas'} gaEventTracker={gaEventTracker}/>

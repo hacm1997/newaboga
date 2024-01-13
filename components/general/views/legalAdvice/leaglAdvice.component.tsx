@@ -7,6 +7,7 @@ import BannerAdviceComponent from './principalBanner/banner.component';
 import PackagesComponent from "./packages/packages.component";
 import ExtraInfoComponent from "./extraInfo/extraInfo.component";
 import useAnalyticsEventTracker from "../../../../services/analytics/useAnalyticsEventTracker";
+import AlliesComponent from '../../../conent/allies/allies.component';
 
 export default function LegalAdviceComponent(){
     const {t, lang} = useTranslation('');
@@ -63,6 +64,7 @@ export default function LegalAdviceComponent(){
             <BannerAdviceComponent translate={t} gaEventTracker={gaEventTracker}/>
             <PackagesComponent translate={t} packages_items={packages_items} gaEventTracker={gaEventTracker}/>
             <ExtraInfoComponent translate={t} gaEventTracker={gaEventTracker}/>
+            
             <FormComponent translate={t} setSelectDpto={setSelectDpto} dpto={dpto} city={city} gaEventTracker={gaEventTracker} id={'Aseosrias legales'}/>
         </>
     );

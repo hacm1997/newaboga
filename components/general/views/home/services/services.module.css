@@ -195,7 +195,7 @@
 }
 
 .buttonNoActive{
-    width: 160px;
+    width: 180px;
     height: 40px;
     border-radius: 5px;
     font-weight: 500;
@@ -228,5 +228,14 @@
     .expert_back_img img{
         width: 55.5%;
         object-fit: cover;
+    }
+}
+@media (max-width: 422px){
+    .buttons_select{
+        display: block;
+        gap: 20px;
+    }
+    .buttons_select button{
+        margin-top: 10px;
     }
 }

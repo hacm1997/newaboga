@@ -1,4 +1,3 @@
-import styles from './home.module.css';
 import BannerComponent from "./principalBanner/banner.component";
 import useTranslation from "next-translate/useTranslation";
 import ServicesComponent from "./services/services.component";
@@ -8,6 +7,7 @@ import FormComponent from "./form/form.component";
 import {useEffect, useState} from "react";
 import axios from "axios";
 import useAnalyticsEventTracker from "../../../../services/analytics/useAnalyticsEventTracker";
+
 
 export default function HomeComponent(){
     const {t, lang} = useTranslation('');
@@ -69,7 +69,8 @@ export default function HomeComponent(){
             <ServicesComponent translate={t} servicesP={services_persons} servicesB={services_business} gaEventTracker={gaEventTracker}/>
             <AboutComponent translate={t}/>
             <VideoComponent gaEventTracker={gaEventTracker}/>
-            <FormComponent translate={t} setSelectDpto={setSelectDpto} 
+            
+            <FormComponent translate={t} setSelectDpto={setSelectDpto}
             dpto={dpto} city={city} gaEventTracker={gaEventTracker} 
             id={'Inicio'} servicesP={servicesP} servicesB={servicesB}/>
         </>

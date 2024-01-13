@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.slick-slide > div {
+  margin:0 20px;
+
+}
 @font-face {
   font-family: 'GothamBook';
   src: url('/fonts/GothamBook.ttf') format('truetype');
@@ -26,8 +30,8 @@
 }
 
 body{
-  font-family: 'GothamBook', 'GothamBoldItalic', 'GothamMedium', sans-serif;
-  
+  font-family: 'GothamBook', 'GothamBoldItalic', 'GothamMedium', 'sans-serif';
+
 }
 
 a{

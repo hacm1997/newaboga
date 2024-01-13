@@ -6,7 +6,7 @@
     "list": [
       {
         "name": "Keiry Berdugo",
-        "photo": "/images/experts/keiry.png",
+        "photo": "/images/experts/keiry.web",
         "position": "Abogada profesional",
         "ability": "Esp. En Derecho Administrativo",
         "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
@@ -15,7 +15,7 @@
       },
       {
         "name": "Juan José",
-        "photo": "/images/experts/juan-jose.png",
+        "photo": "/images/experts/juan-jose.web",
         "position": "Abogado profesional",
         "ability": "Esp. En Derecho Administrativo",
         "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",

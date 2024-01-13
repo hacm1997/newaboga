@@ -3,7 +3,7 @@ import moment from "moment/moment";
 import config from "./config";
 import Swal from "sweetalert2";
 
-export default function NotifierEmail(data:any){
+export default function NotifierEmail(data:any, setDisplaySpinner:any){
     const currentDay = moment.utc().toJSON();
 
     const dataSend = {
@@ -13,7 +13,8 @@ export default function NotifierEmail(data:any){
         phone: data.phone,
         city: data.city,
         address: data.address,
-        service: data.service
+        service: data.service,
+        subscribe: data.subscribe
     }
 
     const notification = {
@@ -39,6 +40,7 @@ export default function NotifierEmail(data:any){
                     + "<li>Dirección: " + `${dataSend.address}` + "</li>"
                     + "<li>Teléfono: " + `${dataSend.phone}` + "</li>"
                     + "<li>Servicio: " + `${dataSend.service}` + "</li>"
+                    + "<li>Usuario aceptó recibir noticias de ABOGA: " + `${dataSend.subscribe === "on" ? "Si" : "No"}` + "</li>"
             }
         }
     }
@@ -47,10 +49,11 @@ export default function NotifierEmail(data:any){
         console.log(resp);
         if (resp.status === 201) {
             console.log("success! notification send");
+            setDisplaySpinner(false);
             Swal.fire(
                 {
-                    title: '!Sus datos han sido enviado!',
-                    text: 'Gracias por creer en Aboga, Pronto estaremos en contácto',
+                    title: '¡Sus datos han sido enviados!',
+                    text: 'Gracias por creer en ABOGA, pronto estaremos en contacto',
                     icon: 'success'
                 }
             ).then(function() {
@@ -59,10 +62,11 @@ export default function NotifierEmail(data:any){
         }
     }).catch(( e: any ) => {
         console.log(e);
+        setDisplaySpinner(false);
         Swal.fire(
             {
-                title: '!No se ha podido enviar los datos!',
-                text: 'Porfavor inténtelo nuevamente o más tarde',
+                title: '!No se han podido enviar los datos!',
+                text: 'Porfavor, inténtelo nuevamente o más tarde',
                 icon: 'error'
             }
         )

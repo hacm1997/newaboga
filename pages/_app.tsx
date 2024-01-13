@@ -7,7 +7,7 @@ import ReactGA from "react-ga4";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-// ReactGA.initialize("G-9C6MVSP1B3");
+ReactGA.initialize("G-9C6MVSP1B3");
 function MyApp({ Component, pageProps }: AppProps) {
   useEffect(()=>{
     AOS.init({

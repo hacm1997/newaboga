@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from './banner.module.css';
 
 export default function BannerAdviceComponent(props: any) {
@@ -31,7 +32,7 @@ export default function BannerAdviceComponent(props: any) {
                             />
                         </div>
                     </div>
-                    <div className={"bg-[url('/images/asesorias/background-asesorias-banner.png')] w-[90%] lg:w-[50%] xl:w-[50%] mt-3 md:-mt-36 bg-no-repeat " + styles.experts_content}>
+                    <div className={"bg-[url('/images/asesorias/background-asesorias-banner.webp')] w-[90%] lg:w-[50%] xl:w-[50%] mt-3 md:-mt-36 bg-no-repeat " + styles.experts_content}>
                         <img className="float-left mt-10 md-0 pl-8 md:pl-10 w-full md:pt-[150px] md:w-[80%] "
                             src={props.translate('asesorias:banner_content.image')}
                             alt={props.translate('asesorias:banner_content.alt')}

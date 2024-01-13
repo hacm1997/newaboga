@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from './experts.module.css';
 import useTranslation from "next-translate/useTranslation";
 import 'swiper/css';
@@ -24,13 +25,13 @@ export default function ExpertsComponent(props:any){
         if(item.gender === 'female'){
             return (
                 <div className="flex justify-center" key={index} >
-                    <h2>Nuestra <span>Experta</span></h2>
+                    <h2>Nuestra <span>experta</span></h2>
                 </div>
             )
         }else{
             return (
                 <div className="flex justify-center" key={index} >
-                    <h2>Nuestro <span>Experto</span></h2>
+                    <h2>Nuestro <span>experto</span></h2>
                 </div>
             )
         }
@@ -77,10 +78,10 @@ export default function ExpertsComponent(props:any){
                             </a>
                             <div className={"flex gap-14 "+styles.arrows}>
                                 <a className="cursor-pointer" type="button" onClick={() => swiperRef.current?.slidePrev()}>
-                                    <img className="w-[52px]" src="/images/experts/left-arrow.png" alt="Flecha izquierda" title="Flecha izquierda"/>
+                                    <img className="w-[52px]" src="/images/experts/left-arrow.webp" alt="Flecha izquierda" title="Flecha izquierda"/>
                                 </a>
                                 <a className="cursor-pointer" type="button" onClick={() => swiperRef.current?.slideNext()}>
-                                    <img className="w-[51px]" src="/images/experts/right-arrow.png" alt="Flecha derecha" title="Flecha derecha"/>
+                                    <img className="w-[51px]" src="/images/experts/right-arrow.webp" alt="Flecha derecha" title="Flecha derecha"/>
                                 </a>
                             </div>
 

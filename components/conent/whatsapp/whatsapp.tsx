@@ -4,12 +4,12 @@ import styles from './styles.module.css';
 export default function Whatsapp() {
     const gaEventTracker = useAnalyticsEventTracker('WhatsApp');
     const analytic = () =>{
-        gaEventTracker('Clic en: Botón WhatsApp');
+        gaEventTracker('Clic En: Botón WhatsApp');
     }
     return (
         <>
             <div className={styles.whatsapp}>
-                <a href="https://wa.me/573242382277" target="_blank" rel="noreferrer" onClick={analytic}>
+                <a href="https://wa.me/573242382277" target="_blank" rel="noreferrer" onClick={analytic} title="whatsapp">
                     <i className='bx bxl-whatsapp'></i>
                 </a>
             </div>

@@ -1,7 +1,7 @@
 .general_content{
     background-image: url('/images/servicios/contact/background-grid.png');
     background-size: 100% 100%;
-    height: auto;
+    height: 695px;
 }
 
 .text p{
@@ -34,7 +34,9 @@
 @media (max-width: 1100px){
     .principal_text{
         padding-top: 150px;
+        
     }
+    
 }
 
 @media (max-width: 928px){
