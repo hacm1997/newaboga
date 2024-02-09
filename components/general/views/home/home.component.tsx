@@ -7,7 +7,6 @@ import FormComponent from "./form/form.component";
 import {useEffect, useState} from "react";
 import axios from "axios";
 import useAnalyticsEventTracker from "../../../../services/analytics/useAnalyticsEventTracker";
-import EpaycoCheckout from "./epaycoTest";
 
 
 export default function HomeComponent(){
@@ -74,7 +73,6 @@ export default function HomeComponent(){
             <FormComponent translate={t} setSelectDpto={setSelectDpto}
             dpto={dpto} city={city} gaEventTracker={gaEventTracker} 
             id={'Inicio'} servicesP={servicesP} servicesB={servicesB}/>
-            <EpaycoCheckout/>
         </>
     );
 }
